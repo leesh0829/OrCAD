@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : B07_0522.brd                                  )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon May 22 16:24:18 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (49.5750 21.0000) on net TXD.
+WARNING Deleted redundant via at (50.3900 22.0000) on net RXD.
+
+2 warnings, 0 errors detected, 0 errors could be fixed.

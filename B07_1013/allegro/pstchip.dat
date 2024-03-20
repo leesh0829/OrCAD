@@ -1,0 +1,144 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Oct-13-2023 at 09:40:22}
+primitive 'CAP NP_CAPCK05_CAP NP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='CAP NP';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP196_CAP POL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='CAP POL';
+  end_body;
+end_primitive;
+primitive 'DIODE_DO41_DIODE';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE';
+  end_body;
+end_primitive;
+primitive 'CON1_JUMPER1_CON1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON1';
+    JEDEC_TYPE='JUMPER1';
+    VALUE='CON1';
+  end_body;
+end_primitive;
+primitive 'CON3_JUMPER3_CON3';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='JUMPER3';
+    VALUE='CON3';
+  end_body;
+end_primitive;
+primitive 'NPN BCE_TO92_NPN BCE';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN BCE';
+    JEDEC_TYPE='TO92';
+    VALUE='NPN BCE';
+  end_body;
+end_primitive;
+primitive 'R_RES400_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='R';
+  end_body;
+end_primitive;
+primitive 'LM741_0_DIP8_3_LM741';
+  pin
+    '+IN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    '-IN':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'OUT':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'V+':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'OFFSET1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'V-':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'OFFSET2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LM741_0';
+    JEDEC_TYPE='DIP8_3';
+    VALUE='LM741';
+  end_body;
+end_primitive;
+END.

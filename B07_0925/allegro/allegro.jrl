@@ -1,0 +1,126 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Oct 06 10:52:43 2023
+\t (00:00:03)         Host=USER User=user Pid=7260 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07_0925\allegro\B07_0925.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_0925
+\d (00:00:06) Design opened: D:/ORCAD/B07_0925/allegro/B07_0925.brd
+\i (00:00:06) trapsize 12263
+\i (00:00:06) trapsize 12620
+\i (00:00:06) trapsize 12628
+\i (00:00:06) trapsize 13158
+\i (00:00:06) trapsize 12620
+\i (00:00:06) trapsize 12125
+\i (00:00:06) trapsize 12125
+\i (00:00:06) etchedit 
+\i (00:00:08) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:12) artwork 
+\i (00:00:14) setwindow form.film_control
+\i (00:00:14) FORM film_control filmtree  Drill_DRAW 
+\i (00:00:21) FORM film_control filmtree popup Cut Drill_DRAW 
+\i (00:00:21) FORM film_control ok  
+\i (00:00:22) setwindow pcb
+\i (00:00:22) etchedit 
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 94.5958 46.3395
+\i (00:00:22) trapsize 6062
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 85.2598 50.2194
+\i (00:00:23) trapsize 12125
+\i (00:00:24) drag_start grid 148.6720 -22.7714
+\i (00:00:25) drag_stop 73.4988 -56.2356
+\i (00:00:26) setwindow form.find
+\i (00:00:26) FORM find all_on  
+\i (00:00:27) setwindow pcb
+\i (00:00:27) drag_start grid -48.2333 -17.9215
+\i (00:00:27) drag_stop 79.3187 -57.6905
+\i (00:00:27) prepopup 95.5658 -43.3834
+\i (00:00:29) pop dyn_option_select @:@Delete 
+\i (00:00:29) delete 
+\i (00:00:29) etchedit 
+\i (00:00:32) ncdrill customization 
+\i (00:00:32) etchedit 
+\i (00:00:33) setwindow form.nc_drillcustomization
+\i (00:00:33) FORM nc_drillcustomization auto_symbols  
+\i (00:00:34) fillin yes 
+\i (00:00:36) FORM nc_drillcustomization done  
+\i (00:00:37) fillin yes 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) ncdrill legend 
+   (00:00:41) Loading mfg.cxt 
+\i (00:00:42) setwindow form.nc_drilllegend
+\i (00:00:42) FORM nc_drilllegend done  
+\i (00:00:46) setwindow pcb
+\i (00:00:46) pick grid -3.3718 -9.1917
+\t (00:00:46) last pick:  -3.1750 -8.8900
+\t (00:00:46) NC Drill Legend generation successful
+\i (00:00:46) etchedit 
+\i (00:00:46) prepopup 137.7598 50.2194
+\i (00:00:47) pick grid 146.7321 70.5889
+\t (00:00:47) last pick:  146.6850 70.4850
+\i (00:00:51) artwork 
+\i (00:00:55) color192 
+\i (00:00:56) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:00:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:00:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:00:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 11 1
+\i (00:01:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 1
+\i (00:01:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 11 1
+\i (00:01:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 1
+\i (00:01:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 11 1
+\i (00:01:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 1
+\i (00:01:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 8 1
+\i (00:01:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 1
+\i (00:01:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:03) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:03) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:01:05) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 4 0
+\i (00:01:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:01:05) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:06) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:01:07) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:01:09) setwindow form.film_control
+\i (00:01:09) FORM film_control filmtree  TOP 
+\i (00:01:11) FORM film_control filmtree popup Add TOP 
+\i (00:01:17) fillin "Drill_DRAW"
+\i (00:01:20) FORM film_control filmtree 'MULTISEL YES' Drill_DRAW 
+\i (00:01:20) FORM film_control filmtree  Drill_DRAW 
+\i (00:01:23) FORM film_control undefined_line_width 0.2 
+\i (00:01:23) FORM film_control ok  
+\i (00:01:23) setwindow pcb
+\i (00:01:23) etchedit 
+\i (00:01:24) artwork 
+\i (00:01:26) setwindow form.film_control
+\i (00:01:26) FORM film_control select_all  
+\i (00:01:28) FORM film_control create  
+\t (00:01:28) Checking db records
+\t (00:01:28)     checking for orphans...
+\t (00:01:28)     Checked 100 percent
+\t (00:01:28) Done dbdoctor.
+\t (00:01:28) Starting Create artwork films...
+\w (00:01:28) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:01:29) Artwork generated with warnings.
+\i (00:01:32) setwindow pcb
+\i (00:01:32) setwindow text
+\i (00:01:32) close
+\i (00:01:33) setwindow form.film_control
+\i (00:01:33) FORM film_control ok  
+\i (00:01:33) setwindow pcb
+\i (00:01:33) etchedit 
+\i (00:05:06) pick grid 216.5704 -21.5589
+\t (00:05:06) last pick:  216.5350 -21.5900
+\i (00:08:13) save 
+\i (00:08:13) fillin yes 
+   (00:08:13) Loading signal.cxt 
+\i (00:08:16) exit 
+\t (00:08:16)     Journal end - Fri Oct 06 11:00:56 2023

@@ -1,0 +1,58 @@
+
+**** 12/01/23 11:30:51 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\ORCAD\B07_1201\B07_1201_1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source B07_1201_1
+V_V1         N00285 N00367 5Vdc
+R_R1         NET1 N00285  6.8k TC=0,0 
+R_R2         N00465 N00285  100k TC=0,0 
+R_R3         N00474 N00285  100k TC=0,0 
+R_R4         NET2 N00285  6.8k TC=0,0 
+C_C1         NET1 N00465  0.01uF IC=5V TC=0,0 
+C_C2         N00474 NET2  0.01uF IC=5V TC=0,0 
+Q_Q1         NET1 N00474 N00367 Q2N3904
+Q_Q2         NET2 N00465 N00367 Q2N3904
+
+**** RESUMING 1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00285 is floating
+
+ERROR(ORPSIM-15142): Node N00367 is floating
+
+ERROR(ORPSIM-15142): Node NET1 is floating
+
+ERROR(ORPSIM-15142): Node N00465 is floating
+
+ERROR(ORPSIM-15142): Node N00474 is floating
+
+ERROR(ORPSIM-15142): Node NET2 is floating
+

@@ -1,0 +1,203 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +12V         pins ADDED TO this new net
+                                 J1.1           U1.7           U2.7           
+                                 U3.7           U4.7           VR3.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  -12V         pins ADDED TO this new net
+                                 J1.3           U1.4           U2.4           
+                                 U3.4           U4.4           VR3.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 J1.2           J2.2           R5.2           
+                                 R6.2           R7.2           R8.2           
+                                 R9.2           R13.1          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00391       pins ADDED TO this new net
+                                 C1.1           U3.6           VR1.2          
+                                 VR1.3          VR2.1          VR2.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00441       pins ADDED TO this new net
+                                 R2.1           VR1.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00445       pins ADDED TO this new net
+                                 R2.2           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00452       pins ADDED TO this new net
+                                 R3.2           R9.1           U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00459       pins ADDED TO this new net
+                                 C1.2           C2.1           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00579       pins ADDED TO this new net
+                                 C2.2           C3.1           R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00583       pins ADDED TO this new net
+                                 C3.2           C4.1           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00820       pins ADDED TO this new net
+                                 R4.1           VR2.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00824       pins ADDED TO this new net
+                                 R1.1           R4.2           U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00874       pins ADDED TO this new net
+                                 U4.3           VR3.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01492       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R10.2          R12.1          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01603       pins ADDED TO this new net
+                                 R13.2          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01644       pins ADDED TO this new net
+                                 R11.1          R12.2          U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03817       pins ADDED TO this new net
+                                 C4.2           R3.1           R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT          pins ADDED TO this new net
+                                 J2.1           R11.2          U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SIG          pins ADDED TO this new net
+                                 R1.2           R10.1          U1.2           
+                                 U4.6           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_CAPCK05_0.001UF
+ CON2_JUMPER2_CON2
+ CON3_JUMPER3_CON3
+ LF356_1_DIP8_3_LF356
+ RESISTOR VAR_RESADJ_10K
+ RESISTOR VAR_RESADJ_100K
+ RESISTOR VAR_RESADJ_470K
+ R_RES400_1K
+ R_RES400_2.2K
+ R_RES400_4.7K
+ R_RES400_5.1K
+ R_RES400_8.2K
+ R_RES400_10K
+ R_RES400_15K
+ R_RES400_20K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_CAPCK05_0.001UF 
+ C2                  CAP NP_CAPCK05_0.001UF 
+ C3                  CAP NP_CAPCK05_0.001UF 
+ C4                  CAP NP_CAPCK05_0.001UF 
+ J1                  CON3_JUMPER3_CON3     
+ J2                  CON2_JUMPER2_CON2     
+ R1                  R_RES400_10K          
+ R2                  R_RES400_15K          
+ R3                  R_RES400_10K          
+ R4                  R_RES400_20K          
+ R5                  R_RES400_4.7K         
+ R6                  R_RES400_4.7K         
+ R7                  R_RES400_4.7K         
+ R8                  R_RES400_4.7K         
+ R9                  R_RES400_1K           
+ R10                 R_RES400_8.2K         
+ R11                 R_RES400_10K          
+ R12                 R_RES400_2.2K         
+ R13                 R_RES400_5.1K         
+ U1                  LF356_1_DIP8_3_LF356  
+ U2                  LF356_1_DIP8_3_LF356  
+ U3                  LF356_1_DIP8_3_LF356  
+ U4                  LF356_1_DIP8_3_LF356  
+ VR1                 RESISTOR VAR_RESADJ_470K 
+ VR2                 RESISTOR VAR_RESADJ_100K 
+ VR3                 RESISTOR VAR_RESADJ_10K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ J1.3                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ U1.4                           PRIM_FILE      .\pstchip.dat
+ U2.4                           PRIM_FILE      .\pstchip.dat
+ U3.4                           PRIM_FILE      .\pstchip.dat
+ U4.4                           PRIM_FILE      .\pstchip.dat
+ VR1.2                          PRIM_FILE      .\pstchip.dat
+ VR2.2                          PRIM_FILE      .\pstchip.dat
+ VR3.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_OSC/allegro/B07_OSC_1.brd                                      |
+|                                                    Mon Jul 10 13:41:33 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      68                                        |
+|       Comp definitions added:      15                                        |
+|       Components added      :      26                                        |
+|       Slot property added   :      26                                        |
+|                                                                              |
+|   Total ECO changes reported:     135                                        |
+|------------------------------------------------------------------------------|

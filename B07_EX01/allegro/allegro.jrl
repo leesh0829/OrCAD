@@ -1,0 +1,246 @@
+\t (00:00:14) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:14)     Journal start - Fri Dec 08 11:12:24 2023
+\t (00:00:14)         Host=USER User=user Pid=7108 CPUs=8
+\t (00:00:14) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07_EX01\allegro\B07_EX01.brd
+\t (00:00:14) 
+   (00:00:14) Loading axlcore.cxt 
+\t (00:00:17) Opening existing design...
+\i (00:00:17) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_EX01
+\d (00:00:17) Design opened: D:/ORCAD/B07_EX01/allegro/B07_EX01.brd
+\i (00:00:17) trapsize 12263
+\i (00:00:17) trapsize 12620
+\i (00:00:17) trapsize 12628
+\i (00:00:17) trapsize 13158
+\i (00:00:17) trapsize 12620
+\i (00:00:17) trapsize 11188
+\i (00:00:17) trapsize 12125
+\i (00:00:18) etchedit 
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 69.8614 43.2448
+\i (00:00:18) trapsize 6062
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 71.5589 42.8811
+\i (00:00:18) trapsize 3031
+\i (00:00:21) delay tune 
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 77.1969 46.3367
+\i (00:00:21) trapsize 6062
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 90.0491 10.4475
+\i (00:00:22) trapsize 3031
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 90.0491 10.4475
+\i (00:00:22) trapsize 1516
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 83.2289 9.1138
+\i (00:00:22) trapsize 758
+\i (00:00:24) pick grid 82.3196 10.0686
+\t (00:00:24) last pick:  82.5500 10.1600
+\t (00:00:24) last pick:  82.2314 10.0954
+\i (00:00:26) pick grid 91.8375 18.7378
+\t (00:00:26) last pick:  92.0750 19.0500
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 90.5189 18.1315
+\i (00:00:27) trapsize 1516
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 91.2768 19.9200
+\i (00:00:27) trapsize 758
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 77.9851 19.0562
+\i (00:00:29) trapsize 379
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 78.5383 18.7456
+\i (00:00:29) trapsize 758
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 78.6596 18.7152
+\i (00:00:29) trapsize 1516
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 78.9324 18.5637
+\i (00:00:29) trapsize 3031
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 81.3573 17.7756
+\i (00:00:29) trapsize 6062
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 42.6793 19.2305
+\i (00:00:29) trapsize 3031
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 42.5580 19.2305
+\i (00:00:29) trapsize 1516
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 41.3455 20.1702
+\i (00:00:29) trapsize 3031
+\i (00:00:31) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 54.9253 16.3510
+\i (00:00:31) trapsize 6062
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 59.1690 16.3510
+\i (00:00:31) trapsize 12125
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -15.4965 99.0185
+\i (00:00:31) trapsize 12125
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -13.0716 99.0185
+\i (00:00:31) trapsize 12125
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -10.1617 99.0185
+\i (00:00:31) trapsize 12125
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 66.2240 43.0023
+\i (00:00:31) trapsize 6062
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 70.8314 38.2737
+\i (00:00:31) trapsize 3031
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 69.1339 57.0671
+\i (00:00:32) trapsize 6062
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 72.7714 68.3430
+\i (00:00:32) trapsize 3031
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 73.1958 67.8581
+\i (00:00:33) trapsize 1516
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 73.4080 67.6156
+\i (00:00:33) trapsize 758
+\i (00:00:33) pick grid 70.6648 65.0391
+\t (00:00:33) last pick:  70.4850 64.7700
+\t (00:00:33) last pick:  71.2092 64.6350
+\i (00:00:34) pick grid 70.6648 65.7059
+\t (00:00:34) last pick:  70.4850 65.4050
+\i (00:00:35) pick grid 70.2859 64.5844
+\t (00:00:35) last pick:  70.4850 64.7700
+\t (00:00:35) last pick:  70.2859 64.6350
+\i (00:00:35) pick grid 70.4071 65.0997
+\t (00:00:35) last pick:  70.4850 65.4050
+\i (00:00:37) delay tune 
+\i (00:00:38) pick grid 70.1798 64.7966
+\t (00:00:38) last pick:  70.4850 64.7700
+\t (00:00:38) last pick:  70.1798 64.6350
+\i (00:00:39) pick grid 70.1950 65.0997
+\t (00:00:39) last pick:  70.4850 65.4050
+\i (00:00:40) slide 
+\t (00:00:40) Pick element to slide.
+\i (00:00:41) pick grid 67.8610 64.2661
+\t (00:00:41) last pick:  67.9450 64.1350
+\t (00:00:41) last pick:  67.9683 64.1583
+\t (00:00:41) Waiting for the destination pick.
+\i (00:00:43) pick grid 69.0734 65.0997
+\t (00:00:43) last pick:  69.2150 65.4050
+\t (00:00:43) No DRC errors detected.
+\t (00:00:43) Pick another element to slide.
+\i (00:00:47) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:49) pick grid 70.3314 64.4631
+\t (00:00:49) last pick:  70.4850 64.7700
+\t (00:00:49) last pick:  70.3314 64.6350
+\t (00:00:49) Waiting for the destination pick.
+\i (00:00:50) pick grid 70.4526 65.7362
+\t (00:00:50) last pick:  70.4850 66.0400
+\t (00:00:50) No DRC errors detected.
+\t (00:00:50) Pick another element to slide.
+\i (00:00:52) pick grid 70.0737 65.4180
+\t (00:00:52) last pick:  69.8500 65.4050
+\t (00:00:52) last pick:  70.5343 65.3099
+\t (00:00:52) Waiting for the destination pick.
+\i (00:00:54) pick grid 72.7411 65.8423
+\t (00:00:54) last pick:  73.0250 66.0400
+\t (00:00:54) No DRC errors detected.
+\t (00:00:54) Pick another element to slide.
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 72.6805 65.5089
+\i (00:00:54) trapsize 1516
+\i (00:00:57) pick grid 67.2548 63.5084
+\t (00:00:57) last pick:  67.3100 63.5000
+\t (00:00:57) last pick:  67.2870 63.4770
+\t (00:00:57) Waiting for the destination pick.
+\i (00:00:58) pick grid 66.9820 63.5084
+\t (00:00:58) last pick:  66.6750 63.5000
+\t (00:00:58) No DRC errors detected.
+\t (00:00:58) Pick another element to slide.
+\i (00:01:00) save 
+\i (00:01:01) fillin yes 
+\i (00:01:02) etchedit 
+\i (00:01:05) zoom out 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom out 82.3500 61.5987
+\i (00:01:05) trapsize 3031
+\i (00:01:05) zoom out 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom out 78.1670 61.4775
+\i (00:01:05) trapsize 6062
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 35.3669 43.2905
+\i (00:01:06) trapsize 3031
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 40.7624 41.0474
+\i (00:01:07) trapsize 1516
+\i (00:01:11) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: SilkScreen_TOP"
+\i (00:01:13) move 
+\t (00:01:13) Select element(s) to move.
+\i (00:01:14) pick grid 31.3354 35.8944
+\t (00:01:14) last pick:  31.1150 36.1950
+\t (00:01:14) last pick:  32.3850 36.8300
+\t (00:01:14) Pick new location for the element(s).
+\i (00:01:14) prepopup 31.3354 35.8944
+\i (00:01:16) rotate 
+\t (00:01:16) Spin the element(s).
+\i (00:01:17) iangle -90.000
+\t (00:01:17) last angle:  0.000 Degrees
+\i (00:01:18) pick grid 31.3961 36.5006
+\t (00:01:18) last pick:  31.1150 36.1950
+\i (00:01:19) pick grid 32.2751 39.5924
+\t (00:01:19) last pick:  32.3850 39.3700
+\i (00:01:22) artwork 
+\i (00:01:23) setwindow form.film_control
+\i (00:01:23) FORM film_control select_all  
+\i (00:01:24) FORM film_control create  
+\t (00:01:24) Checking db records
+\t (00:01:24)     checking for orphans...
+\t (00:01:24)     Checked 100 percent
+\t (00:01:24) Done dbdoctor.
+\t (00:01:24) Starting Create artwork films...
+\w (00:01:24) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:01:25) Artwork generated with warnings.
+\i (00:01:27) setwindow pcb
+\i (00:01:27) setwindow text
+\i (00:01:27) close
+\i (00:01:28) setwindow form.film_control
+\i (00:01:28) FORM film_control cancel  
+\i (00:01:28) setwindow pcb
+\i (00:01:28) etchedit 
+\i (00:01:28) save 
+\i (00:01:29) fillin yes 
+   (00:01:29) Loading signal.cxt 
+\i (00:01:30) etchedit 
+\i (00:27:11) exit 
+\t (00:27:19)     Journal end - Fri Dec 08 11:39:29 2023

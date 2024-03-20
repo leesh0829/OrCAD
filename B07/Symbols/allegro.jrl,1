@@ -1,0 +1,18 @@
+\t (00:00:06) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Fri May 26 09:13:47 2023
+\t (00:00:06)         Host=USER User=user Pid=6228 CPUs=8
+\t (00:00:06) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07\Symbols\TQFP32N.dra
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TQFP32N
+\d (00:00:09) Design opened: D:/ORCAD/B07/Symbols/TQFP32N.dra
+\t (00:00:09) Grids are drawn 7.874, 7.874 apart for enhanced viewing.
+\i (00:00:09) trapsize 7589
+\i (00:00:09) trapsize 7815
+\i (00:00:09) trapsize 7589
+\t (00:00:09) Grids are drawn 7.874, 7.874 apart for enhanced viewing.
+\i (00:00:09) trapsize 7589
+\i (00:00:09) etchedit 
+\i (00:00:12) exit 
+\t (00:00:12)     Journal end - Fri May 26 09:13:54 2023

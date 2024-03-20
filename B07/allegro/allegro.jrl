@@ -1,0 +1,17 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Oct 06 10:52:27 2023
+\t (00:00:03)         Host=USER User=user Pid=1840 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07\allegro\B07_0526.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_0526
+\d (00:00:06) Design opened: D:/ORCAD/B07/allegro/B07_0526.brd
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6314
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 5604
+\i (00:00:06) trapsize 6131
+\i (00:00:07) etchedit 
+\i (00:00:09) exit 
+\t (00:00:09)     Journal end - Fri Oct 06 10:52:33 2023

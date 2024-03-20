@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : B07_0918.brd                                  )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon Sep 25 14:57:53 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (37.0000 45.1600) on net N01277.
+WARNING Deleted redundant via at (48.0000 35.0000) on net N01277.
+WARNING Deleted redundant via at (75.2150 16.1600) on net N01277.
+WARNING Deleted redundant via at (48.0000 45.1600) on net N01516.
+WARNING Deleted redundant via at (47.7000 45.1600) on net N01516.
+WARNING Deleted redundant via at (91.0000 37.0000) on net -12V.
+WARNING Deleted redundant via at (10.7950 37.4650) on net -12V.
+WARNING Deleted redundant via at (105.0000 13.5400) on net -12V.
+WARNING Deleted redundant via at (91.0000 37.0000) on net -12V.
+WARNING Deleted redundant via at (82.0000 6.0000) on net GND.
+WARNING Deleted redundant via at (82.0000 6.0000) on net GND.
+
+11 warnings, 0 errors detected, 0 errors could be fixed.

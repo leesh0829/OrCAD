@@ -1,0 +1,359 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Oct 23 15:23:38 2023
+\t (00:00:03)         Host=USER User=user Pid=10752 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession user D:\ORCAD\B07_1020\allegro\B07_1020.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1020
+\d (00:00:06) Design opened: D:/ORCAD/B07_1020/allegro/B07_1020.brd
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6314
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6559
+\i (00:00:06) trapsize 6559
+\i (00:00:06) etchedit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 35.7041 38.6962
+\i (00:00:09) trapsize 3280
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 21.7331 34.9575
+\i (00:00:10) trapsize 1640
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 21.7331 34.9575
+\i (00:00:11) trapsize 820
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 22.2579 36.0234
+\i (00:00:11) trapsize 1640
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 23.9961 37.0072
+\i (00:00:11) trapsize 3280
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 26.7509 39.3029
+\i (00:00:13) trapsize 1640
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 26.7509 39.3030
+\i (00:00:13) trapsize 820
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 26.7509 39.3030
+\i (00:00:13) trapsize 1640
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 26.7509 39.3031
+\i (00:00:13) trapsize 3280
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 26.7509 39.3030
+\i (00:00:13) trapsize 6559
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 42.7553 53.2086
+\i (00:00:14) trapsize 3280
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 60.5963 14.1158
+\i (00:00:15) trapsize 1640
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 60.4979 13.9847
+\i (00:00:15) trapsize 820
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 57.7758 13.4928
+\i (00:00:16) trapsize 1640
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 57.3495 13.8863
+\i (00:00:16) trapsize 3280
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 53.4796 10.7380
+\i (00:00:17) trapsize 1640
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 54.1356 9.6886
+\i (00:00:17) trapsize 820
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 54.9555 11.1972
+\i (00:00:18) trapsize 1640
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 54.3325 10.3118
+\i (00:00:18) trapsize 3280
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 54.0044 7.2946
+\i (00:00:19) trapsize 1640
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 54.7588 8.6392
+\i (00:00:20) trapsize 820
+\i (00:00:23) delete 
+\i (00:00:25) pick grid 54.7424 11.5580
+\t (00:00:25) last pick:  54.6100 11.4300
+\t (00:00:25) Connect Line "N02017, Etch/Top"
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 51.8400 13.3126
+\i (00:00:26) trapsize 1640
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 51.8728 13.6734
+\i (00:00:26) trapsize 3280
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 54.7588 14.0670
+\i (00:00:26) trapsize 6559
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 60.5310 13.4111
+\i (00:00:27) trapsize 3280
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 61.0557 12.3617
+\i (00:00:27) trapsize 1640
+\i (00:00:28) pick grid 56.3003 13.1816
+\t (00:00:28) last pick:  56.5150 13.3350
+\i (00:00:32) add connect 
+\t (00:00:32) Pick first element.
+\i (00:00:34) setwindow form.mini
+\i (00:00:34) FORM mini active_subclass TOP 
+\t (00:00:34) Pick first element.
+\i (00:00:35) setwindow pcb
+\i (00:00:35) pick grid 56.4315 10.4595
+\t (00:00:35) last pick:  56.5150 10.1600
+\t (00:00:35) last pick:  56.2000 10.5000
+\t (00:00:35) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:00:35) last pick:  56.2000 10.5000
+\i (00:00:36) mouse_pos 65.7783 17.8714
+\i (00:00:36) mouse_pos 65.7127 17.9042
+\i (00:00:37) mouse_pos 65.8111 17.8386
+\i (00:00:37) mouse_pos 67.8773 16.8219
+\i (00:00:38) setwindow form.mini
+\i (00:00:38) FORM mini alt_subclass BOTTOM 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) pick grid 63.8434 17.8714
+\t (00:00:41) last pick:  64.1350 17.7800
+\t (00:00:41) No DRC errors detected.
+\i (00:00:42) mouse_pos 65.7783 18.0026
+\i (00:00:42) pick grid 67.6149 17.9698
+\t (00:00:42) last pick:  67.3100 17.7800
+\t (00:00:42) No DRC errors detected.
+\t (00:00:42) Pick first element.
+\i (00:00:44) slide 
+\t (00:00:44) Pick element to slide.
+\i (00:00:45) pick grid 64.4009 17.5762
+\t (00:00:45) last pick:  64.1350 17.7800
+\t (00:00:45) last pick:  64.1659 17.8109
+\t (00:00:45) Waiting for the destination pick.
+\i (00:00:46) pick grid 63.9418 18.0682
+\t (00:00:46) last pick:  64.1350 17.7800
+\t (00:00:46) No DRC errors detected.
+\t (00:00:46) Pick another element to slide.
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 53.4471 18.5273
+\i (00:00:47) trapsize 3280
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 53.3158 18.7241
+\i (00:00:47) trapsize 6559
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 26.8167 20.6919
+\i (00:00:47) trapsize 3280
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 28.5222 22.0037
+\i (00:00:47) trapsize 6559
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 32.8512 23.1845
+\i (00:00:47) trapsize 13118
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out -28.3136 64.6705
+\i (00:00:48) trapsize 13118
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 39.9019 19.2810
+\i (00:00:48) trapsize 6559
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 40.0332 18.3627
+\i (00:00:48) trapsize 3280
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 39.5084 18.2316
+\i (00:00:48) trapsize 1640
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 38.8853 19.8386
+\i (00:00:48) trapsize 3280
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 38.1639 22.0032
+\i (00:00:49) trapsize 6559
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 36.1962 24.6269
+\i (00:00:49) trapsize 13118
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 34.1299 34.2359
+\i (00:00:49) trapsize 6559
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 35.0482 32.7929
+\i (00:00:49) trapsize 3280
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 31.8342 36.4005
+\i (00:00:50) trapsize 6559
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 31.9654 36.9252
+\i (00:00:50) trapsize 3280
+\i (00:00:53) add connect 
+\t (00:00:53) Pick first element.
+\i (00:00:56) setwindow form.mini
+\i (00:00:56) FORM mini active_subclass BOTTOM 
+\t (00:00:56) Pick first element.
+\i (00:00:58) FORM mini alt_subclass TOP 
+\t (00:00:58) Pick first element.
+\i (00:00:58) setwindow pcb
+\i (00:00:58) pick grid 36.4912 44.7307
+\t (00:00:59) last pick:  36.1950 44.4500
+\t (00:00:59) last pick:  36.1950 45.7200
+\t (00:00:59) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:00:59) last pick:  36.1950 45.7200
+\i (00:01:00) pick grid 37.4751 39.0242
+\t (00:01:00) last pick:  37.4650 38.7350
+\t (00:01:00) No DRC errors detected.
+\i (00:01:01) pick grid 42.9848 27.0209
+\t (00:01:01) last pick:  43.1800 27.3050
+\t (00:01:01) No DRC errors detected.
+\i (00:01:04) pick grid 49.2161 20.9864
+\t (00:01:04) last pick:  49.5300 20.9550
+\t (00:01:04) No DRC errors detected.
+\i (00:01:05) mouse_pos 53.1516 11.7380
+\i (00:01:06) pick grid 53.6763 10.2293
+\t (00:01:06) last pick:  53.9750 10.1600
+\t (00:01:06) No DRC errors detected.
+\t (00:01:06) Pick first element.
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 50.6591 18.6907
+\i (00:01:06) trapsize 1640
+\i (00:01:08) slide 
+\t (00:01:08) Pick element to slide.
+\i (00:01:09) pick grid 49.3801 16.0014
+\t (00:01:09) last pick:  49.5300 15.8750
+\t (00:01:09) last pick:  49.5300 16.0014
+\t (00:01:09) Waiting for the destination pick.
+\i (00:01:09) pick grid 49.7081 16.0014
+\t (00:01:09) last pick:  49.5300 15.8750
+\t (00:01:09) No DRC errors detected.
+\t (00:01:09) Pick another element to slide.
+\i (00:01:10) prepopup 50.5935 27.1521
+\i (00:01:10) done 
+\i (00:01:10) etchedit 
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out 46.2645 27.5784
+\i (00:01:10) trapsize 3280
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out 45.8053 28.0375
+\i (00:01:10) trapsize 6559
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in 29.4074 31.4484
+\i (00:01:12) trapsize 3280
+\i (00:01:13) prepopup 31.1784 26.4634
+\i (00:01:13) pick grid 28.3580 27.1850
+\t (00:01:13) last pick:  28.5750 27.3050
+\i (00:01:23) artwork 
+\i (00:01:25) setwindow form.film_control
+\i (00:01:25) FORM film_control cancel  
+\i (00:01:25) setwindow pcb
+\i (00:01:25) etchedit 
+\i (00:01:26) save 
+\i (00:01:27) fillin yes 
+\i (00:01:28) etchedit 
+\i (00:01:30) artwork 
+\i (00:01:32) setwindow form.film_control
+\i (00:01:32) FORM film_control select_all  
+\i (00:01:33) FORM film_control create  
+\t (00:01:33) Checking db records
+\t (00:01:33)     checking for orphans...
+\t (00:01:33)     Checked 100 percent
+\t (00:01:33) Done dbdoctor.
+\t (00:01:33) Starting Create artwork films...
+\w (00:01:33) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:01:34) Artwork generated with warnings.
+\i (00:01:38) setwindow pcb
+\i (00:01:38) setwindow text
+\i (00:01:38) close
+\i (00:01:39) setwindow form.film_control
+\i (00:01:39) FORM film_control ok  
+\i (00:01:39) setwindow pcb
+\i (00:01:39) etchedit 
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 25.7343 20.0354
+\i (00:01:40) trapsize 6559
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 26.1279 23.0527
+\i (00:01:40) trapsize 13118
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in 21.7986 12.4594
+\i (00:01:40) trapsize 6559
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 80.4377 38.9585
+\i (00:01:47) trapsize 13118
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 112.8401 49.4532
+\i (00:01:47) trapsize 6559
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 69.4183 40.9263
+\i (00:01:47) trapsize 13118
+\i (00:01:48) zoom in 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom in 14.1899 28.7262
+\i (00:01:48) trapsize 6559
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out 54.3322 32.7929
+\i (00:01:48) trapsize 13118
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out 95.2615 36.8596
+\i (00:01:48) trapsize 13118
+\i (00:01:48) zoom in 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom in 82.6678 34.7606
+\i (00:01:48) trapsize 6559
+\i (00:01:48) zoom in 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom in 73.4850 34.8918
+\i (00:01:48) trapsize 3280
+\i (00:01:50) exit 
+\e (00:01:50) Do you want to save the changes you made to D:/ORCAD/B07_1020/allegro/B07_1020.brd?
+\i (00:01:55) fillin yes 
+   (00:01:55) Loading signal.cxt 
+\t (00:01:56)     Journal end - Mon Oct 23 15:25:31 2023

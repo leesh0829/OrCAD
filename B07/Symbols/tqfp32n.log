@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TQFP32N.dra                                   )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon May 01 16:21:57 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/ORCAD/B07/Symbols
+    Name      = tqfp32n.psm
+    User      = user
+    Machine   = USER
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

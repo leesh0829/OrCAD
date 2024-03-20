@@ -1,0 +1,683 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Nov 06 16:02:09 2023
+\t (00:00:03)         Host=USER User=user Pid=11692 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession user D:\ORCAD\B07_1031\allegro\B07_1106_1.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1106_1
+\d (00:00:06) Design opened: D:/ORCAD/B07_1031/allegro/B07_1106_1.brd
+\i (00:00:06) trapsize 9848
+\i (00:00:07) trapsize 10327
+\i (00:00:07) trapsize 9848
+\i (00:00:07) trapsize 8168
+\i (00:00:07) trapsize 9223
+\i (00:00:08) etchedit 
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 27.8667 34.3806
+\i (00:00:12) trapsize 4611
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 36.4439 36.6863
+\i (00:00:12) trapsize 9223
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 56.3653 43.8802
+\i (00:00:13) trapsize 4611
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 59.7777 43.9725
+\i (00:00:13) trapsize 9223
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 57.9332 43.0501
+\i (00:00:13) trapsize 16337
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 150.6733 41.4554
+\i (00:00:13) trapsize 16337
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 48.7327 37.2079
+\i (00:00:14) trapsize 8168
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 44.6486 33.6139
+\i (00:00:15) trapsize 4084
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 21.2872 12.5396
+\i (00:00:17) trapsize 2042
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 21.2873 12.5397
+\i (00:00:17) trapsize 1021
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 22.2879 12.9277
+\i (00:00:17) trapsize 2042
+\i (00:00:19) delete 
+\i (00:00:20) pick grid 23.2274 22.8115
+\t (00:00:20) last pick:  23.4950 22.8600
+\t (00:00:20) Connect Line "-9V, Etch/Bottom"
+\i (00:00:20) pick grid dbl 23.2274 22.8115
+\t (00:00:20) last pick:  23.4950 22.8600
+\i (00:00:22) pick grid 29.3945 13.5813
+\t (00:00:22) last pick:  29.2100 13.3350
+\t (00:00:22) Connect Line "-9V, Etch/Top"
+\i (00:00:22) pick grid dbl 29.3945 13.5813
+\t (00:00:22) last pick:  29.2100 13.3350
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 24.3301 19.6258
+\i (00:00:23) trapsize 4084
+\i (00:00:24) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 28.1692 21.5863
+\i (00:00:25) trapsize 2042
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 24.0851 15.5826
+\i (00:00:27) trapsize 4084
+\i (00:00:30) move 
+\t (00:00:30) Select element(s) to move.
+\i (00:00:32) add connect 
+\t (00:00:32) Pick first element.
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 21.3895 22.6891
+\i (00:00:34) trapsize 2042
+\i (00:00:35) pick grid 27.7200 30.2857
+\t (00:00:35) last pick:  27.9400 30.4800
+\t (00:00:35) last pick:  27.2000 30.6940
+\t (00:00:35) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:00:35) last pick:  27.2000 30.6940
+\i (00:00:37) setwindow form.mini
+\i (00:00:37) FORM mini active_subclass BOTTOM 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) mouse_pos 24.9427 11.7436
+\i (00:00:41) pick grid 23.7992 11.2535
+\t (00:00:41) last pick:  23.4950 11.4300
+\t (00:00:41) No DRC errors detected.
+\t (00:00:41) Pick first element.
+\i (00:00:44) pick grid 23.3907 13.7448
+\t (00:00:44) last pick:  23.4950 13.9700
+\t (00:00:44) Pick first element.
+\t (00:00:44) last pick:  22.8600 13.9700
+\t (00:00:44) Target Horizontal Line Segment is defined on TOP.
+\t (00:00:44) last pick:  22.8600 13.9700
+\i (00:00:45) mouse_pos 50.7138 22.7300
+\i (00:00:45) mouse_pos 52.0208 22.7300
+\i (00:00:47) setwindow form.mini
+\i (00:00:47) FORM mini active_subclass TOP 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 44.4651 16.5220
+\i (00:00:49) trapsize 4084
+\i (00:00:52) prepopup 30.0071 13.4998
+\i (00:00:54) cancel 
+\i (00:00:54) etchedit 
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 27.7199 11.3760
+\i (00:00:57) trapsize 2042
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 27.7199 11.3760
+\i (00:00:58) trapsize 4084
+\i (00:00:58) prepopup 32.7843 9.7423
+\i (00:01:00) pick grid 32.7843 10.3141
+\t (00:01:00) last pick:  33.0200 10.1600
+\i (00:01:01) undo 
+\i (00:01:01) trapsize 2042
+\i (00:01:01) etchedit 
+\i (00:01:02) zoom out 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom out 25.6370 19.9119
+\i (00:01:02) trapsize 4084
+\i (00:01:04) undo 
+\i (00:01:04) trapsize 4084
+\i (00:01:04) etchedit 
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 37.8079 39.9243
+\i (00:01:06) trapsize 8168
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 37.8078 38.4539
+\i (00:01:06) trapsize 16337
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 9.8515 44.7228
+\i (00:01:06) trapsize 16337
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 31.7426 10.0891
+\i (00:01:06) trapsize 8168
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 8.8713 13.8466
+\i (00:01:07) trapsize 4084
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 8.0545 14.5818
+\i (00:01:07) trapsize 2042
+\i (00:01:08) delete 
+\i (00:01:09) pick grid 17.8973 11.1919
+\t (00:01:09) last pick:  17.7800 11.4300
+\t (00:01:09) Connect Line "Gnd, Etch/Top"
+\i (00:01:09) pick grid dbl 17.8973 11.1919
+\t (00:01:09) last pick:  17.7800 11.4300
+\i (00:01:11) add connect 
+\t (00:01:12) Pick first element.
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out 22.5941 14.3776
+\i (00:01:13) trapsize 4084
+\i (00:01:14) pick grid 27.5767 30.5508
+\t (00:01:14) last pick:  27.3050 30.4800
+\t (00:01:14) last pick:  27.2000 30.6940
+\t (00:01:14) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:01:14) last pick:  27.2000 30.6940
+\i (00:01:16) setwindow form.mini
+\i (00:01:16) FORM mini active_subclass BOTTOM 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) mouse_pos 25.0446 11.1919
+\i (00:01:17) pick grid 23.3292 11.1102
+\t (00:01:17) last pick:  23.4950 10.7950
+\t (00:01:17) No DRC errors detected.
+\t (00:01:17) Pick first element.
+\i (00:01:19) pick grid 10.7500 11.4370
+\t (00:01:19) last pick:  10.7950 11.4300
+\t (00:01:19) Pick first element.
+\t (00:01:19) last pick:  10.7000 11.6600
+\t (00:01:19) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:01:19) last pick:  10.7000 11.6600
+\i (00:01:20) mouse_pos 21.3688 13.8058
+\i (00:01:20) mouse_pos 27.5767 13.5607
+\i (00:01:21) mouse_pos 50.7748 11.9271
+\i (00:01:21) setwindow form.mini
+\i (00:01:21) FORM mini active_subclass TOP 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) mouse_pos 24.5545 13.3157
+\i (00:01:22) mouse_pos 21.2055 12.7439
+\i (00:01:22) mouse_pos 21.3688 14.0508
+\i (00:01:22) pick grid 22.5124 14.2142
+\t (00:01:22) last pick:  22.2250 13.9700
+\t (00:01:22) No DRC errors detected.
+\t (00:01:22) Pick first element.
+\i (00:01:23) pick grid 23.5743 11.0286
+\t (00:01:23) last pick:  23.4950 10.7950
+\t (00:01:23) Pick first element.
+\t (00:01:23) last pick:  22.8600 11.4300
+\t (00:01:23) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:01:23) last pick:  22.8600 11.4300
+\i (00:01:25) mouse_pos 48.1609 16.2563
+\i (00:01:25) pick grid 47.9159 17.0731
+\t (00:01:25) last pick:  47.6250 17.1450
+\t (00:01:25) No DRC errors detected.
+\t (00:01:25) Pick first element.
+\i (00:01:26) prepopup 30.6807 15.9295
+\i (00:01:26) done 
+\i (00:01:26) etchedit 
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 29.2921 18.0533
+\i (00:01:27) trapsize 8168
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out 37.2970 34.3900
+\i (00:01:28) trapsize 16337
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out 141.8515 67.2673
+\i (00:01:28) trapsize 16337
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 46.4455 51.2574
+\i (00:01:29) trapsize 8168
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 46.4456 51.2574
+\i (00:01:29) trapsize 4084
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out 32.6411 54.1980
+\i (00:01:30) trapsize 8168
+\i (00:01:32) move 
+\t (00:01:32) Select element(s) to move.
+\i (00:01:34) pick grid 6.5025 66.2871
+\t (00:01:34) last pick:  6.3500 66.0400
+\t (00:01:34) last pick:  5.0800 65.4050
+\t (00:01:34) Pick new location for the element(s).
+\i (00:01:35) pick grid 5.3590 66.9406
+\t (00:01:35) last pick:  5.0800 66.6750
+\i (00:01:36) pick grid 24.1461 63.3465
+\t (00:01:36) last pick:  24.1300 63.5000
+\t (00:01:36) last pick:  23.4950 62.2300
+\t (00:01:36) Pick new location for the element(s).
+\i (00:01:36) pick grid 24.6362 66.4505
+\t (00:01:36) last pick:  24.7650 66.6750
+\i (00:01:37) pick grid 33.7847 62.0396
+\t (00:01:37) last pick:  33.6550 62.2300
+\t (00:01:37) last pick:  34.2900 60.9600
+\t (00:01:37) Pick new location for the element(s).
+\i (00:01:38) pick grid 35.0917 65.1435
+\t (00:01:38) last pick:  34.9250 65.4050
+\i (00:01:39) pick grid 24.6362 66.6138
+\t (00:01:39) last pick:  24.7650 66.6750
+\t (00:01:39) last pick:  24.7650 66.6750
+\t (00:01:39) Pick new location for the element(s).
+\i (00:01:39) pick grid 24.3095 66.2871
+\t (00:01:39) last pick:  24.1300 66.0400
+\i (00:01:40) pick grid 84.1016 64.9802
+\t (00:01:40) last pick:  83.8200 64.7700
+\t (00:01:40) last pick:  85.0900 64.7700
+\t (00:01:40) Pick new location for the element(s).
+\i (00:01:41) pick grid 85.4085 65.9604
+\t (00:01:41) last pick:  85.7250 66.0400
+\i (00:01:44) pick grid 69.5620 65.6336
+\t (00:01:44) last pick:  69.8500 65.4050
+\t (00:01:44) last pick:  69.2150 65.4050
+\t (00:01:44) Pick new location for the element(s).
+\i (00:01:45) pick grid 68.7451 65.9604
+\t (00:01:45) last pick:  68.5800 66.0400
+\i (00:01:45) pick grid 59.7600 65.6336
+\t (00:01:45) last pick:  59.6900 65.4050
+\t (00:01:45) last pick:  59.0550 65.4050
+\t (00:01:45) Pick new location for the element(s).
+\i (00:01:46) pick grid 59.7600 65.7970
+\t (00:01:46) last pick:  59.6900 66.0400
+\i (00:01:47) pick grid 49.6313 65.7970
+\t (00:01:47) last pick:  49.5300 66.0400
+\t (00:01:47) last pick:  48.8950 65.4050
+\t (00:01:47) Pick new location for the element(s).
+\i (00:01:47) pick grid 49.4679 66.4505
+\t (00:01:47) last pick:  49.5300 66.6750
+\i (00:01:48) pick grid 42.4431 65.3069
+\t (00:01:48) last pick:  42.5450 65.4050
+\t (00:01:48) last pick:  41.2750 65.4050
+\t (00:01:48) Pick new location for the element(s).
+\i (00:01:49) pick grid 42.1164 66.7772
+\t (00:01:49) last pick:  41.9100 66.6750
+\i (00:01:50) pick grid 35.4184 65.7970
+\t (00:01:50) last pick:  35.5600 66.0400
+\t (00:01:50) last pick:  34.9250 65.4050
+\t (00:01:50) Pick new location for the element(s).
+\i (00:01:50) pick grid 35.0917 66.9406
+\t (00:01:50) last pick:  34.9250 66.6750
+\i (00:01:51) pick grid 26.2699 65.9604
+\t (00:01:51) last pick:  26.0350 66.0400
+\t (00:01:51) last pick:  24.1300 66.0400
+\t (00:01:51) Pick new location for the element(s).
+\i (00:01:52) pick grid 24.3095 66.9406
+\t (00:01:52) last pick:  24.1300 66.6750
+\i (00:01:54) pick grid 38.0323 43.2524
+\t (00:01:54) last pick:  38.1000 43.1800
+\t (00:01:54) last pick:  38.1000 43.8150
+\t (00:01:54) Pick new location for the element(s).
+\i (00:01:55) pick grid 37.5422 44.7227
+\t (00:01:55) last pick:  37.4650 44.4500
+\i (00:01:56) pick grid 27.2501 43.2524
+\t (00:01:56) last pick:  27.3050 43.1800
+\t (00:01:56) last pick:  25.4000 43.1800
+\t (00:01:56) Pick new location for the element(s).
+\i (00:01:57) pick grid 26.2699 44.3960
+\t (00:01:57) last pick:  26.0350 44.4500
+\i (00:01:58) pick grid 5.0323 40.6386
+\t (00:01:58) last pick:  5.0800 40.6400
+\t (00:01:58) last pick:  5.0800 40.0050
+\t (00:01:58) Pick new location for the element(s).
+\i (00:01:59) pick grid 5.6857 43.5792
+\t (00:01:59) last pick:  5.7150 43.8150
+\i (00:02:00) pick grid 69.3986 42.9257
+\t (00:02:00) last pick:  69.2150 43.1800
+\t (00:02:00) last pick:  69.2150 42.5450
+\t (00:02:00) Pick new location for the element(s).
+\i (00:02:01) pick grid 69.2352 43.5792
+\t (00:02:01) last pick:  69.2150 43.8150
+\i (00:02:01) pick grid 87.0422 39.1683
+\t (00:02:01) last pick:  86.9950 39.3700
+\t (00:02:01) last pick:  86.9950 38.1000
+\t (00:02:01) Pick new location for the element(s).
+\i (00:02:02) pick grid 86.7154 44.2326
+\t (00:02:02) last pick:  86.9950 44.4500
+\i (00:02:03) pick grid 96.0273 38.3515
+\t (00:02:03) last pick:  95.8850 38.1000
+\t (00:02:03) last pick:  95.8850 38.7350
+\t (00:02:03) Pick new location for the element(s).
+\i (00:02:04) pick grid 96.0273 43.5792
+\t (00:02:04) last pick:  95.8850 43.8150
+\i (00:02:05) pick grid 65.8045 19.8911
+\t (00:02:05) last pick:  66.0400 19.6850
+\t (00:02:05) last pick:  65.4050 19.6850
+\t (00:02:05) Pick new location for the element(s).
+\i (00:02:05) pick grid 65.6412 20.7079
+\t (00:02:05) last pick:  65.4050 20.9550
+\i (00:02:07) pick grid 11.5669 18.0940
+\t (00:02:07) last pick:  11.4300 17.7800
+\t (00:02:07) last pick:  10.7950 18.4150
+\t (00:02:07) Pick new location for the element(s).
+\i (00:02:08) pick grid 11.0768 20.3812
+\t (00:02:08) last pick:  10.7950 20.3200
+\i (00:02:09) pick grid 22.1857 19.5643
+\t (00:02:09) last pick:  22.2250 19.6850
+\t (00:02:09) last pick:  22.8600 19.0500
+\t (00:02:09) Pick new location for the element(s).
+\i (00:02:09) pick grid 22.6758 20.3812
+\t (00:02:09) last pick:  22.8600 20.3200
+\i (00:02:10) pick grid 30.0273 24.6287
+\t (00:02:10) last pick:  29.8450 24.7650
+\i (00:02:12) zoom in 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom in 31.1709 15.8069
+\i (00:02:12) trapsize 4084
+\i (00:02:13) zoom out 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom out 29.8640 16.3787
+\i (00:02:13) trapsize 8168
+\i (00:02:14) prepopup 93.9035 14.0916
+\i (00:02:15) done 
+\i (00:02:15) etchedit 
+\i (00:02:25) ncdrill customization 
+\i (00:02:25) etchedit 
+\i (00:02:25) pick grid 77.8936 82.2154
+\t (00:02:25) last pick:  78.1050 81.9150
+\i (00:02:26) setwindow form.nc_drillcustomization
+\i (00:02:26) FORM nc_drillcustomization cancel  
+\i (00:02:28) setwindow pcb
+\i (00:02:28) dimension edit 
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 52.8986 73.7204
+\i (00:02:28) trapsize 16337
+\i (00:02:29) zoom in 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom in 24.8812 71.5148
+\i (00:02:29) trapsize 8168
+\i (00:02:30) prepopup 29.9456 74.2920
+\i (00:02:31) pop dyn_option_select @:@Parameters 
+\i (00:02:32) setwindow form.draft_parms
+\i (00:02:32) FORM draft_parms iso_standard YES 
+\i (00:02:32) FORM draft_parms text  
+\i (00:02:37) FORM draft_parms accuracy 0 
+\i (00:02:37) FORM draft_parms trailing_zeros YES 
+\i (00:02:38) FORM draft_parms align_text NO 
+\i (00:02:39) FORM draft_parms apply  
+\w (00:02:39) WARNING(SPMHDI-45): Applying global parameter changes to existing dimensioning ...
+\i (00:02:40) FORM draft_parms done  
+\i (00:02:40) setwindow pcb
+\i (00:02:40) prepopup 34.0297 77.8861
+\i (00:02:42) pop dyn_option_select '@:@Linear dimension' 
+\t (00:02:42) Pick an element or point to dimension ...
+\i (00:02:43) pick grid 33.0495 69.0643
+\t (00:02:43) last pick:  33.0000 69.1000
+\t (00:02:43) First point found ... pick the second point.
+\i (00:02:43) pick grid dbl 33.0495 69.0643
+\t (00:02:43) last pick:  33.0000 69.1000
+\w (00:02:43) WARNING(SPMHA1-339): Pick equals previous pick ... try again.
+\i (00:02:44) prepopup 34.3564 72.4950
+\i (00:02:45) oops 
+\t (00:02:45) last pick:  33.0000 69.1000
+\t (00:02:45) Pick an element or point to dimension ...
+\i (00:02:46) pick grid 33.0495 70.2079
+\t (00:02:46) last pick:  33.0000 70.2000
+\t (00:02:46) First point found ... pick the second point.
+\i (00:02:47) pick grid 33.2129 0.1237
+\t (00:02:47) last pick:  33.2000 0.1000
+\t (00:02:47) Indicate the X or Y direction first.
+\i (00:02:48) pick grid -10.0792 36.3911
+\t (00:02:48) last pick:  -10.1000 36.4000
+\t (00:02:48) Pick location for the dimension value.
+\i (00:02:49) pick grid -9.5891 34.1039
+\t (00:02:49) last pick:  -9.6000 34.1000
+\t (00:02:49) Pick an element or point to dimension ...
+\i (00:02:52) pick grid -0.1139 28.5495
+\t (00:02:52) last pick:  -0.1000 28.5000
+\t (00:02:52) Pick an element or point to dimension ...
+\t (00:02:52) First point found ... pick the second point.
+\i (00:02:54) pick grid 99.7030 26.4257
+\t (00:02:54) last pick:  99.7000 26.4000
+\t (00:02:54) Indicate the X or Y direction first.
+\i (00:02:55) pick grid 43.8317 79.8465
+\t (00:02:55) last pick:  43.8000 79.8000
+\t (00:02:55) Pick location for the dimension value.
+\i (00:02:56) pick grid 49.2228 76.4158
+\t (00:02:56) last pick:  49.2000 76.4000
+\t (00:02:56) Pick an element or point to dimension ...
+\i (00:02:56) prepopup 66.5396 87.1980
+\i (00:02:57) done 
+\i (00:02:57) etchedit 
+\i (00:03:00) save 
+\i (00:03:02) fillin yes 
+\i (00:03:03) etchedit 
+\i (00:03:12) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: Silkscreen_TOP"
+\i (00:03:19) zoom in 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom in 55.5941 26.0990
+\i (00:03:19) trapsize 4084
+\i (00:03:20) zoom out 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom out 42.1164 28.0594
+\i (00:03:20) trapsize 8168
+\i (00:03:20) zoom in 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom in -4.2796 39.9852
+\i (00:03:20) trapsize 4084
+\i (00:03:22) move 
+\t (00:03:22) Select element(s) to move.
+\i (00:03:23) setwindow form.find
+\i (00:03:23) FORM find text NO 
+\i (00:03:23) FORM find cline_segs YES 
+\i (00:03:24) FORM find other_segs YES 
+\i (00:03:24) FORM find cline_segs NO 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 13.1189 18.0124
+\i (00:03:26) trapsize 2042
+\i (00:03:26) zoom in 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 13.4865 18.1350
+\i (00:03:26) trapsize 1021
+\i (00:03:26) zoom out 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom out 13.2007 15.5008
+\i (00:03:26) trapsize 2042
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 13.1598 15.5007
+\i (00:03:27) trapsize 4084
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 12.9965 15.0107
+\i (00:03:27) trapsize 8168
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in 12.6698 9.4353
+\i (00:03:28) trapsize 4084
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in 12.5065 11.0690
+\i (00:03:28) trapsize 2042
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in 12.2206 12.4984
+\i (00:03:28) trapsize 1021
+\i (00:03:30) pick grid 13.1191 14.4997
+\t (00:03:30) last pick:  13.1000 14.5000
+\t (00:03:30) last pick:  13.1000 14.5000
+\t (00:03:30) Element has no origin, using pick.
+\t (00:03:30) Pick new location for the element(s).
+\i (00:03:31) pick grid 13.7930 14.4589
+\t (00:03:31) last pick:  13.8000 14.5000
+\i (00:03:32) pick grid 13.0783 14.3976
+\t (00:03:32) last pick:  13.1000 14.4000
+\t (00:03:32) last pick:  13.1000 14.4000
+\t (00:03:32) Element has no origin, using pick.
+\t (00:03:32) Pick new location for the element(s).
+\i (00:03:33) pick grid 13.7521 14.3976
+\t (00:03:33) last pick:  13.8000 14.4000
+\i (00:03:34) zoom out 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out 17.2441 14.6018
+\i (00:03:34) trapsize 2042
+\i (00:03:34) zoom out 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out 22.3085 14.3976
+\i (00:03:34) trapsize 4084
+\i (00:03:34) zoom in 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom in 30.5586 14.2343
+\i (00:03:34) trapsize 2042
+\i (00:03:35) zoom in 1 
+\i (00:03:35) setwindow pcb
+\i (00:03:35) zoom in 30.5586 14.2343
+\i (00:03:35) trapsize 1021
+\i (00:03:36) pick grid 25.3513 14.1935
+\t (00:03:36) last pick:  25.4000 14.2000
+\t (00:03:36) last pick:  25.4000 14.2000
+\t (00:03:36) Element has no origin, using pick.
+\t (00:03:36) Pick new location for the element(s).
+\i (00:03:36) pick grid 26.0660 14.2344
+\t (00:03:36) last pick:  26.1000 14.2000
+\i (00:03:37) pick grid 25.1471 14.4590
+\t (00:03:37) last pick:  25.1000 14.5000
+\t (00:03:37) last pick:  25.1000 14.5000
+\t (00:03:37) Element has no origin, using pick.
+\t (00:03:37) Pick new location for the element(s).
+\i (00:03:38) pick grid 25.8414 14.4794
+\t (00:03:38) last pick:  25.8000 14.5000
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 27.4750 15.2962
+\i (00:03:39) trapsize 2042
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 27.7610 15.3780
+\i (00:03:39) trapsize 4084
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 33.9690 15.5414
+\i (00:03:39) trapsize 8168
+\i (00:03:40) zoom out 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom out 52.4294 16.8482
+\i (00:03:40) trapsize 16337
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 78.7921 32.9604
+\i (00:03:41) trapsize 8168
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 89.0842 42.4356
+\i (00:03:41) trapsize 4084
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 89.9828 41.7822
+\i (00:03:41) trapsize 2042
+\i (00:03:42) pick grid 89.6561 35.3293
+\t (00:03:42) last pick:  89.7000 35.3000
+\t (00:03:42) last pick:  89.7000 35.3000
+\t (00:03:42) Element has no origin, using pick.
+\t (00:03:42) Pick new location for the element(s).
+\i (00:03:43) pick grid 90.2687 35.4110
+\t (00:03:43) last pick:  90.3000 35.4000
+\i (00:03:44) pick grid 89.1251 35.6969
+\t (00:03:44) last pick:  89.1000 35.7000
+\t (00:03:44) last pick:  89.1000 35.7000
+\t (00:03:44) Element has no origin, using pick.
+\t (00:03:44) Pick new location for the element(s).
+\i (00:03:45) pick grid 89.7786 35.7377
+\t (00:03:45) last pick:  89.8000 35.7000
+\i (00:03:45) prepopup 91.9023 37.2897
+\i (00:03:46) done 
+\i (00:03:46) etchedit 
+\i (00:03:46) zoom out 1 
+\i (00:03:46) setwindow pcb
+\i (00:03:46) zoom out 88.7575 39.6585
+\i (00:03:46) trapsize 4084
+\i (00:03:47) zoom out 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom out 88.7576 39.6585
+\i (00:03:47) trapsize 8168
+\i (00:03:47) zoom out 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom out 88.5942 39.8218
+\i (00:03:47) trapsize 16337
+\i (00:03:47) zoom in 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom in 56.9010 51.5841
+\i (00:03:47) trapsize 8168
+\i (00:03:47) zoom in 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom in 55.2673 53.3812
+\i (00:03:47) trapsize 4084
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 42.9332 57.3020
+\i (00:03:48) trapsize 8168
+\i (00:03:49) prepopup 43.0965 52.2376
+\i (00:03:50) pick grid 73.1559 75.4356
+\t (00:03:50) last pick:  73.2000 75.4000
+\i (00:03:51) save 
+\i (00:03:52) fillin yes 
+\i (00:03:53) etchedit 
+\i (00:03:54) artwork 
+\i (00:03:57) setwindow form.film_control
+\i (00:03:57) FORM film_control select_all  
+\i (00:03:58) FORM film_control create  
+\t (00:03:58) Checking db records
+\t (00:03:58)     checking for orphans...
+\t (00:03:58)     Checked 100 percent
+\t (00:03:58) Done dbdoctor.
+\t (00:03:58) Starting Create artwork films...
+\w (00:04:01) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:04:02) Artwork generated with warnings.
+\i (00:04:03) setwindow pcb
+\i (00:04:03) setwindow text
+\i (00:04:03) close
+\i (00:04:05) setwindow form.film_control
+\i (00:04:05) FORM film_control cancel  
+\i (00:04:05) setwindow pcb
+\i (00:04:05) etchedit 
+\i (00:04:08) QtSignal ColorVisibilityPane CVPGlobalVisRestore clicked
+\i (00:04:09) QtSignal ColorVisibilityPane CVPGlobalVisRestore clicked
+\i (00:04:10) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: ALL"
+\i (00:04:16) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: Drill_DRAW"
+\i (00:04:17) zoom out 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom out 63.0272 51.2574
+\i (00:04:17) trapsize 16337
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 28.8020 47.0099
+\i (00:04:18) trapsize 8168
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 30.5990 46.6832
+\i (00:04:18) trapsize 4084
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 32.7228 45.7847
+\i (00:04:18) trapsize 2042
+\i (00:04:19) zoom out 1 
+\i (00:04:19) setwindow pcb
+\i (00:04:19) zoom out 33.0904 45.6214
+\i (00:04:19) trapsize 4084
+\i (00:04:20) zoom out 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom out 33.6621 46.1114
+\i (00:04:20) trapsize 8168
+\i (00:04:20) zoom out 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom out 29.9047 44.8045
+\i (00:04:20) trapsize 16337
+\i (00:04:25) exit 
+\e (00:04:25) Do you want to save the changes you made to D:/ORCAD/B07_1031/allegro/B07_1106_1.brd?
+\i (00:04:26) fillin yes 
+   (00:04:27) Loading signal.cxt 
+\t (00:04:27)     Journal end - Mon Nov 06 16:06:33 2023

@@ -1,0 +1,14 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : B07_0616.brd                                  )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Fri Jun 16 10:31:59 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (31.0000 38.8500) on net TXD.
+
+1 warnings, 0 errors detected, 0 errors could be fixed.

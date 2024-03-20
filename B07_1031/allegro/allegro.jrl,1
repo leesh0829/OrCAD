@@ -1,0 +1,35 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Nov 06 16:01:09 2023
+\t (00:00:03)         Host=USER User=user Pid=17480 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession user D:\ORCAD\B07_1031\allegro\B07_1106_1.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1106_1
+\d (00:00:06) Design opened: D:/ORCAD/B07_1031/allegro/B07_1106_1.brd
+\i (00:00:06) trapsize 9848
+\i (00:00:07) trapsize 10327
+\i (00:00:07) trapsize 9848
+\i (00:00:07) trapsize 8168
+\i (00:00:07) trapsize 9223
+\i (00:00:08) etchedit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 22.3330 14.6438
+\i (00:00:09) trapsize 4611
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 23.9009 13.0760
+\i (00:00:10) trapsize 2306
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 24.2698 13.1221
+\i (00:00:11) trapsize 1153
+\i (00:00:12) pick grid 25.1229 11.5773
+\t (00:00:12) last pick:  25.4000 11.4300
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 24.5465 12.7301
+\i (00:00:13) trapsize 2306
+\i (00:00:17) exit 
+\t (00:00:17)     Journal end - Mon Nov 06 16:01:23 2023

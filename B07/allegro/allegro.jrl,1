@@ -1,0 +1,34 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Oct 06 10:52:00 2023
+\t (00:00:03)         Host=USER User=user Pid=9432 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07\allegro\B07_0526.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_0526
+\d (00:00:06) Design opened: D:/ORCAD/B07/allegro/B07_0526.brd
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6314
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 5604
+\i (00:00:06) trapsize 6131
+\i (00:00:06) etchedit 
+\i (00:00:08) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: Dril_DRAW"
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 31.7429 53.6962
+\i (00:00:09) trapsize 3066
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 31.9882 53.7576
+\i (00:00:09) trapsize 1533
+\i (00:00:10) drag_start grid 29.2291 42.5987
+\i (00:00:10) drag_stop 26.7459 38.2148
+\i (00:00:11) drag_start grid 31.1605 43.1811
+\i (00:00:11) roam y 16
+\i (00:00:11) drag_stop 25.7343 36.8011
+\i (00:00:12) drag_start grid 31.0685 43.6988
+\i (00:00:12) roam y 16
+\i (00:00:12) drag_stop 24.1095 35.4216
+\i (00:00:17) exit 
+\t (00:00:17)     Journal end - Fri Oct 06 10:52:15 2023

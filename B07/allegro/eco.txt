@@ -1,0 +1,348 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  #ADC1        pins ADDED TO this new net
+                                 U1.19          U4.1           U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  #ADC2        pins ADDED TO this new net
+                                 R6.2           U1.22          U4.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  #COMP1       pins ADDED TO this new net
+                                 J2.9           U1.32          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  #COMP2       pins ADDED TO this new net
+                                 J2.10          U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  #TEMP        pins ADDED TO this new net
+                                 R8.2           U1.28          U4.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +5V          pins ADDED TO this new net
+                                 C8.2           C9.2           C10.2          
+                                 C11.2          C12.2          C13.2          
+                                 C15.1          R1.1           R2.1           
+                                 R3.1           R4.1           R16.1          
+                                 U1.4           U1.6           U1.18          
+                                 U2.4           U3.10          U4.4           
+                                 U5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +12V         pins ADDED TO this new net
+                                 C14.1          J1.1           R15.2          
+                                 U5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC1         pins ADDED TO this new net
+                                 J2.7           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC2         pins ADDED TO this new net
+                                 J2.8           R10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C3.2           C4.1           
+                                 C5.1           C6.1           C7.1           
+                                 C8.1           C9.1           C10.1          
+                                 C11.1          C12.1          C13.1          
+                                 C14.2          C15.2          D4.1           
+                                 D5.1           J1.6           J1.7           
+                                 J1.8           R5.1           R7.1           
+                                 R12.2          R13.2          R14.2          
+                                 U1.3           U1.5           U1.21          
+                                 U2.1           U3.1           U3.8           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U4.11          U5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MISO         pins ADDED TO this new net
+                                 J1.3           U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOSI         pins ADDED TO this new net
+                                 J1.2           U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01844       pins ADDED TO this new net
+                                 R1.2           U1.29          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01932       pins ADDED TO this new net
+                                 D1.1           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01936       pins ADDED TO this new net
+                                 D2.1           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01940       pins ADDED TO this new net
+                                 D3.1           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01997       pins ADDED TO this new net
+                                 D1.2           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02035       pins ADDED TO this new net
+                                 D2.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02064       pins ADDED TO this new net
+                                 D3.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03038       pins ADDED TO this new net
+                                 C4.2           U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03155       pins ADDED TO this new net
+                                 C2.2           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03167       pins ADDED TO this new net
+                                 C2.1           U3.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03417       pins ADDED TO this new net
+                                 C5.2           R9.2           R14.1          
+                                 U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03671       pins ADDED TO this new net
+                                 C7.2           R10.2          R12.1          
+                                 U4.5           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N03864       pins ADDED TO this new net
+                                 R5.2           R6.1           U4.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04233       pins ADDED TO this new net
+                                 C6.2           R11.2          R13.1          
+                                 U4.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04310       pins ADDED TO this new net
+                                 R7.2           R8.1           U4.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05379       pins ADDED TO this new net
+                                 D4.2           R15.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N012101      pins ADDED TO this new net
+                                 D5.2           R16.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC0          pins ADDED TO this new net
+                                 J2.1           U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC1          pins ADDED TO this new net
+                                 J2.2           U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC2          pins ADDED TO this new net
+                                 J2.3           U1.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC3          pins ADDED TO this new net
+                                 J2.4           U1.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC4          pins ADDED TO this new net
+                                 J2.5           U1.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 J1.5           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RX           pins ADDED TO this new net
+                                 J1.10          U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RXD          pins ADDED TO this new net
+                                 U1.30          U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCK          pins ADDED TO this new net
+                                 J1.4           U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TEMP         pins ADDED TO this new net
+                                 J2.6           R11.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  TX           pins ADDED TO this new net
+                                 J1.9           U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TXD          pins ADDED TO this new net
+                                 U1.31          U3.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  X1           pins ADDED TO this new net
+                                 C1.1           U1.7           Y1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  X2           pins ADDED TO this new net
+                                 C3.1           U1.8           Y1.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ADM101E_SOIC10_ADM101E
+ ATMEGA8_TQFP32N_ATMEGA8
+ CAP NP_SMC0603_0.1UF
+ CAP NP_SMC0603_20PF
+ CAP POL_D55_220UF/16V
+ CRYSTAL_CRYSTAL_16MHZ
+ HEADER 10_HEADER10_HEADER 10
+ LED_CAP196N_LED
+ LM2902_0_SOIC14_LM2902
+ LM7805/TO_0_TO220AB_LM7805
+ MIC811_SOT143_MIC811
+ R_SMR0603_1K
+ R_SMR0603_100K
+ R_SMR0603_10
+ R_SMR0603_330
+ R_SMR0603_820
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_SMC0603_20PF   
+ C2                  CAP NP_SMC0603_0.1UF  
+ C3                  CAP NP_SMC0603_20PF   
+ C4                  CAP NP_SMC0603_0.1UF  
+ C5                  CAP NP_SMC0603_0.1UF  
+ C6                  CAP NP_SMC0603_0.1UF  
+ C7                  CAP NP_SMC0603_0.1UF  
+ C8                  CAP NP_SMC0603_0.1UF  
+ C9                  CAP NP_SMC0603_0.1UF  
+ C10                 CAP NP_SMC0603_0.1UF  
+ C11                 CAP NP_SMC0603_0.1UF  
+ C12                 CAP NP_SMC0603_0.1UF  
+ C13                 CAP NP_SMC0603_0.1UF  
+ C14                 CAP POL_D55_220UF/16V 
+ C15                 CAP POL_D55_220UF/16V 
+ D1                  LED_CAP196N_LED       
+ D2                  LED_CAP196N_LED       
+ D3                  LED_CAP196N_LED       
+ D4                  LED_CAP196N_LED       
+ D5                  LED_CAP196N_LED       
+ J1                  HEADER 10_HEADER10_HEADER 10 
+ J2                  HEADER 10_HEADER10_HEADER 10 
+ R1                  R_SMR0603_1K          
+ R2                  R_SMR0603_330         
+ R3                  R_SMR0603_330         
+ R4                  R_SMR0603_330         
+ R5                  R_SMR0603_1K          
+ R6                  R_SMR0603_1K          
+ R7                  R_SMR0603_1K          
+ R8                  R_SMR0603_1K          
+ R9                  R_SMR0603_10          
+ R10                 R_SMR0603_10          
+ R11                 R_SMR0603_10          
+ R12                 R_SMR0603_100K        
+ R13                 R_SMR0603_100K        
+ R14                 R_SMR0603_100K        
+ R15                 R_SMR0603_820         
+ R16                 R_SMR0603_330         
+ U1                  ATMEGA8_TQFP32N_ATMEGA8 
+ U2                  MIC811_SOT143_MIC811  
+ U3                  ADM101E_SOIC10_ADM101E 
+ U4                  LM2902_0_SOIC14_LM2902 
+ U5                  LM7805/TO_0_TO220AB_LM7805 
+ Y1                  CRYSTAL_CRYSTAL_16MHZ 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J2.9                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ U1.6                           PRIM_FILE      .\pstchip.dat
+ U2.4                           PRIM_FILE      .\pstchip.dat
+ U3.10                          PRIM_FILE      .\pstchip.dat
+ U4.3                           PRIM_FILE      .\pstchip.dat
+ U4.5                           PRIM_FILE      .\pstchip.dat
+ U4.10                          PRIM_FILE      .\pstchip.dat
+ U5.3                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07/allegro/B07_0616.brd                                           |
+|                                                    Fri Jun 23 09:10:06 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ Y1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :     149                                        |
+|       Comp definitions added:      16                                        |
+|       Components added      :      44                                        |
+|       Slot property added   :      46                                        |
+|                                                                              |
+|   Total ECO changes reported:     255                                        |
+|------------------------------------------------------------------------------|

@@ -1,0 +1,211 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Nov-06-2023 at 14:47:47}
+primitive 'C_2_CAP196_C';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_2';
+    JEDEC_TYPE='CAP196';
+    VALUE='C';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAPCK05_CAP NP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='CAP NP';
+  end_body;
+end_primitive;
+primitive 'C_3_CAP196_C';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_3';
+    JEDEC_TYPE='CAP196';
+    VALUE='C';
+  end_body;
+end_primitive;
+primitive 'C_1_CAP196_C';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_1';
+    JEDEC_TYPE='CAP196';
+    VALUE='C';
+  end_body;
+end_primitive;
+primitive 'DIODE_DO41_DIODE';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE';
+  end_body;
+end_primitive;
+primitive 'DIODE ZENER_DO41_DIODE ZENER';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE ZENER';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE ZENER';
+  end_body;
+end_primitive;
+primitive 'DIODE ZENER_1_DO41_DIODE ZENER';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE ZENER_1';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE ZENER';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'JFET N_TO92_JFET N';
+  pin
+    'GATE':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'SOURCE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'DRAIN':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='JFET N';
+    JEDEC_TYPE='TO92';
+    VALUE='JFET N';
+  end_body;
+end_primitive;
+primitive 'R_RES400_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='R';
+  end_body;
+end_primitive;
+primitive 'LM741_0_DIP8_3_LM741';
+  pin
+    '+IN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    '-IN':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'OUT':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'V+':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'OFFSET1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'V-':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'OFFSET2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LM741_0';
+    JEDEC_TYPE='DIP8_3';
+    VALUE='LM741';
+    NC_PINS='(8)';
+  end_body;
+end_primitive;
+primitive 'LF153_DIP8_3_LF153';
+  pin
+    '+IN':
+      PIN_NUMBER='(3,5)';
+      INPUT_LOAD='(*)';
+    '-IN':
+      PIN_NUMBER='(2,6)';
+      INPUT_LOAD='(*)';
+    'OUT':
+      PIN_NUMBER='(1,7)';
+      OUTPUT_LOAD='(*)';
+    'VCC':
+      PIN_NUMBER='(8,8)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(4,4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='LF153';
+    JEDEC_TYPE='DIP8_3';
+    VALUE='LF153';
+  end_body;
+end_primitive;
+END.

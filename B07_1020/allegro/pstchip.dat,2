@@ -1,0 +1,424 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Oct-23-2023 at 14:17:24}
+primitive 'CAP NP_CAPCK05_0.47UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='0.47uF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP196_47UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='47uF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP196_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='100uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAPCK05_0.01UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='0.01uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAPCK05_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP196_220UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='220uF';
+  end_body;
+end_primitive;
+primitive 'DIODE_DO41_1S1588';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='DO41';
+    VALUE='1S1588';
+  end_body;
+end_primitive;
+primitive 'LED_0_CAP196_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_0';
+    JEDEC_TYPE='CAP196';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'NPN BCE_TO92100_2SC1815';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN BCE';
+    JEDEC_TYPE='TO92100';
+    VALUE='2SC1815';
+  end_body;
+end_primitive;
+primitive 'R_RES400_1M';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='1M';
+  end_body;
+end_primitive;
+primitive 'R_RES400_22K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='22k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_300K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='300k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='330';
+  end_body;
+end_primitive;
+primitive 'R_RES400_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='10k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_200K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='200k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_100K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='100k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_30';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='30';
+  end_body;
+end_primitive;
+primitive 'R_RES400_56K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='56k';
+  end_body;
+end_primitive;
+primitive 'SW TACT-SPST_JUMPER2_SW PB';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SW TACT-SPST';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='SW PB';
+  end_body;
+end_primitive;
+primitive '4011_0_DIP14_3_4011_VCC';
+  pin
+    'I0':
+      PIN_NUMBER='(1,5,8,12)';
+      INPUT_LOAD='(*)';
+    'I1':
+      PIN_NUMBER='(2,6,9,13)';
+      INPUT_LOAD='(*)';
+    'O':
+      PIN_NUMBER='(3,4,10,11)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:14)';
+    POWER_PINS='(GND:7)';
+    PART_NAME='4011_0';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='4011';
+  end_body;
+end_primitive;
+primitive 'MC1455_1_DIP8_3_MC1455';
+  pin
+    'OUT':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+    'RST':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'CV':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'TRG':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'THR':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'DSCHG':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    POWER_PINS='(VCC:8)';
+    POWER_PINS='(GND:1)';
+    PART_NAME='MC1455_1';
+    JEDEC_TYPE='DIP8_3';
+    VALUE='MC1455';
+  end_body;
+end_primitive;
+primitive '14017_0_DIP16_3_14017';
+  pin
+    'CLK':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+    'E\N\A\':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(*)';
+    'RST':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(*)';
+    'Q0':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+    'Q1':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+    'Q2':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*)';
+    'Q3':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(*)';
+    'Q4':
+      PIN_NUMBER='(10)';
+      OUTPUT_LOAD='(*)';
+    'Q5':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    'Q6':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*)';
+    'Q7':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'Q8':
+      PIN_NUMBER='(9)';
+      OUTPUT_LOAD='(*)';
+    'Q9':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(*)';
+    'CO':
+      PIN_NUMBER='(12)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:16)';
+    POWER_PINS='(GND:8)';
+    PART_NAME='14017_0';
+    JEDEC_TYPE='DIP16_3';
+    VALUE='14017';
+  end_body;
+end_primitive;
+primitive 'LM7805/TO_1_TO220AB_LM7805/TO';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'OUT':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(GND:2)';
+    PART_NAME='LM7805/TO_1';
+    JEDEC_TYPE='TO220AB';
+    VALUE='LM7805/TO';
+  end_body;
+end_primitive;
+END.

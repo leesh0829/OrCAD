@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : B07_OSC.brd                                   )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon Jul 10 17:14:35 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 1 out of 1
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+       State: Out of date  Point on shape: (95.0000 5.0000)  Net: GND

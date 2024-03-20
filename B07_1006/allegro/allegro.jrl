@@ -1,0 +1,104 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Oct 30 16:25:20 2023
+\t (00:00:03)         Host=USER User=user Pid=15924 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession user D:\ORCAD\B07_1006\allegro\B07_1030.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1030
+\d (00:00:05) Design opened: D:/ORCAD/B07_1006/allegro/B07_1030.brd
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6314
+\i (00:00:06) trapsize 6131
+\i (00:00:06) trapsize 6559
+\i (00:00:06) trapsize 6559
+\i (00:00:06) etchedit 
+\i (00:00:11) move 
+\t (00:00:11) Select element(s) to move.
+\i (00:00:12) pick grid 13.1405 37.7779
+\t (00:00:12) last pick:  13.3350 37.4650
+\t (00:00:12) last pick:  13.5000 35.5000
+\t (00:00:12) Moving C1 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:00:12) Pick new location for the element(s).
+\i (00:00:14) pick grid 17.9943 36.0725
+\t (00:00:14) last pick:  17.7800 36.1950
+\i (00:00:14) pick grid dbl 17.6008 36.2037
+\t (00:00:14) last pick:  17.7800 36.1950
+\t (00:00:14) last pick:  17.7800 36.1950
+\t (00:00:14) Moving C1 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:00:14) Pick new location for the element(s).
+\i (00:00:15) pick grid 17.8631 35.8102
+\t (00:00:15) last pick:  17.7800 35.5600
+\i (00:00:15) pick grid dbl 17.7319 35.6790
+\t (00:00:15) last pick:  17.7800 35.5600
+\t (00:00:15) last pick:  17.7800 35.5600
+\t (00:00:15) Moving C1 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:00:15) Pick new location for the element(s).
+\i (00:00:16) pick grid 17.7319 35.6790
+\t (00:00:16) last pick:  17.7800 35.5600
+\i (00:00:17) pick grid 16.8137 35.1543
+\t (00:00:17) last pick:  16.5100 34.9250
+\t (00:00:17) last pick:  17.7800 35.5600
+\t (00:00:17) Moving C1 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:00:17) Pick new location for the element(s).
+\i (00:00:20) pick grid 18.1255 35.6790
+\t (00:00:20) last pick:  18.4150 35.5600
+\i (00:00:21) prepopup 10.6480 60.8663
+\i (00:00:21) done 
+\i (00:00:21) etchedit 
+\i (00:01:11) drag_start grid 35.4417 45.3866
+\i (00:01:11) drag_stop 13.5341 32.3994
+\i (00:01:12) move 
+\i (00:01:13) pick grid 18.5190 36.0725
+\t (00:01:13) last pick:  18.4150 36.1950
+\t (00:01:13) Moving C1 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:01:13) Moving C2 / CAP NP_CAPCK05_CAP NP / CAPCK05.
+\t (00:01:13) Pick new location for the element(s).
+\i (00:01:15) pick grid 18.1255 36.7285
+\t (00:01:15) last pick:  18.4150 36.8300
+\i (00:01:15) etchedit 
+\i (00:01:16) pick grid 19.5685 43.2877
+\t (00:01:16) last pick:  19.6850 43.1800
+\i (00:01:16) add connect 
+\w (00:01:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:16) Pick first element.
+\t (00:01:16) last pick:  18.4150 36.1950
+\i (00:01:17) prepopup 15.1083 43.9436
+\i (00:01:18) cancel 
+\i (00:01:18) etchedit 
+\i (00:01:26) done 
+\i (00:01:26) place manual 
+\i (00:01:26) FORM plc_manual placement_list 
+\i (00:01:26) FORM plc_manual categories Components by refdes 
+\i (00:01:26) trapsize 6559
+\i (00:01:30) setwindow form.plc_manual
+\i (00:01:30) FORM plc_manual tree 'MULTISEL YES' D13 'Components by refdes' 
+\w (00:01:30) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:30) Placing D13 / LED_DO35_LED / DO35 on Top.
+\i (00:01:30) FORM plc_manual tree  D13 'Components by refdes' 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) pick grid 13.1405 6.2938
+\t (00:01:37) last pick:  13.0000 6.5000
+\i (00:01:42) setwindow form.plc_manual
+\i (00:01:42) FORM plc_manual tree 'MULTISEL YES' C3 'Components by refdes' 
+\t (00:01:43) Placing C3 / CAP_CAP196_CAP / CAP196 on Top.
+\i (00:01:43) FORM plc_manual tree  C3 'Components by refdes' 
+\i (00:01:51) setwindow pcb
+\i (00:01:51) pick grid 24.9470 9.8358
+\t (00:01:51) last pick:  25.0000 10.0000
+\i (00:01:56) prepopup 44.6246 48.6662
+\i (00:01:58) done 
+\i (00:01:58) etchedit 
+\i (00:02:05) dimension edit 
+\i (00:02:06) prepopup 37.0160 82.5116
+\i (00:02:07) pop dyn_option_select @:@Parameters 
+\i (00:02:09) setwindow form.draft_parms
+\i (00:02:09) FORM draft_parms text  
+\i (00:02:20) FORM draft_parms apply  
+\i (00:02:20) FORM draft_parms done  
+\i (00:03:30) setwindow pcb
+\i (00:03:30) save 
+\i (00:03:31) fillin yes 
+\i (00:03:31) etchedit 
+\i (00:03:33) exit 
+\t (00:03:33)     Journal end - Mon Oct 30 16:28:50 2023

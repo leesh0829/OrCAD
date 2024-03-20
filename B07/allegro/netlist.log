@@ -1,0 +1,17 @@
+{ Using PSTWRITER 17.2.0 d001Jun-23-2023 at 09:10:04 }
+
+#1 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#3" as visible power pin of same name already exists in Package Atmega8 , U1: SCHEMATIC1, PAGE1 (91.44, 12.70).
+#2 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#4" as visible power pin of same name already exists in Package Atmega8 , U1: SCHEMATIC1, PAGE1 (91.44, 12.70).
+#3 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package Atmega8 , U1: SCHEMATIC1, PAGE1 (91.44, 12.70).
+#4 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#6" as visible power pin of same name already exists in Package Atmega8 , U1: SCHEMATIC1, PAGE1 (91.44, 12.70).
+#5 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#21" as visible power pin of same name already exists in Package Atmega8 , U1: SCHEMATIC1, PAGE1 (91.44, 12.70).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\ORCAD\B07\allegro/pstchip.dat
+
+Loading... D:\ORCAD\B07\allegro/pstchip.dat
+
+Loading... D:\ORCAD\B07\allegro/pstchip.dat
+
+Loading... D:\ORCAD\B07\allegro/pstxnet.dat
+packaging the design view...

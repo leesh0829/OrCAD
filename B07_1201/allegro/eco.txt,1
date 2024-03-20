@@ -1,0 +1,256 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +9V          pins ADDED TO this new net
+                                 J1.1           Q4.2           R7.1           
+                                 R8.1           R9.1           R10.1          
+                                 R11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 D1.2                           
+                                 D2.2                           
+                                 D3.1                           
+                                 D4.1                           
+                                 D5.1                           
+                                 D6.1                           
+                                 J1.2                           
+                                 Q1.1                           
+                                 Q2.2                           
+                                 Q3.1                           
+                                 U1.2                           
+                                 U1.3                           
+                                 U1.6                           
+                                 U1.7                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00824       pins ADDED TO this new net
+                                 R1.1           R2.1           R3.1           
+                                 R4.1           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00860       pins ADDED TO this new net
+                                 C2.1           Q3.2           R4.2           
+                                 R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00871       pins ADDED TO this new net
+                                 C1.1           Q2.1           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00878       pins ADDED TO this new net
+                                 C1.2           Q3.3           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00885       pins ADDED TO this new net
+                                 C2.2           Q2.3           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01044       pins ADDED TO this new net
+                                 D1.1           Q1.3           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01109       pins ADDED TO this new net
+                                 Q1.2           R5.2           U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01343       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 D2.1           Q4.3           R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01467       pins ADDED TO this new net
+                                 Q5.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01471       pins ADDED TO this new net
+                                 Q5.3           R12.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01475       pins ADDED TO this new net
+                                 D3.2           Q5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01540       pins ADDED TO this new net
+                                 D4.2           Q6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01544       pins ADDED TO this new net
+                                 Q6.3           R13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01548       pins ADDED TO this new net
+                                 Q6.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01571       pins ADDED TO this new net
+                                 D5.2           Q7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01579       pins ADDED TO this new net
+                                 Q7.2           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01640       pins ADDED TO this new net
+                                 Q7.3           R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01748       pins ADDED TO this new net
+                                 D6.2           Q8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01760       pins ADDED TO this new net
+                                 Q8.2           R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01768       pins ADDED TO this new net
+                                 Q8.3           R15.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NET1         pins ADDED TO this new net
+                                 R12.1          U1.1           U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NET2         pins ADDED TO this new net
+                                 R13.1          U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NET3         pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R14.1          U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NET4         pins ADDED TO this new net
+                                 R15.1          U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this existing net (pins not previously on any net)
+                                 Q4.1                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 7490_DIP14_3_7490
+ CAP POL_CAP196_CAP POL
+ CON2_JUMPER2_CON2
+ DIODE ZENER_DO41_DIODE ZENER
+ DIODE_DO41_DIODE
+ LED_CAP196_LED
+ NPN ECB_TO92100_NPN ECB
+ R_RES400_R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP POL_CAP196_CAP POL 
+ C2                  CAP POL_CAP196_CAP POL 
+ D1                  DIODE_DO41_DIODE      
+ D2                  DIODE ZENER_DO41_DIODE ZENER 
+ D3                  LED_CAP196_LED        
+ D4                  LED_CAP196_LED        
+ D5                  LED_CAP196_LED        
+ D6                  LED_CAP196_LED        
+ J1                  CON2_JUMPER2_CON2     
+ Q1                  NPN ECB_TO92100_NPN ECB 
+ Q2                  NPN ECB_TO92100_NPN ECB 
+ Q3                  NPN ECB_TO92100_NPN ECB 
+ Q4                  NPN ECB_TO92100_NPN ECB 
+ Q5                  NPN ECB_TO92100_NPN ECB 
+ Q6                  NPN ECB_TO92100_NPN ECB 
+ Q7                  NPN ECB_TO92100_NPN ECB 
+ Q8                  NPN ECB_TO92100_NPN ECB 
+ R1                  R_RES400_R            
+ R2                  R_RES400_R            
+ R3                  R_RES400_R            
+ R4                  R_RES400_R            
+ R5                  R_RES400_R            
+ R6                  R_RES400_R            
+ R7                  R_RES400_R            
+ R8                  R_RES400_R            
+ R9                  R_RES400_R            
+ R10                 R_RES400_R            
+ R11                 R_RES400_R            
+ R12                 R_RES400_R            
+ R13                 R_RES400_R            
+ R14                 R_RES400_R            
+ R15                 R_RES400_R            
+ U1                  7490_DIP14_3_7490     
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ D6.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ Q2.1                           PRIM_FILE      .\pstchip.dat
+ Q3.1                           PRIM_FILE      .\pstchip.dat
+ Q4.1                           PRIM_FILE      .\pstchip.dat
+ Q5.1                           PRIM_FILE      .\pstchip.dat
+ Q6.1                           PRIM_FILE      .\pstchip.dat
+ Q7.1                           PRIM_FILE      .\pstchip.dat
+ Q8.1                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ U1.7                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/B07_1201/allegro/B07_1201.brd                                      |
+|                                                    Fri Dec 01 09:19:44 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      82                                        |
+|       Comp definitions added:       8                                        |
+|       Components added      :      33                                        |
+|       Slot property added   :      33                                        |
+|                                                                              |
+|   Total ECO changes reported:     156                                        |
+|------------------------------------------------------------------------------|

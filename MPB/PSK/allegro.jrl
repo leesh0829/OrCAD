@@ -1,0 +1,64 @@
+\t (00:00:05) allegro 17.2 S082 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Thu Sep 07 14:33:30 2023
+\t (00:00:05)         Host=ASUS-Z590E User=ASUS-Z590-E Pid=7232 CPUs=16
+\t (00:00:05) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe I:\PSK\JMOD_128.dra
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:11) fillin yes 
+\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged JMOD_128
+\d (00:00:11) Design opened: I:/PSK/JMOD_128.dra
+\i (00:00:11) trapsize 19275
+\i (00:00:11) trapsize 19814
+\i (00:00:11) trapsize 19275
+\i (00:00:11) trapsize 17215
+\i (00:00:12) trapsize 20533
+\i (00:00:12) shapeedit 
+\i (00:02:17) add pin 
+\i (00:02:27) pick grid 447.880 1399.307
+\t (00:02:27) last pick:  450.000 1400.000
+\e (00:02:27) ERROR(SPMHAP-2): No padstack specified.
+\i (00:02:30) pick grid 439.667 1407.520
+\t (00:02:30) last pick:  450.000 1400.000
+\e (00:02:30) ERROR(SPMHAP-2): No padstack specified.
+\i (00:02:31) pick grid -472.013 1403.413
+\t (00:02:31) last pick:  -475.000 1400.000
+\e (00:02:31) ERROR(SPMHAP-2): No padstack specified.
+\i (00:02:37) setwindow form.mini
+\i (00:02:37) FORM mini pad_browse  
+\i (00:03:47) fillin "menu_cancel"
+\i (00:03:48) setwindow pcb
+\i (00:03:48) pick grid -463.800 1415.733
+\t (00:03:48) last pick:  -475.000 1425.000
+\e (00:03:48) ERROR(SPMHAP-2): No padstack specified.
+\i (00:04:16) add pin 
+\t (00:04:16) Exiting from Add Pin.
+\i (00:04:22) setwindow form.mini
+\i (00:04:22) FORM mini pad_browse  
+\i (00:04:26) fillin "menu_cancel"
+\i (00:04:35) setwindow pcb
+\i (00:04:35) prepopup -1129.080 988.640
+\i (00:04:36) done 
+\t (00:04:36) Exiting from Add Pin.
+\i (00:04:36) shapeedit 
+\i (00:04:43) setwindow form.find
+\i (00:04:43) FORM find all_on  
+\i (00:04:50) setwindow pcb
+\i (00:04:50) show element 
+\i (00:04:53) setwindow form.find
+\i (00:04:53) FORM find all_off  
+\i (00:04:54) FORM find pins YES 
+\i (00:04:56) setwindow pcb
+\i (00:04:56) pick grid -455.587 1399.307
+\t (00:04:56) last pick:  -450.000 1400.000
+\i (00:06:13) prepopup 2792.787 405.493
+\i (00:06:14) done 
+\i (00:06:14) setwindow text
+\i (00:06:14) close
+\i (00:06:14) shapeedit 
+\t (00:06:15) last pick:  2792.787 405.493
+\w (00:06:15) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:06:17) exit 
+\e (00:06:17) Do you want to save the changes you made to JMOD_128.dra?
+\i (00:06:19) fillin no 
+\t (00:06:19)     Journal end - Thu Sep 07 14:39:44 2023

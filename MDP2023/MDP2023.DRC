@@ -1,0 +1,458 @@
+Date and Time : 09/25/23 13:58:22
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE07  (187.96, 152.40) 
+WARNING(ORCAP-1829): Possible pin type conflict U8,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE07  (119.13, 43.69) 
+WARNING(ORCAP-1829): Possible pin type conflict U9,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE07  (190.50, 147.32) 
+WARNING(ORCAP-1829): Possible pin type conflict FND7,E  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE06  (55.88, 78.74) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD2,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE05  (71.12, 121.92) 
+WARNING(ORCAP-1829): Possible pin type conflict U6,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (38.10, 48.26) 
+WARNING(ORCAP-1829): Possible pin type conflict U7,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (119.38, 66.04) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (208.28, 66.04) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (58.42, 15.24) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,GND B  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (119.38, 147.32) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,GND A  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (119.38, 144.78) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (231.14, 33.02) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,VSS  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (226.06, 116.84) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD1,VSS  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE01  (27.94, 96.52) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD1,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE01  (27.94, 116.84) 
+WARNING(ORCAP-1829): Possible pin type conflict U10,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (78.74, 25.40) 
+WARNING(ORCAP-1829): Possible pin type conflict U11,VSS  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (73.66, 68.58) 
+WARNING(ORCAP-1829): Possible pin type conflict U12,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (38.10, 157.48) 
+WARNING(ORCAP-1829): Possible pin type conflict U13,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (119.38, 175.26) 
+WARNING(ORCAP-1829): Possible pin type conflict U14,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (208.28, 175.26) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD3,VSS  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (165.10, 33.02) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD3,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE1  (165.10, 53.34) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD5,GND  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (66.04, 119.38) 
+WARNING(ORCAP-1829): Possible pin type conflict FND9,E  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE4  (43.18, 73.66) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD4,VSS  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE2  (30.48, 121.92) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD4,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE2  (30.48, 142.24) 
+WARNING(ORCAP-1829): Possible pin type conflict +12V  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE07  (83.82, 149.86) 
+WARNING(ORCAP-1829): Possible pin type conflict U9,VDD  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE07  (190.50, 139.70) 
+WARNING(ORCAP-1829): Possible pin type conflict D5,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE06  (236.22, 127.00) 
+WARNING(ORCAP-1829): Possible pin type conflict D24,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE4  (223.52, 121.92) 
+WARNING(ORCAP-1829): Possible pin type conflict +5V  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE06  (101.60, 175.26) 
+WARNING(ORCAP-1829): Possible pin type conflict FND8,E  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE06  (223.52, 78.74) 
+WARNING(ORCAP-1829): Possible pin type conflict D3,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE06  (175.26, 124.46) 
+WARNING(ORCAP-1829): Possible pin type conflict D4,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE06  (73.66, 142.24) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD2,VEXT  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE05  (71.12, 119.38) 
+WARNING(ORCAP-1829): Possible pin type conflict U6,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (35.56, 20.32) 
+WARNING(ORCAP-1829): Possible pin type conflict U7,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (119.38, 20.32) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE04  (193.04, 50.80) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE03  (254.00, 17.78) 
+WARNING(ORCAP-1829): Possible pin type conflict U10,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (101.60, 10.16) 
+WARNING(ORCAP-1829): Possible pin type conflict U13,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (119.38, 129.54) 
+WARNING(ORCAP-1829): Possible pin type conflict U12,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (35.56, 129.54) 
+WARNING(ORCAP-1829): Possible pin type conflict U14,VCC  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (193.04, 160.02) 
+WARNING(ORCAP-1829): Possible pin type conflict MOD5,VEXT  Power Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (66.04, 116.84) 
+WARNING(ORCAP-1829): Possible pin type conflict FND10,E  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE4  (210.82, 73.66) 
+WARNING(ORCAP-1829): Possible pin type conflict D22,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE4  (162.56, 119.38) 
+WARNING(ORCAP-1829): Possible pin type conflict D23,K  Bidirectional Connected to Power
+                    SCHEMATIC1, PAGE4  (60.96, 137.16) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections RLY02 
+                    SCHEMATIC1, PAGE06  (139.70, 147.32) 
+WARNING(ORCAP-1600): Net has fewer than two connections RLY03 
+                    SCHEMATIC1, PAGE06  (210.82, 147.32) 
+WARNING(ORCAP-1600): Net has fewer than two connections RLY01 
+                    SCHEMATIC1, PAGE06  (20.32, 144.78) 
+WARNING(ORCAP-1600): Net has fewer than two connections BUZ 
+                    SCHEMATIC1, PAGE1  (27.94, 17.78) 
+WARNING(ORCAP-1600): Net has fewer than two connections RLY03 
+                    SCHEMATIC1, PAGE4  (198.12, 142.24) 
+WARNING(ORCAP-1600): Net has fewer than two connections RLY01 
+                    SCHEMATIC1, PAGE4  (7.62, 139.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections RLY02 
+                    SCHEMATIC1, PAGE4  (127.00, 142.24) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC0 
+                    SCHEMATIC1, PAGE11  (50.80, 142.24) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC1 
+                    SCHEMATIC1, PAGE11  (193.04, 139.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_03 
+                    SCHEMATIC1, PAGE11  (116.84, 195.58) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_04 
+                    SCHEMATIC1, PAGE11  (116.84, 198.12) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_02 
+                    SCHEMATIC1, PAGE11  (116.84, 193.04) 
+WARNING(ORCAP-1600): Net has fewer than two connections SEN04 
+                    SCHEMATIC1, PAGE11  (83.82, 160.02) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC5 
+                    SCHEMATIC1, PAGE11  (248.92, 139.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections SEN01 
+                    SCHEMATIC1, PAGE11  (170.18, 157.48) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_07 
+                    SCHEMATIC1, PAGE11  (147.32, 195.58) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_08 
+                    SCHEMATIC1, PAGE11  (147.32, 198.12) 
+WARNING(ORCAP-1600): Net has fewer than two connections SEN05 
+                    SCHEMATIC1, PAGE11  (226.06, 157.48) 
+WARNING(ORCAP-1600): Net has fewer than two connections PC4 
+                    SCHEMATIC1, PAGE11  (106.68, 142.24) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_01 
+                    SCHEMATIC1, PAGE11  (116.84, 190.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_05 
+                    SCHEMATIC1, PAGE11  (147.32, 190.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections SEN00 
+                    SCHEMATIC1, PAGE11  (27.94, 160.02) 
+WARNING(ORCAP-1600): Net has fewer than two connections KEY_06 
+                    SCHEMATIC1, PAGE11  (147.32, 193.04) 
+
+Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector MEL 
+                    SCHEMATIC1, PAGE1  (27.94, 20.32) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D6 
+                    SCHEMATIC1, PAGE1  (200.66, 48.26) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D5 
+                    SCHEMATIC1, PAGE1  (200.66, 45.72) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector QC 
+                    SCHEMATIC1, PAGE1  (233.68, 149.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RS 
+                    SCHEMATIC1, PAGE1  (200.66, 15.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector QB 
+                    SCHEMATIC1, PAGE1  (233.68, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EN 
+                    SCHEMATIC1, PAGE1  (200.66, 20.32) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector Q0 
+                    SCHEMATIC1, PAGE1  (142.24, 134.62) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D3 
+                    SCHEMATIC1, PAGE1  (200.66, 35.56) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector BUZ 
+                    SCHEMATIC1, PAGE1  (27.94, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector Q1 
+                    SCHEMATIC1, PAGE1  (279.40, 137.16) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector Q3 
+                    SCHEMATIC1, PAGE1  (279.40, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D0 
+                    SCHEMATIC1, PAGE1  (200.66, 27.94) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector CLK 
+                    SCHEMATIC1, PAGE1  (104.14, 137.16) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D2 
+                    SCHEMATIC1, PAGE1  (200.66, 33.02) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector QA 
+                    SCHEMATIC1, PAGE1  (233.68, 134.62) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector QD 
+                    SCHEMATIC1, PAGE1  (233.68, 157.48) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector T&C 
+                    SCHEMATIC1, PAGE1  (48.26, 7.62) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D1 
+                    SCHEMATIC1, PAGE1  (200.66, 30.48) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D7 
+                    SCHEMATIC1, PAGE1  (200.66, 50.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector R/W 
+                    SCHEMATIC1, PAGE1  (200.66, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SPK 
+                    SCHEMATIC1, PAGE1  (27.94, 22.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D4 
+                    SCHEMATIC1, PAGE1  (200.66, 43.18) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector Q2 
+                    SCHEMATIC1, PAGE1  (279.40, 139.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB6 
+                    SCHEMATIC1, PAGE3  (35.56, 45.72) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF4 
+                    SCHEMATIC1, PAGE3  (35.56, 149.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC7 
+                    SCHEMATIC1, PAGE3  (35.56, 73.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PG3 
+                    SCHEMATIC1, PAGE3  (35.56, 185.42) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC2 
+                    SCHEMATIC1, PAGE3  (22.86, 71.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC3 
+                    SCHEMATIC1, PAGE3  (22.86, 73.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE2 
+                    SCHEMATIC1, PAGE3  (22.86, 127.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF7 
+                    SCHEMATIC1, PAGE3  (35.56, 157.48) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB0 
+                    SCHEMATIC1, PAGE3  (22.86, 40.64) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD3 
+                    SCHEMATIC1, PAGE3  (22.86, 101.60) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_04 
+                    SCHEMATIC1, PAGE3  (254.00, 12.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE3 
+                    SCHEMATIC1, PAGE3  (22.86, 129.54) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF3 
+                    SCHEMATIC1, PAGE3  (22.86, 157.48) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF5 
+                    SCHEMATIC1, PAGE3  (35.56, 152.40) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD6 
+                    SCHEMATIC1, PAGE3  (35.56, 99.06) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD2 
+                    SCHEMATIC1, PAGE3  (22.86, 99.06) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA2 
+                    SCHEMATIC1, PAGE3  (22.86, 20.32) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AREF 
+                    SCHEMATIC1, PAGE3  (22.86, 187.96) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA6 
+                    SCHEMATIC1, PAGE3  (35.56, 20.32) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PEN 
+                    SCHEMATIC1, PAGE3  (22.86, 182.88) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA5 
+                    SCHEMATIC1, PAGE3  (35.56, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PG4 
+                    SCHEMATIC1, PAGE3  (35.56, 187.96) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE1 
+                    SCHEMATIC1, PAGE3  (22.86, 124.46) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA3 
+                    SCHEMATIC1, PAGE3  (22.86, 22.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_03 
+                    SCHEMATIC1, PAGE3  (218.44, 12.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC4 
+                    SCHEMATIC1, PAGE3  (35.56, 66.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE5 
+                    SCHEMATIC1, PAGE3  (35.56, 124.46) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_06 
+                    SCHEMATIC1, PAGE3  (106.68, 68.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD4 
+                    SCHEMATIC1, PAGE3  (35.56, 93.98) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_08 
+                    SCHEMATIC1, PAGE3  (106.68, 73.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF1 
+                    SCHEMATIC1, PAGE3  (22.86, 152.40) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB3 
+                    SCHEMATIC1, PAGE3  (22.86, 48.26) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF2 
+                    SCHEMATIC1, PAGE3  (22.86, 154.94) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD5 
+                    SCHEMATIC1, PAGE3  (35.56, 96.52) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC0 
+                    SCHEMATIC1, PAGE3  (22.86, 66.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA1 
+                    SCHEMATIC1, PAGE3  (22.86, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE0 
+                    SCHEMATIC1, PAGE3  (22.86, 121.92) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE4 
+                    SCHEMATIC1, PAGE3  (35.56, 121.92) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA0 
+                    SCHEMATIC1, PAGE3  (22.86, 15.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF0 
+                    SCHEMATIC1, PAGE3  (22.86, 149.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PG2 
+                    SCHEMATIC1, PAGE3  (35.56, 182.88) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_05 
+                    SCHEMATIC1, PAGE3  (139.70, 50.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB5 
+                    SCHEMATIC1, PAGE3  (35.56, 43.18) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC6 
+                    SCHEMATIC1, PAGE3  (35.56, 71.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PG1 
+                    SCHEMATIC1, PAGE3  (35.56, 180.34) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_01 
+                    SCHEMATIC1, PAGE3  (147.32, 12.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB4 
+                    SCHEMATIC1, PAGE3  (35.56, 40.64) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD1 
+                    SCHEMATIC1, PAGE3  (22.86, 96.52) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC1 
+                    SCHEMATIC1, PAGE3  (22.86, 68.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_07 
+                    SCHEMATIC1, PAGE3  (106.68, 71.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE6 
+                    SCHEMATIC1, PAGE3  (35.56, 127.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PG0 
+                    SCHEMATIC1, PAGE3  (35.56, 177.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PF6 
+                    SCHEMATIC1, PAGE3  (35.56, 154.94) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB7 
+                    SCHEMATIC1, PAGE3  (35.56, 48.26) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA7 
+                    SCHEMATIC1, PAGE3  (35.56, 22.86) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC5 
+                    SCHEMATIC1, PAGE3  (35.56, 68.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD7 
+                    SCHEMATIC1, PAGE3  (35.56, 101.60) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB2 
+                    SCHEMATIC1, PAGE3  (22.86, 45.72) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RST 
+                    SCHEMATIC1, PAGE3  (22.86, 185.42) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PE7 
+                    SCHEMATIC1, PAGE3  (35.56, 129.54) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PD0 
+                    SCHEMATIC1, PAGE3  (22.86, 93.98) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_02 
+                    SCHEMATIC1, PAGE3  (182.88, 12.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PA4 
+                    SCHEMATIC1, PAGE3  (35.56, 15.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PB1 
+                    SCHEMATIC1, PAGE3  (22.86, 43.18) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KE 
+                    SCHEMATIC1, PAGE4  (109.22, 73.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AF 
+                    SCHEMATIC1, PAGE4  (182.88, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KA 
+                    SCHEMATIC1, PAGE4  (96.52, 15.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RLY03 
+                    SCHEMATIC1, PAGE4  (198.12, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KB 
+                    SCHEMATIC1, PAGE4  (96.52, 33.02) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AE 
+                    SCHEMATIC1, PAGE4  (175.26, 71.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RLY01 
+                    SCHEMATIC1, PAGE4  (7.62, 139.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KG 
+                    SCHEMATIC1, PAGE4  (15.24, 33.02) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RLY02 
+                    SCHEMATIC1, PAGE4  (127.00, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AA 
+                    SCHEMATIC1, PAGE4  (264.16, 17.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AB 
+                    SCHEMATIC1, PAGE4  (264.16, 38.10) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AG 
+                    SCHEMATIC1, PAGE4  (182.88, 38.10) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KC 
+                    SCHEMATIC1, PAGE4  (109.22, 48.26) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector ADP 
+                    SCHEMATIC1, PAGE4  (175.26, 78.74) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KF 
+                    SCHEMATIC1, PAGE4  (15.24, 15.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AC 
+                    SCHEMATIC1, PAGE4  (175.26, 48.26) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KD 
+                    SCHEMATIC1, PAGE4  (109.22, 50.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector AD 
+                    SCHEMATIC1, PAGE4  (175.26, 50.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KDP 
+                    SCHEMATIC1, PAGE4  (109.22, 81.28) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC0 
+                    SCHEMATIC1, PAGE11  (50.80, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC1 
+                    SCHEMATIC1, PAGE11  (193.04, 139.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_03 
+                    SCHEMATIC1, PAGE11  (116.84, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_04 
+                    SCHEMATIC1, PAGE11  (116.84, 198.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_02 
+                    SCHEMATIC1, PAGE11  (116.84, 193.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC5 
+                    SCHEMATIC1, PAGE11  (248.92, 139.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_07 
+                    SCHEMATIC1, PAGE11  (147.32, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_08 
+                    SCHEMATIC1, PAGE11  (147.32, 198.12) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector PC4 
+                    SCHEMATIC1, PAGE11  (106.68, 142.24) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_01 
+                    SCHEMATIC1, PAGE11  (116.84, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_05 
+                    SCHEMATIC1, PAGE11  (147.32, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY_06 
+                    SCHEMATIC1, PAGE11  (147.32, 193.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D6 
+                    SCHEMATIC1, PAGE2  (66.04, 137.16) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D4 
+                    SCHEMATIC1, PAGE2  (66.04, 132.08) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector R/W 
+                    SCHEMATIC1, PAGE2  (66.04, 106.68) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D3 
+                    SCHEMATIC1, PAGE2  (66.04, 124.46) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D5 
+                    SCHEMATIC1, PAGE2  (66.04, 134.62) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D0 
+                    SCHEMATIC1, PAGE2  (66.04, 116.84) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D1 
+                    SCHEMATIC1, PAGE2  (66.04, 119.38) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D7 
+                    SCHEMATIC1, PAGE2  (66.04, 139.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector RS 
+                    SCHEMATIC1, PAGE2  (66.04, 104.14) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EN 
+                    SCHEMATIC1, PAGE2  (66.04, 109.22) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector D2 
+                    SCHEMATIC1, PAGE2  (66.04, 121.92) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 2 
+                    SCHEMATIC1, PAGE5  (43.18, 129.54) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 2 
+                    SCHEMATIC1, PAGE5  (25.40, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 3 
+                    SCHEMATIC1, PAGE5  (259.08, 109.22) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 1 
+                    SCHEMATIC1, PAGE5  (25.40, 187.96) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 2 
+                    SCHEMATIC1, PAGE5  (119.38, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 8 
+                    SCHEMATIC1, PAGE5  (144.78, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 4 
+                    SCHEMATIC1, PAGE5  (114.30, 129.54) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 7 
+                    SCHEMATIC1, PAGE5  (198.12, 73.66) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 7 
+                    SCHEMATIC1, PAGE5  (220.98, 144.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 5 
+                    SCHEMATIC1, PAGE5  (93.98, 187.96) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 3 
+                    SCHEMATIC1, PAGE5  (25.40, 193.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 4 
+                    SCHEMATIC1, PAGE5  (119.38, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 1 
+                    SCHEMATIC1, PAGE5  (7.62, 127.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 4 
+                    SCHEMATIC1, PAGE5  (25.40, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 5 
+                    SCHEMATIC1, PAGE5  (30.48, 78.74) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 6 
+                    SCHEMATIC1, PAGE5  (50.80, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 6 
+                    SCHEMATIC1, PAGE5  (185.42, 144.78) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 8 
+                    SCHEMATIC1, PAGE5  (93.98, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 8 
+                    SCHEMATIC1, PAGE5  (50.80, 195.58) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 5 
+                    SCHEMATIC1, PAGE5  (144.78, 187.96) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SEN 3 
+                    SCHEMATIC1, PAGE5  (86.36, 127.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 6 
+                    SCHEMATIC1, PAGE5  (144.78, 190.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector H&L 7 
+                    SCHEMATIC1, PAGE5  (50.80, 193.04) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector KEY 1 
+                    SCHEMATIC1, PAGE5  (213.36, 99.06) 

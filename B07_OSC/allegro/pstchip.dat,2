@@ -1,0 +1,256 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Jul-07-2023 at 09:57:01}
+primitive 'CAP NP_CAPCK05_0.001UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='0.001uF';
+  end_body;
+end_primitive;
+primitive 'CON3_JUMPER3_CON3';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='JUMPER3';
+    VALUE='CON3';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER3_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='JUMPER3';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'R_RES400_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_8.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='8.2K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_2.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='2.2K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_5.1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='5.1K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_15K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='15K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_20K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='20K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='1K';
+  end_body;
+end_primitive;
+primitive 'LF356_1_DIP8_3_LF356';
+  pin
+    '+IN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    '-IN':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'OUT':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'V+':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'OFFSET1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'V-':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'OFFSET2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LF356_1';
+    JEDEC_TYPE='DIP8_3';
+    VALUE='LF356';
+    NC_PINS='(8)';
+  end_body;
+end_primitive;
+primitive 'RESISTOR VAR_RESADJ_470K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR VAR';
+    JEDEC_TYPE='RESADJ';
+    VALUE='470K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR VAR_RESADJ_100K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR VAR';
+    JEDEC_TYPE='RESADJ';
+    VALUE='100K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR VAR_RESADJ_10K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR VAR';
+    JEDEC_TYPE='RESADJ';
+    VALUE='10K';
+  end_body;
+end_primitive;
+END.

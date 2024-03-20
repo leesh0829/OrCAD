@@ -1,0 +1,243 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : B07_1106_1.brd                                )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon Nov 06 16:06:07 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/ORCAD/B07_1031/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/ORCAD/B07_1031/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < Soldermask_TOP >
+     TO FILE < D:/ORCAD/B07_1031/allegro/Soldermask_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     Soldermask_TOP created.
+
+
+================================================================
+     PROCESSING FILM < Silkscreen_TOP >
+     TO FILE < D:/ORCAD/B07_1031/allegro/Silkscreen_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (5.0800 66.6750)
+           ... using undefined line width of 0.2000
+
+    WARNING: 0 width line found at (13.2400 12.9300)
+           ... using undefined line width of 0.2000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+
+     Silkscreen_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < Drill_DRAW >
+     TO FILE < D:/ORCAD/B07_1031/allegro/Drill_DRAW.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     Drill_DRAW created.
+
+
+================================================================
+     PROCESSING FILM < ALL >
+     TO FILE < D:/ORCAD/B07_1031/allegro/ALL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: more than one etch class in film record
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     ALL created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        Soldermask_TOP created.
+        Silkscreen_TOP created with warnings
+        Drill_DRAW created.
+        ALL created with warnings
+
+ ARTWORK had warnings

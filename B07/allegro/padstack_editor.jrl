@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jul 10 17:31:37 2023
+\t (00:00:00)         Host=USER User=user Pid=7720 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession user -file C:/Users/user/AppData/Local/Temp/#Taaaaaj11732.tmp -pname POWER_VIAA-1 -data C:/Users/user/AppData/Local/Temp/#Taaaaal11732.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\t (00:00:04)     Journal end - Mon Jul 10 17:31:41 2023

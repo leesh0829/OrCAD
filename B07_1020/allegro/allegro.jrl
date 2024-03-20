@@ -1,0 +1,841 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Oct 23 15:33:25 2023
+\t (00:00:03)         Host=USER User=user Pid=14388 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe D:\ORCAD\B07_1020\allegro\B07_1020.brd
+\t (00:00:03) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1020
+\d (00:00:06) Design opened: D:/ORCAD/B07_1020/allegro/B07_1020.brd
+\i (00:00:06) trapsize 3066
+\i (00:00:06) trapsize 3157
+\i (00:00:07) trapsize 3066
+\i (00:00:07) trapsize 3280
+\i (00:00:07) trapsize 3280
+\i (00:00:07) etchedit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 57.0871 36.7940
+\i (00:00:08) trapsize 6559
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 57.0871 38.6306
+\i (00:00:08) trapsize 13118
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -1.2898 46.8296
+\i (00:00:08) trapsize 13118
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 3.1705 32.1370
+\i (00:00:08) trapsize 6559
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 3.6953 32.9241
+\i (00:00:09) trapsize 3280
+\i (00:00:11) move 
+\t (00:00:11) Select element(s) to move.
+\i (00:00:12) pick grid -10.0134 28.2671
+\t (00:00:12) last pick:  -10.1600 28.5750
+\w (00:00:12) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:00:15) setwindow form.find
+\i (00:00:15) FORM find text NO 
+\i (00:00:15) FORM find all_on  
+\i (00:00:17) setwindow pcb
+\i (00:00:17) pick grid -7.5209 28.7263
+\t (00:00:17) last pick:  -7.6200 28.5750
+\w (00:00:17) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:17) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:00:19) move 
+\t (00:00:19) Select element(s) to move.
+\i (00:00:20) setwindow form.find
+\i (00:00:20) FORM find all_on  
+\i (00:00:21) setwindow pcb
+\i (00:00:21) pick grid -9.1607 28.2671
+\t (00:00:21) last pick:  -8.8900 28.5750
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:00:21) pick grid -8.8983 28.2015
+\t (00:00:21) last pick:  -8.8900 27.9400
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:00:21) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -7.5209 35.0887
+\i (00:00:22) trapsize 6559
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -7.1274 37.1876
+\i (00:00:22) trapsize 13118
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -28.3136 35.0230
+\i (00:00:22) trapsize 6559
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -22.1480 32.1370
+\i (00:00:22) trapsize 3280
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -5.1597 29.1198
+\i (00:00:23) trapsize 1640
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -6.0123 28.2999
+\i (00:00:23) trapsize 820
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -7.0289 28.2344
+\i (00:00:24) trapsize 410
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -8.2834 28.3246
+\i (00:00:24) trapsize 205
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -8.6728 28.3410
+\i (00:00:24) trapsize 410
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -8.6154 28.5213
+\i (00:00:24) trapsize 820
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -9.1565 28.2754
+\i (00:00:25) trapsize 410
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -9.2466 28.2836
+\i (00:00:25) trapsize 205
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -9.2466 28.2837
+\i (00:00:25) trapsize 102
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out -9.2301 28.2960
+\i (00:00:25) trapsize 205
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out -9.2015 28.3247
+\i (00:00:25) trapsize 410
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out -9.1522 28.3985
+\i (00:00:25) trapsize 820
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out -9.0375 28.5461
+\i (00:00:25) trapsize 1640
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -8.7423 28.5789
+\i (00:00:25) trapsize 820
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -8.7259 28.5789
+\i (00:00:25) trapsize 410
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -8.7176 28.5707
+\i (00:00:25) trapsize 205
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.7217 28.5748
+\i (00:00:26) trapsize 410
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.7626 28.6158
+\i (00:00:26) trapsize 820
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.8611 28.7634
+\i (00:00:26) trapsize 1640
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.9266 28.7962
+\i (00:00:26) trapsize 3280
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.9267 28.7961
+\i (00:00:26) trapsize 6559
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -8.9266 28.7961
+\i (00:00:26) trapsize 13118
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -39.0707 27.9391
+\i (00:00:26) trapsize 6559
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -38.8083 27.9391
+\i (00:00:26) trapsize 3280
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -38.6771 27.7423
+\i (00:00:26) trapsize 1640
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -38.6443 27.6112
+\i (00:00:26) trapsize 820
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -38.6114 27.5784
+\i (00:00:26) trapsize 410
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -38.6032 27.5702
+\i (00:00:26) trapsize 205
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -38.5950 27.5539
+\i (00:00:26) trapsize 410
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -38.5376 27.5784
+\i (00:00:26) trapsize 820
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -38.3736 27.6768
+\i (00:00:26) trapsize 1640
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -37.8160 27.8408
+\i (00:00:26) trapsize 3280
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -32.3064 27.7752
+\i (00:00:26) trapsize 1640
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -31.5521 27.5784
+\i (00:00:26) trapsize 820
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -30.8633 27.5456
+\i (00:00:26) trapsize 410
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in -30.8223 27.5538
+\i (00:00:27) trapsize 205
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -30.6583 27.6071
+\i (00:00:27) trapsize 410
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -30.5271 27.6974
+\i (00:00:27) trapsize 820
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -30.3796 27.7957
+\i (00:00:27) trapsize 1640
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -30.3139 27.9598
+\i (00:00:27) trapsize 3280
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -25.0011 29.8620
+\i (00:00:27) trapsize 6559
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -4.9631 34.8469
+\i (00:00:27) trapsize 13118
+\i (00:00:35) dimension edit 
+\i (00:00:36) prepopup -34.8728 77.5265
+\i (00:00:46) pop dyn_option_select '@:@Move text' 
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in -22.8039 90.6449
+\i (00:00:47) trapsize 6559
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in -11.7844 36.7284
+\i (00:00:48) trapsize 3280
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in -8.7015 28.7918
+\i (00:00:48) trapsize 1640
+\i (00:00:49) pick grid -9.9150 28.2343
+\t (00:00:49) last pick:  -9.9000 28.2000
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out -8.9639 31.1860
+\i (00:00:50) trapsize 3280
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out -8.9639 31.2515
+\i (00:00:50) trapsize 6559
+\i (00:00:52) pick grid -9.6197 25.4794
+\t (00:00:52) last pick:  -9.6000 25.5000
+\i (00:00:54) prepopup -8.5703 26.6601
+\i (00:01:10) pop dyn_option_select '@:@Mirror text' 
+\i (00:01:11) zoom in 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom in -12.2434 24.8235
+\i (00:01:11) trapsize 3280
+\i (00:01:11) zoom in 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom in -10.8659 26.0697
+\i (00:01:11) trapsize 1640
+\i (00:01:15) move 
+\t (00:01:15) Select element(s) to move.
+\i (00:01:18) setwindow form.find
+\i (00:01:18) FORM find all_on  
+\i (00:01:19) setwindow pcb
+\i (00:01:19) pick grid -9.6196 26.8569
+\t (00:01:19) last pick:  -9.6000 26.9000
+\w (00:01:19) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:01:19) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:01:19) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:01:19) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:01:19) prepopup -13.3256 28.6934
+\i (00:01:20) pick grid -15.3589 36.7612
+\t (00:01:20) last pick:  -15.4000 36.8000
+\i (00:01:24) dimension edit 
+\i (00:01:26) pick grid -9.7836 27.1520
+\t (00:01:26) last pick:  -9.8000 27.2000
+\i (00:01:27) pick grid -9.6524 27.2504
+\t (00:01:27) last pick:  -9.7000 27.3000
+\i (00:01:27) prepopup -9.6852 27.2176
+\i (00:01:32) pop dyn_option_select '@:@Change text' 
+\i (00:01:33) pick grid -9.7836 26.8241
+\t (00:01:33) last pick:  -9.8000 26.8000
+\i (00:01:35) prepopup -13.6535 28.2343
+\i (00:01:37) pop dyn_option_select '@:@Move text' 
+\i (00:01:39) prepopup -10.5051 26.8897
+\i (00:01:43) pop dyn_option_select '@:@Instance parameters' 
+\i (00:01:44) pick grid -9.6524 27.1520
+\t (00:01:44) last pick:  -9.7000 27.2000
+\i (00:01:46) setwindow form.draft_parms
+\i (00:01:46) FORM draft_parms text  
+\i (00:01:56) FORM draft_parms apply  
+\i (00:01:57) FORM draft_parms done  
+\i (00:01:58) setwindow pcb
+\i (00:01:58) prepopup -9.8820 26.7585
+\i (00:02:02) pick grid -13.8503 41.9758
+\t (00:02:02) last pick:  -13.9000 42.0000
+\i (00:02:03) prepopup -13.0960 39.7129
+\i (00:02:07) prepopup -14.7358 28.7262
+\i (00:02:08) prepopup -9.7836 26.7257
+\i (00:02:09) pick grid -10.6691 26.5945
+\t (00:02:09) last pick:  -10.7000 26.6000
+\i (00:02:11) setwindow form.draft_parms
+\i (00:02:11) FORM draft_parms cancel  
+\i (00:02:15) setwindow pcb
+\i (00:02:15) pick grid -17.7858 38.9914
+\t (00:02:15) last pick:  -17.8000 39.0000
+\i (00:02:16) prepopup -17.4251 41.9430
+\i (00:02:16) done 
+\i (00:02:16) etchedit 
+\i (00:02:18) setwindow form.find
+\i (00:02:18) FORM find all_on  
+\i (00:02:19) setwindow pcb
+\i (00:02:19) pick grid -9.6852 26.8241
+\t (00:02:19) last pick:  -9.7000 26.8000
+\i (00:02:19) move 
+\w (00:02:19) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\t (00:02:19) No valid items selected for the current operation, exiting.
+\i (00:02:19) etchedit 
+\i (00:02:19) prepopup -9.8164 26.8241
+\i (00:02:24) pick grid -11.9153 28.6607
+\t (00:02:24) last pick:  -11.9000 28.7000
+\i (00:02:24) zoom out 1 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom out -11.4890 27.6440
+\i (00:02:24) trapsize 3280
+\i (00:02:25) prepopup -9.9804 26.5945
+\i (00:02:30) pick grid -20.2127 18.7891
+\t (00:02:30) last pick:  -20.2000 18.8000
+\i (00:02:32) move 
+\t (00:02:32) Select element(s) to move.
+\i (00:02:34) setwindow form.find
+\i (00:02:34) FORM find all_on  
+\i (00:02:34) FORM find all_on  
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom in 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom in -20.4751 31.5795
+\i (00:02:36) trapsize 1640
+\i (00:02:37) drag_start grid -7.3567 29.0215
+\i (00:02:38) drag_stop -12.8992 25.8402
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:38) drag_start grid -8.6357 29.1526
+\i (00:02:38) drag_stop -15.2277 25.1187
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:38) drag_start grid -8.7013 29.3494
+\i (00:02:38) drag_stop -13.9158 26.4634
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:38) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:38) drag_start grid -9.0948 28.9887
+\i (00:02:39) drag_stop -14.5062 24.9876
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:39) drag_start grid -10.1443 29.0215
+\i (00:02:39) drag_stop -14.1454 24.9548
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:39) drag_start grid -8.6685 29.0215
+\i (00:02:39) drag_stop -14.5718 24.0365
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:39) drag_start grid -7.5206 30.7924
+\i (00:02:39) drag_stop -13.9814 24.2332
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:39) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:40) drag_start grid -8.6029 31.2844
+\i (00:02:40) drag_stop -15.2933 25.0531
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:40) drag_start grid -10.1115 30.6285
+\i (00:02:40) drag_stop -14.8013 26.9881
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:40) drag_start grid -8.6357 31.1860
+\i (00:02:40) drag_stop -13.6535 25.7091
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:40) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:40) drag_start grid -8.9965 30.7596
+\i (00:02:41) drag_stop -12.2761 23.9381
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:41) drag_start grid -6.9631 30.3333
+\i (00:02:41) drag_stop -13.3583 23.5773
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:41) drag_start grid -6.3728 31.7107
+\i (00:02:41) drag_stop -15.3917 25.3483
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:41) drag_start grid -10.1115 32.4322
+\i (00:02:41) drag_stop -14.1782 24.2004
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:41) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:42) drag_start grid -6.1432 32.3338
+\i (00:02:42) drag_stop -13.3255 23.7413
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:42) drag_start grid -7.0615 30.4645
+\i (00:02:42) drag_stop -13.5223 23.8069
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:42) drag_start grid -5.9792 30.6940
+\i (00:02:42) drag_stop -13.4567 24.2332
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:42) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:43) drag_start grid -6.8647 31.4811
+\i (00:02:43) drag_stop -14.8341 23.8725
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:43) drag_start grid -6.4384 31.6123
+\i (00:02:43) drag_stop -15.5556 23.4133
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:43) drag_start grid -6.7663 31.4484
+\i (00:02:43) drag_stop -13.5223 24.7252
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:43) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:43) drag_start grid -8.5045 30.5629
+\i (00:02:44) drag_stop -14.0798 24.4628
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:44) drag_start grid -5.9464 30.8252
+\i (00:02:44) drag_stop -13.5551 24.2332
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:44) drag_start grid -5.7169 30.5301
+\i (00:02:44) drag_stop -13.4239 24.1349
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:44) drag_start grid -7.3567 30.2349
+\i (00:02:44) drag_stop -11.7185 25.0859
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\w (00:02:44) WARNING(SPMHGE-623): Non associative dimensions in selection set ignored.  Use the
+Dimension Environment to edit dimensions.
+\i (00:02:48) zoom out 1 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) zoom out -9.7508 30.8580
+\i (00:02:48) trapsize 3280
+\i (00:03:00) dimension edit 
+\i (00:03:03) prepopup -24.5745 58.8658
+\i (00:03:08) pop dyn_option_select '@:@Delete dimensions' 
+\i (00:03:10) pick grid -9.0948 26.5290
+\t (00:03:10) last pick:  -9.1000 26.5000
+\i (00:03:10) prepopup -17.4906 33.0882
+\i (00:03:12) pop dyn_option_select '@:@Linear dimension' 
+\t (00:03:12) Pick an element or point to dimension ...
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out -6.4055 31.7763
+\i (00:03:14) trapsize 6559
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in -5.4872 24.9548
+\i (00:03:15) trapsize 3280
+\i (00:03:15) prepopup -9.5539 30.8581
+\i (00:03:18) pop dyn_option_select '@:@Datum dimension' 
+\t (00:03:18) Pick an element or point for a (0,0) datum location ...
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out -2.3388 29.7431
+\i (00:03:19) trapsize 6559
+\i (00:03:21) prepopup -11.9156 35.6463
+\i (00:03:22) pop dyn_option_select '@:@Linear dimension' 
+\t (00:03:22) Pick an element or point to dimension ...
+\i (00:03:22) prepopup -13.6210 28.1689
+\i (00:03:25) pop dyn_option_select @:@Parameters 
+\i (00:03:28) setwindow form.draft_parms
+\i (00:03:28) FORM draft_parms text  
+\i (00:03:31) FORM draft_parms align_text YES 
+\i (00:03:31) FORM draft_parms trailing_zeros NO 
+\i (00:03:33) FORM draft_parms apply  
+\w (00:03:33) WARNING(SPMHDI-45): Applying global parameter changes to existing dimensioning ...
+\i (00:03:34) FORM draft_parms done  
+\t (00:03:34) Pick an element or point to dimension ...
+\i (00:03:36) setwindow pcb
+\i (00:03:36) pick grid 7.3684 50.0766
+\t (00:03:36) last pick:  7.4000 50.1000
+\t (00:03:36) First point found ... pick the second point.
+\i (00:03:37) pick grid 7.1061 0.0955
+\t (00:03:37) last pick:  7.1000 0.1000
+\t (00:03:37) Indicate the X or Y direction first.
+\i (00:03:38) pick grid -8.6360 28.4312
+\t (00:03:38) last pick:  -8.6000 28.4000
+\t (00:03:38) Pick location for the dimension value.
+\i (00:03:40) pick grid -8.2424 29.0871
+\t (00:03:40) last pick:  -8.2000 29.1000
+\t (00:03:40) Pick an element or point to dimension ...
+\i (00:03:41) prepopup -18.4748 37.3517
+\i (00:03:45) pop dyn_option_select '@:@Move text' 
+\i (00:03:46) pick grid -9.2919 28.8248
+\t (00:03:46) last pick:  -9.3000 28.8000
+\i (00:03:47) pick grid -9.6855 26.0699
+\t (00:03:47) last pick:  -9.7000 26.1000
+\i (00:03:48) zoom in 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom in -10.9973 27.3817
+\i (00:03:48) trapsize 3280
+\i (00:03:48) zoom in 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom in -10.0134 26.7258
+\i (00:03:48) trapsize 1640
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out -9.2919 26.5946
+\i (00:03:48) trapsize 3280
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out -9.2919 26.5946
+\i (00:03:48) trapsize 6559
+\i (00:03:49) prepopup -24.6404 28.1689
+\i (00:03:50) done 
+\i (00:03:50) etchedit 
+\i (00:03:51) pick grid -24.6404 28.1689
+\t (00:03:51) last pick:  -24.6000 28.2000
+\i (00:03:52) zoom in 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom in -12.3091 22.7903
+\i (00:03:52) trapsize 3280
+\i (00:03:52) zoom in 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom in -12.3091 22.7904
+\i (00:03:52) trapsize 1640
+\i (00:03:52) zoom in 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom in -10.0134 25.5781
+\i (00:03:52) trapsize 820
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in -11.3088 25.8405
+\i (00:03:53) trapsize 410
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in -11.3252 25.8487
+\i (00:03:53) trapsize 205
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out -11.3252 25.8282
+\i (00:03:53) trapsize 410
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out -11.3333 25.8200
+\i (00:03:53) trapsize 820
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out -11.3498 25.8036
+\i (00:03:53) trapsize 1640
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out -11.3497 25.5412
+\i (00:03:53) trapsize 3280
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out -11.1529 23.7047
+\i (00:03:53) trapsize 6559
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out -11.4153 23.5736
+\i (00:03:54) trapsize 13118
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out 51.9708 -6.6934
+\i (00:03:54) trapsize 13118
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out 51.9708 -6.6934
+\i (00:03:54) trapsize 13118
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out 53.0203 -6.6934
+\i (00:03:54) trapsize 13118
+\i (00:03:55) prepopup -29.1007 48.4038
+\i (00:03:56) pick grid -19.6555 77.7889
+\t (00:03:56) last pick:  -19.7000 77.8000
+\i (00:03:58) save 
+\i (00:03:59) fillin yes 
+\i (00:04:00) etchedit 
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 153.2447 59.9479
+\i (00:04:02) trapsize 6559
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 150.3587 59.0297
+\i (00:04:02) trapsize 3280
+\i (00:04:03) zoom out 1 
+\i (00:04:03) setwindow pcb
+\i (00:04:03) zoom out 159.9352 66.1792
+\i (00:04:03) trapsize 6559
+\i (00:04:03) zoom out 1 
+\i (00:04:03) setwindow pcb
+\i (00:04:03) zoom out 167.4127 70.9019
+\i (00:04:03) trapsize 13118
+\i (00:04:03) exit 
+\t (00:04:04)     Journal end - Mon Oct 23 15:37:25 2023

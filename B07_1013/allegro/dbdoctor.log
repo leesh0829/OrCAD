@@ -1,0 +1,14 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : B07_1013.brd                                  )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Wed Oct 18 15:33:14 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (59.0550 6.3500) on net GND.
+
+1 warnings, 0 errors detected, 0 errors could be fixed.

@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : B07_OSC.brd                                   )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Fri Jul 07 11:02:48 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 2
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (46.4639 27.9248)  Net: GND
+	Point on shape: (46.3702 25.9261)  Net: GND

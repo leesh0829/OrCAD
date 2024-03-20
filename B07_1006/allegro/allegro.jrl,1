@@ -1,0 +1,384 @@
+\t (00:00:03) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Oct 30 16:02:11 2023
+\t (00:00:03)         Host=USER User=user Pid=7368 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession user D:\ORCAD\B07_1006\allegro\B07_1030.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged B07_1030
+\d (00:00:04) Design opened: D:/ORCAD/B07_1006/allegro/B07_1030.brd
+\i (00:00:04) trapsize 8671
+\i (00:00:04) trapsize 8929
+\i (00:00:05) trapsize 8671
+\i (00:00:05) trapsize 9815
+\i (00:00:05) trapsize 9815
+\i (00:00:06) etchedit 
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 12720.55 11051.96
+\i (00:00:07) trapsize 9815
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 12720.55 11051.96
+\i (00:00:08) trapsize 9815
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 5594.69 10816.40
+\i (00:00:17) trapsize 9815
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 5614.32 10816.40
+\i (00:00:17) trapsize 9815
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 7518.48 8892.61
+\i (00:00:19) trapsize 9815
+\i (00:00:22) cmgr 
+\i (00:00:24) etchedit 
+\i (00:00:27) setwindow cmgr
+\i (00:00:27) cm exit
+\i (00:00:29) setwindow pcb
+\i (00:00:29) prmed 
+\i (00:00:30) setwindow form.prmedit
+\i (00:00:30) FORM prmedit design  
+\i (00:00:32) FORM prmedit units Millimeter 
+\e (00:00:32) Change may cause round-off; run dbcheck.
+\i (00:00:33) FORM prmedit size A4 
+\i (00:02:47) FORM prmedit x -80.0000 
+\i (00:02:50) FORM prmedit y -80.0000 
+\i (00:02:50) FORM prmedit text  
+\i (00:02:51) FORM prmedit shapes  
+\i (00:02:52) FORM prmedit route  
+\i (00:02:52) FORM prmedit mfg_applications  
+\i (00:02:53) FORM prmedit shapes  
+\i (00:02:54) FORM prmedit dynshp_button  
+\i (00:02:55) setwindow form.dyn_xshape
+\i (00:02:55) FORM dyn_xshape void_controls  
+\i (00:02:55) FORM dyn_xshape clearances  
+\i (00:02:56) FORM dyn_xshape thermal_relief_connects  
+\i (00:02:58) FORM dyn_xshape min_thru_pin_connects 1 
+\i (00:02:58) FORM dyn_xshape min_smd_pin_connects 1 
+\i (00:03:00) FORM dyn_xshape min_via_connects 1 
+\i (00:03:01) FORM dyn_xshape therm_fixed_value_box YES 
+\i (00:03:05) FORM dyn_xshape therm_fixed_value 0.5 
+\i (00:03:05) FORM dyn_xshape done  
+\i (00:03:07) setwindow form.prmedit
+\i (00:03:07) FORM prmedit apply  
+\w (00:03:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:03:07) setwindow pcb
+\i (00:03:07) trapsize 13118
+\t (00:03:07) Performing DRC...
+\t (00:03:07) Multithreaded DRC update (8 threads).
+\t (00:03:08) No DRC errors detected.
+\i (00:03:09) setwindow form.prmedit
+\i (00:03:09) FORM prmedit done  
+\i (00:03:09) setwindow pcb
+\i (00:03:09) etchedit 
+\i (00:03:16) shape add rect 
+\i (00:03:20) setwindow form.mini
+\i (00:03:20) FORM mini class BOARD GEOMETRY 
+\i (00:03:29) FORM mini subclass DESIGN_OUTLINE 
+\i (00:03:31) FORM mini dyns_fill_type Unfilled 
+\i (00:03:34) FORM mini one_click YES 
+\i (00:04:06) FORM mini rec_width 120.0000 
+\i (00:04:10) FORM mini rec_height 70.0000 
+\e (00:04:31) Command not found: X0 70
+\i (00:04:37) setwindow pcb
+\i (00:04:37) pick 0 70 
+\t (00:04:37) last pick:  0.0000 70.0000
+\i (00:04:39) prepopup 148.7845 32.3993
+\i (00:04:40) done 
+\i (00:04:40) etchedit 
+\i (00:04:41) zoom in 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom in -8.8984 1.1776
+\i (00:04:41) trapsize 6559
+\i (00:04:41) zoom in 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom in -4.8317 2.7518
+\i (00:04:41) trapsize 3280
+\i (00:04:41) zoom out 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom out -0.3058 7.6712
+\i (00:04:41) trapsize 6559
+\i (00:04:42) zoom out 1 
+\i (00:04:42) setwindow pcb
+\i (00:04:42) zoom out 1.2684 13.1811
+\i (00:04:42) trapsize 13118
+\i (00:04:42) zoom out 1 
+\i (00:04:42) setwindow pcb
+\i (00:04:42) zoom out 21.2739 39.4833
+\i (00:04:42) trapsize 13118
+\i (00:04:45) define grid 
+\t (00:04:45) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:04:48) setwindow form.grid
+\i (00:04:48) FORM grid non_etch non_etch_x_grids 0.5 
+\i (00:04:50) FORM grid non_etch non_etch_y_grids 0.5 
+\i (00:04:50) FORM grid done  
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom in 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom in 50.6590 48.1414
+\i (00:04:51) trapsize 6559
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 47.7730 49.5844
+\i (00:04:52) trapsize 13118
+\i (00:05:01) color192 
+\i (00:05:01) etchedit 
+\i (00:05:03) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:05:04) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:05:05) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 5 2
+\i (00:05:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:05:05) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:05:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:05:10) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:14) QtSignal CVDLayerTable VertHeader clickedCheckBox 21
+\i (00:05:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 21 0
+\i (00:05:15) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:05:17) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (00:05:24) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 0 1
+\i (00:05:24) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 1
+\i (00:05:24) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:26) QtSignal CVDColorTable CVDColorButton3:0 clicked
+\i (00:05:27) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 1 1
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable dataChanged 1 1
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:28) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:05:29) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:05:30) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:05:33) done 
+\i (00:05:33) place manual 
+\i (00:05:33) FORM plc_manual placement_list 
+\i (00:05:33) FORM plc_manual categories Components by refdes 
+\i (00:05:33) trapsize 13118
+\i (00:05:34) zoom in 1 
+\i (00:05:34) setwindow pcb
+\i (00:05:34) zoom in 56.4311 45.7801
+\i (00:05:34) trapsize 6559
+\i (00:05:36) setwindow form.plc_manual
+\i (00:05:36) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:05:36) Placing C1 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:05:36) FORM plc_manual tree  'Components by refdes' 
+\i (00:05:40) FORM plc_manual cancel  
+\i (00:05:40) setwindow pcb
+\i (00:05:40) etchedit 
+\i (00:05:46) dimension edit 
+\i (00:05:47) prepopup 65.2205 76.2148
+\i (00:05:49) pop dyn_option_select @:@Parameters 
+\i (00:05:50) setwindow form.draft_parms
+\i (00:05:50) FORM draft_parms iso_standard YES 
+\i (00:05:51) FORM draft_parms text  
+\i (00:06:14) FORM draft_parms text_block_text 2 
+\i (00:06:34) FORM draft_parms text_block_text 1 
+\i (00:06:34) FORM draft_parms trailing_zeros YES 
+\i (00:06:35) FORM draft_parms align_text NO 
+\i (00:06:36) FORM draft_parms apply  
+\w (00:06:36) WARNING(SPMHDI-45): Applying global parameter changes to existing dimensioning ...
+\i (00:06:44) FORM draft_parms text_block_text 4 
+\i (00:06:44) FORM draft_parms apply  
+\i (00:06:44) FORM draft_parms done  
+\i (00:06:46) setwindow pcb
+\i (00:06:46) prepopup 64.6957 76.6083
+\i (00:06:47) pop dyn_option_select '@:@Linear dimension' 
+\t (00:06:47) Pick an element or point to dimension ...
+\i (00:06:48) pick grid 51.9709 69.9180
+\t (00:06:48) last pick:  52.0000 70.0000
+\t (00:06:48) First point found ... pick the second point.
+\i (00:06:50) pick grid 51.9709 0.2594
+\t (00:06:50) last pick:  52.0000 0.5000
+\t (00:06:50) Pick location for the dimension value.
+\i (00:06:54) prepopup 35.4417 79.2320
+\i (00:06:55) oops 
+\t (00:06:55) last pick:  52.0000 70.0000
+\t (00:06:55) First point found ... pick the second point.
+\i (00:06:55) prepopup 35.7041 79.6255
+\i (00:06:56) oops 
+\t (00:06:56) Pick an element or point to dimension ...
+\i (00:06:56) prepopup 33.2116 79.6255
+\i (00:06:58) pop dyn_option_select @:@Parameters 
+\i (00:06:59) setwindow form.draft_parms
+\i (00:06:59) FORM draft_parms text  
+\i (00:07:03) FORM draft_parms accuracy 0 
+\i (00:07:03) FORM draft_parms apply  
+\i (00:07:04) FORM draft_parms done  
+\t (00:07:04) Pick an element or point to dimension ...
+\i (00:07:06) setwindow pcb
+\i (00:07:06) pick grid 33.6052 70.1803
+\t (00:07:06) last pick:  33.5000 70.0000
+\t (00:07:06) First point found ... pick the second point.
+\i (00:07:07) pick grid 34.3923 -0.1342
+\t (00:07:07) last pick:  34.5000 0.0000
+\t (00:07:07) Indicate the X or Y direction first.
+\i (00:07:09) pick grid -7.0618 39.2210
+\t (00:07:09) last pick:  -7.0000 39.0000
+\t (00:07:09) Pick location for the dimension value.
+\i (00:07:10) pick grid -6.0123 35.6790
+\t (00:07:10) last pick:  -6.0000 35.5000
+\t (00:07:10) Pick an element or point to dimension ...
+\i (00:07:11) prepopup 0.1533 38.8274
+\i (00:07:13) pop dyn_option_select '@:@Delete dimensions' 
+\i (00:07:14) pick grid -6.0123 37.9091
+\t (00:07:14) last pick:  -6.0000 38.0000
+\i (00:07:14) prepopup -6.0123 37.9091
+\i (00:07:15) pop dyn_option_select @:@Parameters 
+\i (00:07:17) setwindow form.draft_parms
+\i (00:07:17) FORM draft_parms text  
+\i (00:07:20) FORM draft_parms text_block_text 7 
+\i (00:07:21) FORM draft_parms apply  
+\i (00:07:22) FORM draft_parms done  
+\i (00:07:22) setwindow pcb
+\i (00:07:22) prepopup 28.0955 42.6317
+\i (00:07:23) pop dyn_option_select '@:@Linear dimension' 
+\t (00:07:23) Pick an element or point to dimension ...
+\i (00:07:24) pick grid 52.8892 70.1803
+\t (00:07:24) last pick:  53.0000 70.0000
+\t (00:07:24) First point found ... pick the second point.
+\i (00:07:26) pick grid 44.0999 -0.0030
+\t (00:07:26) last pick:  44.0000 0.0000
+\t (00:07:26) Indicate the X or Y direction first.
+\i (00:07:27) pick grid -7.3242 34.7607
+\t (00:07:27) last pick:  -7.5000 35.0000
+\t (00:07:27) Pick location for the dimension value.
+\i (00:07:28) pick grid -6.7994 32.9241
+\t (00:07:28) last pick:  -7.0000 33.0000
+\t (00:07:28) Pick an element or point to dimension ...
+\i (00:07:30) pick grid 0.5469 33.0553
+\t (00:07:30) last pick:  0.5000 33.0000
+\t (00:07:30) Pick an element or point to dimension ...
+\t (00:07:30) First point found ... pick the second point.
+\i (00:07:32) pick grid 119.9241 33.8424
+\t (00:07:32) last pick:  120.0000 34.0000
+\t (00:07:32) Indicate the X or Y direction first.
+\i (00:07:33) pick grid 53.4139 77.2642
+\t (00:07:33) last pick:  53.5000 77.5000
+\t (00:07:33) Pick location for the dimension value.
+\i (00:07:34) pick grid 59.3172 76.0836
+\t (00:07:34) last pick:  59.5000 76.0000
+\t (00:07:34) Pick an element or point to dimension ...
+\i (00:07:41) prepopup 5.7942 81.9869
+\i (00:07:41) done 
+\i (00:07:41) etchedit 
+\i (00:07:44) cmgr 
+\i (00:07:45) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:07:45) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:07:45) etchedit 
+\i (00:07:47) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:07:48) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:07:48) QtSignal "All Layers"
+\i (00:07:48) QtSignal m_domainSelector WS_Physical itemClicked "Physical Constraint Set" "All Layers"
+\i (00:07:58) setwindow cmgr
+\i (00:07:58) cm scope Design "B07_1030"
+\i (00:07:58) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.5 7 ( "Physical CSet" "DEFAULT" )
+\i (00:07:58) cm endUndoBlock
+\i (00:08:05) setwindow pcb
+\i (00:08:05) QtSignal m_domainSelector WS_Physical itemSelectionChanged Net "All Layers"
+\i (00:08:05) QtSignal m_domainSelector WS_Physical itemClicked Net "All Layers"
+\i (00:09:03) setwindow cmgr
+\i (00:09:03) cm putValue ( Net "+5V" ) MIN_LINE_WIDTH 1 7 ( Net "+5V" )
+\i (00:09:03) cm endUndoBlock
+\i (00:09:06) cm putValue ( Net "GND" ) MIN_LINE_WIDTH 1 7 ( Net "GND" )
+\i (00:09:06) cm endUndoBlock
+\i (00:09:09) setwindow pcb
+\i (00:09:09) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged DRC
+\i (00:09:11) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Properties
+\i (00:09:11) QtSignal m_domainSelector WS_Properties itemSelectionChanged Net "General Properties"
+\i (00:09:12) QtSignal m_domainSelector WS_Properties itemClicked Net "General Properties"
+\i (00:09:23) setwindow cmgr
+\i (00:09:23) cm close ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:09:23) cm close ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:09:23) cm close ( frame ( kConsmgr workbook 144:Properties 14:Net "36:General Properties" ) )
+\i (00:09:24) cm exit
+\i (00:09:24) setwindow pcb
+\i (00:09:24) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:09:24) QtSignal m_domainSelector WS_Properties itemSelectionChanged
+\i (00:09:32) done 
+\i (00:09:32) place manual 
+\i (00:09:33) FORM plc_manual placement_list 
+\i (00:09:33) FORM plc_manual categories Components by refdes 
+\i (00:09:33) trapsize 6559
+\i (00:09:38) setwindow form.plc_manual
+\i (00:09:38) FORM plc_manual done  
+\i (00:09:38) setwindow pcb
+\i (00:09:38) etchedit 
+\i (00:10:05) done 
+\i (00:10:05) place manual 
+\i (00:10:05) FORM plc_manual placement_list 
+\i (00:10:05) FORM plc_manual categories Components by refdes 
+\i (00:10:05) trapsize 6559
+\i (00:10:21) setwindow form.plc_manual
+\i (00:10:21) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:10:21) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:10:21) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:18:22) setwindow pcb
+\i (00:18:22) pick grid 3.9576 35.6790
+\t (00:18:22) last pick:  4.0000 35.5000
+\i (00:18:29) setwindow form.plc_manual
+\i (00:18:29) FORM plc_manual tree 'MULTISEL YES' R1 'Components by refdes' 
+\t (00:18:29) Placing R1 / R_RES400_R / RES400 on Top.
+\i (00:18:29) FORM plc_manual tree  R1 'Components by refdes' 
+\i (00:18:29) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\i (00:18:29) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:18:33) setwindow pcb
+\i (00:18:33) pick grid 16.6825 52.3393
+\t (00:18:33) last pick:  16.5000 52.5000
+\t (00:18:33) Placing R2 / R_RES400_R / RES400 on Top.
+\i (00:18:35) pick grid 23.8976 52.7329
+\t (00:18:35) last pick:  24.0000 52.5000
+\i (00:18:47) prepopup 9.5986 32.6618
+\i (00:18:55) cancel 
+\i (00:18:55) etchedit 
+\i (00:19:37) done 
+\i (00:19:37) place manual 
+\i (00:19:37) FORM plc_manual placement_list 
+\i (00:19:37) FORM plc_manual categories Components by refdes 
+\i (00:19:37) trapsize 6559
+\i (00:19:40) setwindow form.plc_manual
+\i (00:19:40) FORM plc_manual tree 'MULTISEL YES' R1 'Components by refdes' 
+\t (00:19:40) Placing R1 / R_RES400_R / RES400 on Top.
+\i (00:19:40) FORM plc_manual tree  R1 'Components by refdes' 
+\i (00:19:40) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\i (00:19:40) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:19:49) setwindow pcb
+\i (00:19:49) pick grid 17.9943 54.3071
+\t (00:19:49) last pick:  18.0000 54.5000
+\t (00:19:49) Placing R2 / R_RES400_R / RES400 on Top.
+\i (00:19:51) pick grid 24.2911 54.5695
+\t (00:19:51) last pick:  24.5000 54.5000
+\i (00:20:43) setwindow form.plc_manual
+\i (00:20:43) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:20:43) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:20:43) Placing C1 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:20:44) FORM plc_manual tree 'MULTISEL YES' C2 'Components by refdes' 
+\i (00:20:44) FORM plc_manual tree  C2 'Components by refdes' 
+\i (00:20:48) setwindow pcb
+\i (00:20:48) pick grid 13.5341 35.6790
+\t (00:20:48) last pick:  13.5000 35.5000
+\t (00:20:48) Placing C2 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:20:50) pick grid 25.0782 35.2854
+\t (00:20:50) last pick:  25.0000 35.5000
+\i (00:21:23) prepopup 36.4912 48.4038
+\i (00:21:23) done 
+\i (00:21:24) etchedit 
+\i (00:21:27) save 
+\i (00:21:28) fillin yes 
+   (00:21:28) Loading consmgr.cxt 
+   (00:21:28) Loading acns_formula.cxt 
+\i (00:21:29) etchedit 
+\i (00:21:30) exit 
+\t (00:21:31)     Journal end - Mon Oct 30 16:23:39 2023

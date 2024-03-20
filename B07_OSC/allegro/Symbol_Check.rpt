@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : B07_OSC_1.brd                                 )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Mon Jul 10 14:45:31 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_17.2/share/local/pcb/symbols
+	C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols
+	D:/ORCAD/B07/Symbols/
+
+
+All Symbols Found
+
+Total symbols placed:      26 out of 26
+
+

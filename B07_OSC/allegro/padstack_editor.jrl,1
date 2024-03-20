@@ -1,0 +1,12 @@
+\t (00:00:00) padstack_editor 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jul 10 16:13:24 2023
+\t (00:00:00)         Host=USER User=user Pid=2684 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession user -file C:/Users/user/AppData/Local/Temp/#Taaaaam02352.tmp -pname PAD60CIR36D-2 -data C:/Users/user/AppData/Local/Temp/#Taaaaao02352.tmp
+\t (00:00:00) 
+\d (00:00:01) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:02) QtSignal GuidedTabsParent NewPads currentRowChanged 1
+\d (00:00:02) QtSignal GuidedTabsParent NewPads itemSelectionChanged Square
+\d (00:00:02) QtSignal GuidedTabsParent NewPads itemClicked Square
+\d (00:00:03) QtFillin Yes
+\d (00:00:06) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:06)     Journal end - Mon Jul 10 16:13:30 2023

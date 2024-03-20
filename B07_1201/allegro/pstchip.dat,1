@@ -1,0 +1,152 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Dec-01-2023 at 09:16:31}
+primitive 'CAP POL_CAP196_CAP POL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='CAP POL';
+  end_body;
+end_primitive;
+primitive 'DIODE_DO41_DIODE';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE';
+  end_body;
+end_primitive;
+primitive 'DIODE ZENER_DO41_DIODE ZENER';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE ZENER';
+    JEDEC_TYPE='DO41';
+    VALUE='DIODE ZENER';
+  end_body;
+end_primitive;
+primitive 'LED_CAP196_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='CAP196';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'CON2_HEADER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='HEADER2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'NPN ECB_TO92100_NPN ECB';
+  pin
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN ECB';
+    JEDEC_TYPE='TO92100';
+    VALUE='NPN ECB';
+  end_body;
+end_primitive;
+primitive 'R_RES400_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='R';
+  end_body;
+end_primitive;
+primitive '7490_DIP14_3_7490';
+  pin
+    'C\L\K\A\':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+    'C\L\K\B\':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'QA':
+      PIN_NUMBER='(12)';
+      OUTPUT_LOAD='(*)';
+    'QB':
+      PIN_NUMBER='(9)';
+      OUTPUT_LOAD='(*)';
+    'QC':
+      PIN_NUMBER='(8)';
+      OUTPUT_LOAD='(*)';
+    'QD':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(*)';
+    'R01':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'R02':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'R91':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'R92':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:5)';
+    POWER_PINS='(GND:10)';
+    PART_NAME='7490';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='7490';
+  end_body;
+end_primitive;
+END.

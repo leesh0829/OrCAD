@@ -1,0 +1,98 @@
+
+**** 01/23/24 12:05:57 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\ORCAD\test1\aaaaaa-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AAAAAA
+V_V1         N00140 0 2V
+R_R1         N00140 N00147  4 TC=0,0 
+R_R2         0 N00147  3 TC=0,0 
+R_R3         N00154 N00147  4 TC=0,0 
+V_V2         N00154 0 4V
+R_R4         N00433 N00497  5 TC=0,0 
+R_R5         N00497 N00466  10 TC=0,0 
+R_R6         0 N00497  10 TC=0,0 
+V_V3         N00433 0 10v
+V_V4         N00466 0 10v
+
+**** RESUMING 1.cir ****
+.END
+
+**** 01/23/24 12:05:57 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\ORCAD\test1\aaaaaa-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00140)    2.0000 (N00147)    1.8000 (N00154)    4.0000 (N00433)   10.0000     
+
+(N00466)   10.0000 (N00497)    7.5000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-02
+    V_V2        -5.500E-01
+    V_V3        -5.000E-01
+    V_V4        -2.500E-01
+
+    TOTAL POWER DISSIPATION   9.80E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/23/24 12:05:57 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\ORCAD\test1\aaaaaa-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        1.69
+  Total job time (using Solver 1)   =         .02
+
