@@ -1,0 +1,21 @@
+* source 20220823-1
+V_V1         N00195 0  AC 1
++SIN 0 5V 1KHZ 0 0 0
+R_R1         N00195 N00202  1k TC=0,0 
+D_D1         N00202 N00236 D1N4003 
+D_D2         N00209 N00202 D1N4003 
+V_V2         N00236 0 2v
+V_V3         0 N00209 4v
+R_R2         0 N00630  1k TC=0,0 
+V_V4         N00622 0 4V
+V_V5         N00626 N00622 2V
+V_V6         N00626 N00630 3V
+V_V7         N01285 0  AC 1
++SIN 0 2V 1KHz 0 0 0
+V_V8         N01261 N01285  AC 1
++SIN 0 3V 1KHZ 0 0 0
+R_R3         0 N01261  1k TC=0,0 
+R_R4         0 N01696  1k TC=0,0 
+V_V9         N01696 N01720 5V
+V_V10         N01720 0  AC 1
++SIN 0 5V 1KHz 0 0 0

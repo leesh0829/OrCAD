@@ -1,0 +1,81 @@
+
+**** 08/30/22 17:24:36 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\charge ball-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 10m SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source CHARGE BALL
+X_U1         N00181 N00188 Sw_tOpen PARAMS: tOpen=5 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+X_U2         0 N00188 Sw_tClose PARAMS: tClose=5 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R1         N00188 N00192  10k TC=0,0 
+C_C1         0 N00192  100uF  TC=0,0 
+V_V1         N00181 0 10v
+
+**** RESUMING 2.cir ****
+.END
+
+**** 08/30/22 17:24:36 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\charge ball-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Smod       X_U2.Smod       
+         RON     .01             .01         
+        ROFF    1.000000E+06    1.000000E+06 
+         VON    1               1            
+        VOFF    0               0            
+
+
+
+          JOB CONCLUDED
+
+**** 08/30/22 17:24:36 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\charge ball-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

@@ -1,0 +1,7 @@
+* source LEVEL CLAMPER
+C_C1         N00717 N00729  10uF  TC=0,0 
+V_V1         N00717 0  
++PULSE -4V +4V 1ps 1ns 1ns 0.5ms 1ms
+D_D1         N01101 N00729 D1N4001 
+R_R1         0 N00729  10k TC=0,0 
+V_V2         N01101 0 3V

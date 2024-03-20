@@ -1,0 +1,584 @@
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGINITSTATE= 0
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source BUNJUGI 4
+X_U1         0 N00672 N00826 N00716 N00778 N00672 N00668 N00716 555C
+X_U2A         N00826 N00716 N00716 N00716 N00716 N01061 N01054 N00716 0 74LS76A
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         N01061 N00716 N00716 N00716 N00716 N01166 N01159 N00716 0 74LS76A
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+R_R1         N00668 N00716  100k TC=0,0 
+R_R2         N00672 N00668  50k TC=0,0 
+R_R3         N01050 N01054  150 TC=0,0 
+R_R4         N01068 N01061  150 TC=0,0 
+R_R5         N01155 N01159  150 TC=0,0 
+R_R6         N01151 N01166  150 TC=0,0 
+R_R7         N00822 N00826  150 TC=0,0 
+C_C1         0 N00672  1uF IC=0 TC=0,0 
+C_C2         0 N00778  0.01uF  TC=0,0 
+V_V1         N00716 0 5V
+D_D1         N00822 0 LT-L29S-TYP 
+D_D2         N01050 0 LT-L29S-TYP 
+D_D3         N01068 0 LT-L29S-TYP 
+D_D4         N01155 0 LT-L29S-TYP 
+D_D5         N01151 0 LT-L29S-TYP 
+
+**** RESUMING 1.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node N00716
+*
+* Moving X_U2B.U1:K1 from analog node N00716 to new digital node N00716$AtoD
+X$N00716_AtoD1
++ N00716
++ N00716$AtoD
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2B.U1:J1 from analog node N00716 to new digital node N00716$AtoD2
+X$N00716_AtoD2
++ N00716
++ N00716$AtoD2
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2B.U1:CLRBAR from analog node N00716 to new digital node N00716$AtoD3
+X$N00716_AtoD3
++ N00716
++ N00716$AtoD3
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2B.U1:PREBAR from analog node N00716 to new digital node N00716$AtoD4
+X$N00716_AtoD4
++ N00716
++ N00716$AtoD4
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2A.U1:K1 from analog node N00716 to new digital node N00716$AtoD5
+X$N00716_AtoD5
++ N00716
++ N00716$AtoD5
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2A.U1:J1 from analog node N00716 to new digital node N00716$AtoD6
+X$N00716_AtoD6
++ N00716
++ N00716$AtoD6
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2A.U1:CLRBAR from analog node N00716 to new digital node N00716$AtoD7
+X$N00716_AtoD7
++ N00716
++ N00716$AtoD7
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2A.U1:PREBAR from analog node N00716 to new digital node N00716$AtoD8
+X$N00716_AtoD8
++ N00716
++ N00716$AtoD8
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01054
+*
+* Moving X_U2A.U1:QBAR1 from analog node N01054 to new digital node N01054$DtoA
+X$N01054_DtoA1
++ N01054$DtoA
++ N01054
++ N00716
++ 0
++ DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01061
+*
+* Moving X_U2B.U1:CLKBAR from analog node N01061 to new digital node N01061$AtoD
+X$N01061_AtoD1
++ N01061
++ N01061$AtoD
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U2A.U1:Q1 from analog node N01061 to new digital node N01061$DtoA
+X$N01061_DtoA1
++ N01061$DtoA
++ N01061
++ N00716
++ 0
++ DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01159
+*
+* Moving X_U2B.U1:QBAR1 from analog node N01159 to new digital node N01159$DtoA
+X$N01159_DtoA1
++ N01159$DtoA
++ N01159
++ N00716
++ 0
++ DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01166
+*
+* Moving X_U2B.U1:Q1 from analog node N01166 to new digital node N01166$DtoA
+X$N01166_DtoA1
++ N01166$DtoA
++ N01166
++ N00716
++ 0
++ DtoA_LS
++       PARAMS: DRVH= 108    DRVL= 157    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N00826
+*
+* Moving X_U2A.U1:CLKBAR from analog node N00826 to new digital node N00826$AtoD
+X$N00826_AtoD1
++ N00826
++ N00826$AtoD
++ N00716
++ 0
++ AtoD_LS
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LT-L29S-TYP     X_U1.DIODE      
+          IS   10.000000E-21   10.000000E-15 
+           N    2.844                        
+          RS   24.477            .01         
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNEMOD     
+               NJF             
+         VTO   -2.5          
+        BETA    5.120000E-06 
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PCHAN555   X_U1.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U1.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN74LS         
+      S0NAME 0               
+       S0TSW    5.000000E-09 
+       S0RLO    1            
+       S0RHI  100.000000E+03 
+      S1NAME 1               
+       S1TSW    4.500000E-09 
+       S1RLO  100.000000E+03 
+       S1RHI    1            
+      S2NAME X               
+       S2TSW    4.500000E-09 
+       S2RLO   30.9          
+       S2RHI  100            
+      S3NAME R               
+       S3TSW    4.500000E-09 
+       S3RLO   30.9          
+       S3RHI  100            
+      S4NAME F               
+       S4TSW    4.500000E-09 
+       S4RLO   30.9          
+       S4RHI  100            
+      S5NAME Z               
+       S5TSW    4.500000E-09 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74LS          
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.2          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.1          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.1          
+      S7NAME F               
+       S7VHI    1.2          
+       S7VLO     .8          
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Digital Edge Triggered FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_LS76          
+  TPCLKQLHMN    6.000000E-09 
+  TPCLKQLHTY   15.000000E-09 
+  TPCLKQLHMX   20.000000E-09 
+  TPCLKQHLMN    6.000000E-09 
+  TPCLKQHLTY   15.000000E-09 
+  TPCLKQHLMX   20.000000E-09 
+   TPPCQLHMN    6.000000E-09 
+   TPPCQLHTY   15.000000E-09 
+   TPPCQLHMX   20.000000E-09 
+   TPPCQHLMN    6.000000E-09 
+   TPPCQHLTY   15.000000E-09 
+   TPPCQHLMX   20.000000E-09 
+    TWCLKLMN    0            
+    TWCLKLTY    0            
+    TWCLKLMX    0            
+    TWCLKHMN   20.000000E-09 
+    TWCLKHTY   20.000000E-09 
+    TWCLKHMX   20.000000E-09 
+     TWPCLMN   20.000000E-09 
+     TWPCLTY   20.000000E-09 
+     TWPCLMX   20.000000E-09 
+   TSUDCLKMN   20.000000E-09 
+   TSUDCLKTY   20.000000E-09 
+   TSUDCLKMX   20.000000E-09 
+ TSUPCCLKHMN    0            
+ TSUPCCLKHTY    0            
+ TSUPCCLKHMX    0            
+    THDCLKMN    0            
+    THDCLKTY    0            
+    THDCLKMX    0            
+  TSUCECLKMN    0            
+  TSUCECLKTY    0            
+  TSUCECLKMX    0            
+   THCECLKMN    0            
+   THCECLKTY    0            
+   THCECLKMX    0            
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_LS           
+        DRVL  157            
+        DRVH  108            
+       AtoD1 AtoD_LS         
+       AtoD2 AtoD_LS_NX      
+       AtoD3 AtoD_LS         
+       AtoD4 AtoD_LS_NX      
+       DtoA1 DtoA_LS         
+       DtoA2 DtoA_LS         
+       DtoA3 DtoA_LS         
+       DtoA4 DtoA_LS         
+      TSWHL1    2.724000E-09 
+      TSWHL2    2.724000E-09 
+      TSWHL3    2.724000E-09 
+      TSWHL4    2.724000E-09 
+      TSWLH1    2.104000E-09 
+      TSWLH2    2.104000E-09 
+      TSWLH3    2.104000E-09 
+      TSWLH4    2.104000E-09 
+       TPWRT  100.000000E+03 
+
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00668)    1.6667 (N00672) 66.67E-09 (N00716)    5.0000 (N00778)    3.3333     
+
+(N00822)    3.2374 (N00826)    4.4790 (N01050)    3.0112 (N01054)    3.3955     
+
+(N01061)     .1088 (N01068)     .1088 (N01151)     .1015 (N01155)    3.0112     
+
+(N01159)    3.3955 (N01166)     .1015 (X_U1.1) 417.5E-12 (X_U1.2)    1.6667     
+
+(X_U1.3) 16.67E+03 (X_U1.4)    4.2000 (X_U1.5)    4.0683 (X_U1.6)-33.33E+03     
+
+(X_U1.7)    4.2000 (X_U1.8)    -.6863 (X_U1.9) 55.18E-12 ($G_DGND)    0.0000    
+
+($G_DPWR)    5.0000                   (X_U1.10)    5.0000                       
+
+(X_U1.11)    5.0000                   (X_U1.12)    5.0000                       
+
+(X_U1.13) 417.5E-12                   (X_U1.14) 347.9E-12                       
+
+(X_U1.15)    5.0000                   (X_U1.16)    5.0000                       
+
+(X_U1.17)    5.0000                   (X_U1.18) 417.5E-12                       
+
+(X_U1.19) 208.8E-12                   (X_U1.20)    5.0000                       
+
+(X_U1.21)     .1137                   (X_U1.22)    2.5000                       
+
+(X_U1.23)    4.8683                   (X_U1.24) 107.3E-12                       
+
+(X_U1.25) 104.4E-12                   (X_U1.VDD)    5.0000                      
+
+(X$N01054_DtoA1.DGND_OL)     .1014    (X$N01054_DtoA1.DPWR_OH)    3.3981        
+
+(X$N01061_DtoA1.DGND_OL)     .1086    (X$N01061_DtoA1.DPWR_OH)    3.4493        
+
+(X$N01159_DtoA1.DGND_OL)     .1014    (X$N01159_DtoA1.DPWR_OH)    3.3981        
+
+(X$N01166_DtoA1.DGND_OL)     .1014    (X$N01166_DtoA1.DPWR_OH)    3.4493    
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(N01061$DtoA) : 0  (N01166$DtoA) : 0  (N00716$AtoD8) : 1                        
+
+(N00716$AtoD3) : 1                    (N00716$AtoD4) : 1                        
+
+(N00716$AtoD) : 1  (N01159$DtoA) : 1  (N00826$AtoD) : 1  (N00716$AtoD5) : 1     
+
+(N00716$AtoD6) : 1                    (N01061$AtoD) : 0  (N01054$DtoA) : 1      
+
+(N00716$AtoD2) : 1                    (N00716$AtoD7) : 1                    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.359E-03
+    X_U1.V_U6_V2   4.078E-12
+    X_U1.V_U7_V2  -3.333E-03
+    X$DIGIFPWR.VDPWR  -5.000E-06
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   2.95E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/04/22 11:34:24 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice 10609 junja\bunjugi 4-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        4.11
+  Total job time (using Solver 1)   =        1.39
+

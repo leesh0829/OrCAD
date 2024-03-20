@@ -1,0 +1,6 @@
+* source POSITIVE CLAMPER V PERSE
+D_D1         0 N00398 D1N4001 
+R_R1         0 N00398  10k TC=0,0 
+C_C1         N00388 N00398  10uF  TC=0,0 
+V_V1         N00388 0  
++PULSE -4V +4V 1ps 1ns 1ns 0.05ms 0.1ms

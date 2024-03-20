@@ -1,0 +1,229 @@
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 101 1 500k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source BPF
+X_U5         N00949 N00746 VCC VEE N00999 OPA604/BB
+R_R1         N00742 N00746  1k TC=0,0 
+R_R2         0 N00746  100k TC=0,0 
+R_R3         N00949 0  1k TC=0,0 
+R_R4         OUT N00949  10k TC=0,0 
+X_U2         N00999 VEE VCC OUT BUF634X/BB
+V_V3         N00698 0  AC 1
++SIN 0 500m 1k 0 0 0
+C_C1         N00738 N00742  0.1uF  TC=0,0 
+C_C2         0 N00746  500pF  TC=0,0 
+X_VR         0 N00738 N00698 POT PARAMS: SET=0.1 VALUE=10k
+V_V5         VCC 0 15V
+V_V4         VEE 0 -15V
+C_C39         0 VEE  0.1uF  TC=0,0 
+C_C42         0 VEE  0.1uF  TC=0,0 
+C_C44         N00999 N00949  20pF  TC=0,0 
+C_C31         VCC 0  0.1uF  TC=0,0 
+C_C37         VCC 0  0.1uF  TC=0,0 
+C_C41         0 VEE  50uF  
+C_C43         0 VEE  50uF  
+C_C38         0 VCC  50uF  
+C_C36         0 VCC  50uF  
+
+**** RESUMING 1.cir ****
+.END
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5.DX         X_U2.DX         
+          IS  800.000000E-18  800.000000E-18 
+
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.QN         X_U2.QP         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS    1.000000E-15    1.000000E-15 
+          BF  200             200            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5.JX         
+               PJF             
+         VTO   -1            
+        BETA    2.528000E-03 
+          IS   12.500000E-12 
+
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    4.2428  (  VCC)   15.0000  (  VEE)  -15.0000  (N00698)    0.0000     
+
+(N00738)    0.0000 (N00742)-4.009E-06 (N00746)-4.009E-06 (N00949)     .3857     
+
+(N00999)   12.7710 (X_U2.2)    7.9938 (X_U2.3)   12.8410 (X_U2.4)   14.8160     
+
+(X_U2.5)   15.0260 (X_U2.6)  -14.7730 (X_U2.7)    4.5698 (X_U2.8)    8.1820     
+
+(X_U2.9)   14.8160 (X_U5.6)  -67.9670 (X_U5.7)   13.5460 (X_U5.8)   13.5460     
+
+(X_U5.9)    0.0000 (X_U2.10)   14.8970                   (X_U2.11)    -.0470    
+
+(X_U2.12)  -14.9910                   (X_U2.13)  -14.7730                       
+
+(X_U2.14)  -11.1310                   (X_U2.15)    4.1917                       
+
+(X_U2.17)    4.2704                   (X_U2.18)   12.5570                       
+
+(X_U2.20)   15.0080                   (X_U2.21)   15.6300                       
+
+(X_U2.22)   15.0260                   (X_U2.23)   15.0630                       
+
+(X_U2.24)   14.7900                   (X_U2.57)    1.2428                       
+
+(X_U2.58)    4.9938                   (X_U2.73)    8.7054                       
+
+(X_U2.85)  -15.0000                   (X_U2.86)  -11.9290                       
+
+(X_U2.94)   13.3390                   (X_U2.98)   15.0000                       
+
+(X_U5.10)    -.4587                   (X_U5.11)  -14.6320                       
+
+(X_U5.12)  -14.9700                   (X_U5.53)   12.0000                       
+
+(X_U5.54)  -12.0000                   (X_U5.90)   30.9860                       
+
+(X_U5.91)   50.0000                   (X_U5.92)  -50.0000                       
+
+(X_U5.99)    0.0000                   (X_U2.102)    7.9638                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         0.000E+00
+    V_V5        -2.608E-02
+    V_V4         5.668E-02
+    X_U5.VB     -6.797E-04
+    X_U5.VC     -7.104E-03
+    X_U5.VE      2.477E-11
+    X_U5.VLIM    3.099E-02
+    X_U5.VLP    -1.902E-11
+    X_U5.VLN    -8.099E-11
+    X_U2.VOS     0.000E+00
+    X_U2.V1     -6.751E-03
+    X_U2.V2      8.325E-04
+
+    TOTAL POWER DISSIPATION   1.28E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/16/22 10:40:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        1.17
+  Total job time (using Solver 1)   =         .08
+

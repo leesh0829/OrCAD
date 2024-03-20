@@ -1,0 +1,61 @@
+
+**** 12/16/22 10:40:12 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice_10609_junja\bpf-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 101 0 500k
+------------$
+ERROR(ORPSIM-16103): Invalid value
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source BPF
+X_U5         N00949 N00746 VCC VEE N00999 OPA604/BB
+R_R1         N00742 N00746  1k TC=0,0 
+R_R2         0 N00746  100k TC=0,0 
+R_R3         N00949 0  1k TC=0,0 
+R_R4         OUT N00949  10k TC=0,0 
+X_U2         N00999 VEE VCC OUT BUF634X/BB
+V_V3         N00698 0  AC 1
++SIN 0 500m 1k 0 0 0
+C_C1         N00738 N00742  0.1uF  TC=0,0 
+C_C2         0 N00746  500pF  TC=0,0 
+X_VR         0 N00738 N00698 POT PARAMS: SET=0.1 VALUE=10k
+V_V5         VCC 0 15V
+V_V4         VEE 0 -15V
+C_C39         0 VEE  0.1uF  TC=0,0 
+C_C42         0 VEE  0.1uF  TC=0,0 
+C_C44         N00999 N00949  20pF  TC=0,0 
+C_C31         VCC 0  0.1uF  TC=0,0 
+C_C37         VCC 0  0.1uF  TC=0,0 
+C_C41         0 VEE  50uF  
+C_C43         0 VEE  50uF  
+C_C38         0 VCC  50uF  
+C_C36         0 VCC  50uF  
+
+**** RESUMING 1.cir ****
+.END
+

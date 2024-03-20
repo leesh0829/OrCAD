@@ -1,0 +1,192 @@
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 8ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SIU
+X_U1         TP1 OUT 0 MC7805C
+V_V1         INPUT 0  AC 1
++SIN 0 10V 100Hz 0 0 0
+C_C1         0 TP1  47uF  TC=0,0 
+C_C3         0 OUT  47uF  TC=0,0 
+D_D2         INPUT TP1 D1N4001 
+
+**** RESUMING 1.cir ****
+.END
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4001         X_U1.x1.Dlim    X_U1.x1.Dz      
+          IS   14.110000E-09   10.000000E-15   50.000000E-15 
+           N    1.984                                        
+         IKF   94.81                                         
+          BV   75                               7.11         
+         IBV   10.000000E-06                   50.000000E-09 
+          RS     .03389                         3            
+          TT    5.700000E-06                                 
+         CJO   25.890000E-12                                 
+          VJ     .3245           .7                          
+           M     .44                                         
+
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Npn1    
+               NPN             
+       LEVEL    1            
+          IS   10.000000E-15 
+          BF   50            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Sbg1    
+         RON    1            
+        ROFF    1.000000E+06 
+         VON    3.7          
+        VOFF    3            
+
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT) 996.4E-21  (  TP1)-1.199E-15  (INPUT)    0.0000  (X_U1.x1.4) 348.1E-12  
+
+(X_U1.x1.5) 348.1E-12                 (X_U1.x1.6) 1.017E-18                     
+
+(X_U1.x1.7) 996.5E-21                 (X_U1.x1.8) 996.4E-21                     
+
+(X_U1.x1.9) 996.4E-21                 (X_U1.x1.55) 1.137E-18                    
+
+(X_U1.x1.56) 1.140E-18                (X_U1.x1.100)    7.4000                   
+
+(X_U1.x1.101) 7.399E-06               (X_U1.x1.102)-1.199E-15                   
+
+(X_U1.x1.105)     .0166               (X_U1.x1.106) 348.1E-12                   
+
+(X_U1.x1.107)    1.0000               (X_U1.x1.108)   -1.0000                   
+
+(X_U1.x1.200) 1665.0000               
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         2.303E-20
+    X_U1.x1.Vbg  -7.400E-06
+    X_U1.x1.Vgainf  -1.665E+03
+    X_U1.x1.Vl1  -6.185E+02
+    X_U1.x1.Vl2  -6.185E+02
+
+    TOTAL POWER DISSIPATION   2.77E+06  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 07/22/22 10:23:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\SIU-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

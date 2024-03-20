@@ -1,0 +1,82 @@
+
+**** 09/02/22 10:26:40 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\RC charge 2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100s 0 10m SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source RC CHARGE 2
+X_U1         N00141 N00148 Sw_tOpen PARAMS: tOpen=50 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+X_U2         0 N00148 Sw_tClose PARAMS: tClose=50s ttran=1u Rclosed=0.01
++  Ropen=1Meg
+V_V1         N00141 0 5V
+C_C1         N00155 0  100uF  
+R_R1         N00148 N00155  100k TC=0,0 
+
+**** RESUMING 2.cir ****
+.END
+
+**** 09/02/22 10:26:40 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\RC charge 2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Smod       X_U2.Smod       
+         RON     .01             .01         
+        ROFF    1.000000E+06    1.000000E+06 
+         VON    1               1            
+        VOFF    0               0            
+
+
+
+          JOB CONCLUDED
+
+**** 09/02/22 10:26:40 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\Or CAD\pspice 10609 junja\RC charge 2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .67
+  Total job time (using Solver 1)   =         .06
+

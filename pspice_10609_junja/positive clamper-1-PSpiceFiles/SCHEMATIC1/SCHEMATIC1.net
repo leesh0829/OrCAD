@@ -1,0 +1,11 @@
+* source POSITIVE CLAMPER-1
+R_R1         0 N00446  10k TC=0,0 
+C_C1         N00436 N00446  1uF  TC=0,0 
+D_D1         0 N00446 D1N4001 
+V_V1         N00436 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+V_V2         N00748 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+R_R2         0 N00752  1k TC=0,0 
+V_V3         N00752 N00748 5V
+D_D2         0 N00752 D1N4003 

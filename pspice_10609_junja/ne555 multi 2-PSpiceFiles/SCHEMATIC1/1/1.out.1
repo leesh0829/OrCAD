@@ -1,0 +1,225 @@
+
+**** 05/10/22 11:04:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\ne555 multi 2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NE555 MULTI 2
+X_U1         0 N00484 N00506 N00311 N01337 N00484 N00488 N00311 555C
+R_R1         N00488 N00311  1k TC=0,0 
+R_R2         N00484 N00488  100k TC=0,0 
+R_R3         0 N00506  1k TC=0,0 
+C_C1         0 N00484  4.7uF  TC=0,0 
+C_C2         0 N01337  0.1uF  TC=0,0 
+V_V1         N00311 0 9V
+
+**** RESUMING 1.cir ****
+.END
+
+**** 05/10/22 11:04:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\ne555 multi 2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DIODE      
+          IS   10.000000E-15 
+          RS     .01         
+
+
+**** 05/10/22 11:04:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\ne555 multi 2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNEMOD     
+               NJF             
+         VTO   -2.5          
+        BETA    5.120000E-06 
+
+
+**** 05/10/22 11:04:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\ne555 multi 2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PCHAN555   X_U1.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U1.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+ERROR(ORPSIM-16550): Floating point computation failed during matrix solution. Possible solutions: 1)Ensure that all device parameters are in valid range. 2)Try using .options LIMIT
+
+INTERNAL ERROR -- Overflow, Multiply
+
+ABORTING SIMULATION
+**** 05/10/22 11:04:44 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\ne555 multi 2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =          32
+  Total (NUMNOD)                    =          36
+
+Total device count (NUMEL)          =          65
+  Capacitors (C)                    =           2
+  Diodes (D)                        =           4
+  VCVS (E)                          =           6
+  JFETs (J)                         =           1
+  MosFETs (M)                       =          33
+  Resistors (R)                     =          16
+  Voltage Sources (V)               =           3
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          45
+  Initial no. elements (NTTAR)      =         189
+  No. elements w/ fillin (NTTBR)    =         244
+  No. fillins (IFILL)               =          55
+  No. overflows (NTTOV)             =         650
+  No. LU operations (IOPS)          =         356
+  Percent sparsity (PERSPA)         =      87.951
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           6
+
+Runtime statistics:                       Seconds      Iterations   Stopped At
+  Matrix load                       =         .03
+  Matrix solution                   =        0.00               3
+  Readin                            =         .03
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  Default algorithm                 =        -.02           -1119
+  GMIN stepping                     =         .02            1119     237.14u
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .13
+  Total job time (using Solver 1)   =         .48
+

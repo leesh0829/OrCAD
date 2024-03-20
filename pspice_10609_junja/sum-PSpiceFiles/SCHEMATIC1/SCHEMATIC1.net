@@ -1,0 +1,9 @@
+* source SUM
+X_U1         0 N00310 N00348 N000563 VOUT uA741
+R_R1         N00310 VOUT  1k TC=0,0 
+R_R2         VIN N00310  1k TC=0,0 
+R_R3         0 VOUT  1k TC=0,0 
+V_V1         0 N000563 18V
+V_V2         N00348 0 18V
+V_V3         VIN 0  AC 1
++SIN 0 1V 2KHz 0 0 0

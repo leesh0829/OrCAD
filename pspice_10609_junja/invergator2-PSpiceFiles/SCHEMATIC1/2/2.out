@@ -1,0 +1,168 @@
+
+**** 06/24/22 10:41:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\pspice 10609 junja\invergator2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.25ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INVERGATOR2
+V_V2         N00756 0 15V
+X_U1         0 N00694 N00756 N00868 N00704 uA741
+R_R1         N00836 N00694  3k TC=0,0 
+V_V3         N00836 0  
++PULSE -2V 2V 1ns 1ns 1ns 0.25m 0.5m
+V_V1         0 N00868 15V
+C_C1         N00694 N00704  0.1uF IC=-15V TC=0,0 
+
+**** RESUMING 2.cir ****
+.END
+
+**** 06/24/22 10:41:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\pspice 10609 junja\invergator2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 06/24/22 10:41:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\pspice 10609 junja\invergator2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 06/24/22 10:41:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\pspice 10609 junja\invergator2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00694)    -.1841 (N00704)   14.8160 (N00756)   15.0000 (N00836)   -2.0000     
+
+(N00868)  -15.0000 (X_U1.6)   -1.4885 (X_U1.7)   16.8460 (X_U1.8)   16.8460     
+
+(X_U1.9)    0.0000 (X_U1.10)    -.6393                   (X_U1.11)   15.0000    
+
+(X_U1.12)   14.9210                   (X_U1.13)    -.6393                       
+
+(X_U1.14)    -.6117                   (X_U1.53)   14.0000                       
+
+(X_U1.54)  -14.0000                   (X_U1.90)   40.6060                       
+
+(X_U1.91)   40.0000                   (X_U1.92)  -40.0000                       
+
+(X_U1.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         3.833E-02
+    V_V3         6.053E-04
+    V_V1        -1.667E-03
+    X_U1.vb     -1.489E-05
+    X_U1.vc     -4.000E-02
+    X_U1.ve      3.073E-11
+    X_U1.vlim    4.061E-02
+    X_U1.vlp     1.177E-05
+    X_U1.vln    -8.061E-11
+
+    TOTAL POWER DISSIPATION  -5.09E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 06/24/22 10:41:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ D:\pspice 10609 junja\invergator2-PSpiceFiles\SCHEMATIC1\2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

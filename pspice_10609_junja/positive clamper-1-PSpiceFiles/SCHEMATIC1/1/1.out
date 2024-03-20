@@ -1,0 +1,120 @@
+
+**** 08/26/22 09:38:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice 10609 junja\positive clamper-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POSITIVE CLAMPER-1
+R_R1         0 N00446  10k TC=0,0 
+C_C1         N00436 N00446  1uF  TC=0,0 
+D_D1         0 N00446 D1N4001 
+V_V1         N00436 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+V_V2         N00748 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+R_R2         0 N00752  1k TC=0,0 
+V_V3         N00752 N00748 5V
+D_D2         0 N00752 D1N4003 
+
+**** RESUMING 1.cir ****
+.END
+
+**** 08/26/22 09:38:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice 10609 junja\positive clamper-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4001         D1N4003         
+          IS   14.110000E-09   14.110000E-09 
+           N    1.984           1.984        
+         IKF   94.81           94.81         
+          BV   75             300            
+         IBV   10.000000E-06   10.000000E-06 
+          RS     .03389          .03389      
+          TT    5.700000E-06    5.700000E-06 
+         CJO   25.890000E-12   25.890000E-12 
+          VJ     .3245           .3245       
+           M     .44             .44         
+
+
+**** 08/26/22 09:38:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice 10609 junja\positive clamper-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00436)    0.0000 (N00446)-15.52E-21 (N00748)    0.0000 (N00752)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -5.000E-03
+    V_V3        -5.000E-03
+
+    TOTAL POWER DISSIPATION   2.50E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/26/22 09:38:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\Or CAD\pspice 10609 junja\positive clamper-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

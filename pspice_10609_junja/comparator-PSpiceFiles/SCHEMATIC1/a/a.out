@@ -1,0 +1,202 @@
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "a.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source COMPARATOR
+X_U1A         N00377 N00259 N00266 N00359 N00342 LM324
+R_R1         N00259 N00266  10k TC=0,0 
+R_R2         0 N00342  1k TC=0,0 
+V_V1         N00266 0 15V
+V_V2         0 N00359 15V
+V_V3         N00377 0  AC 1
++SIN 0 10V 10Hz 0 0 0
+D_D1         0 N00259 D1N4733 
+
+**** RESUMING a.cir ****
+.END
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4733         X_U1A.dx        X_U1A.dy        
+          IS    1.214000E-15  800.000000E-18  800.000000E-18 
+         ISR    2.601000E-09                                 
+          BV    5.1                                          
+         IBV     .70507                                      
+         NBV     .74348                                      
+        IBVL    4.827400E-03                                 
+        NBVL    6.7393                                       
+          RS    1.078           1               1.000000E-03 
+         CJO  185.000000E-12                   10.000000E-12 
+          VJ     .75                                         
+           M     .3509                                       
+        TBV1  176.471000E-06                                 
+
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.qx        
+               PNP             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  166.7          
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.sw2       X_U1A.sw1       X_U1A.sw3       X_U1A.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00259)    4.8295 (N00266)   15.0000 (N00342)  -14.9820 (N00359)  -15.0000     
+
+(N00377)    0.0000 (X_U1A.6)    1.4990                   (X_U1A.7)  -17.0130    
+
+(X_U1A.8)  -17.0130                   (X_U1A.9)    0.0000                       
+
+(X_U1A.a)     .0406                   (X_U1A.b)  -14.9590                       
+
+(X_U1A.10)     .6395                  (X_U1A.11)  -15.0000                      
+
+(X_U1A.12)  -14.9210                  (X_U1A.13)     .6395                      
+
+(X_U1A.14)     .6117                  (X_U1A.53)   13.5000                      
+
+(X_U1A.54)  -14.1780                  (X_U1A.90)  -40.6110                      
+
+(X_U1A.91)   40.0000                  (X_U1A.92)  -40.0000                      
+
+(X_U1A.99)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.337E-03
+    V_V2        -1.830E-02
+    V_V3         8.968E-08
+    X_U1A.vb     1.499E-05
+    X_U1A.vc     2.848E-11
+    X_U1A.ve    -2.563E-02
+    X_U1A.vlim  -4.061E-02
+    X_U1A.vlp   -8.061E-11
+    X_U1A.vln    1.459E-05
+
+    TOTAL POWER DISSIPATION   3.60E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 06/21/22 16:46:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-a"  [ D:\pspice 10609 junja\comparator-PSpiceFiles\SCHEMATIC1\a.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

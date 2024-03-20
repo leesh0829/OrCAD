@@ -1,0 +1,142 @@
+
+**** 08/23/22 17:30:19 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\20220823-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 20220823-1
+V_V1         N00195 0  AC 1
++SIN 0 5V 1KHZ 0 0 0
+R_R1         N00195 N00202  1k TC=0,0 
+D_D1         N00202 N00236 D1N4003 
+D_D2         N00209 N00202 D1N4003 
+V_V2         N00236 0 2v
+V_V3         0 N00209 4v
+R_R2         0 N00630  1k TC=0,0 
+V_V4         N00622 0 4V
+V_V5         N00626 N00622 2V
+V_V6         N00626 N00630 3V
+V_V7         N01285 0  AC 1
++SIN 0 2V 1KHz 0 0 0
+V_V8         N01261 N01285  AC 1
++SIN 0 3V 1KHZ 0 0 0
+R_R3         0 N01261  1k TC=0,0 
+R_R4         0 N01696  1k TC=0,0 
+V_V9         N01696 N01720 5V
+V_V10         N01720 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+
+**** RESUMING 1.cir ****
+.END
+
+**** 08/23/22 17:30:19 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\20220823-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4003         D1N4001         
+          IS   14.110000E-09   14.110000E-09 
+           N    1.984           1.984        
+         IKF   94.81           94.81         
+          BV  300              75            
+         IBV   10.000000E-06   10.000000E-06 
+          RS     .03389          .03389      
+          TT    5.700000E-06    5.700000E-06 
+         CJO   25.890000E-12   25.890000E-12 
+          VJ     .3245           .3245       
+           M     .44             .44         
+
+
+**** 08/23/22 17:30:19 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\20220823-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00195)    0.0000 (N00202)-2.000E-09 (N00209)   -4.0000 (N00236)    2.0000     
+
+(N00622)    4.0000 (N00626)    6.0000 (N00630)    3.0000 (N01261)    0.0000     
+
+(N01285)    0.0000 (N01696)    5.0000 (N01720)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.000E-12
+    V_V2        -1.411E-08
+    V_V3        -1.411E-08
+    V_V4        -3.000E-03
+    V_V5        -3.000E-03
+    V_V6         3.000E-03
+    V_V7         0.000E+00
+    V_V8         0.000E+00
+    V_V9        -5.000E-03
+    V_V10       -5.000E-03
+
+    TOTAL POWER DISSIPATION   3.40E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/23/22 17:30:19 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\20220823-1-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        1.00
+  Total job time (using Solver 1)   =         .05
+

@@ -1,0 +1,18 @@
+* source YAY
+V_V1         N00512 0  AC 1
++SIN 0 1V 2KHz 0 0 0
+V_V2         N00499 0  AC 1
++SIN 0 2V 2KHz 0 0 0
+V_V3         N00487 0  AC 1
++SIN 0 3V 2KHz 0 0 0
+V_V4         N00480 0  AC 1
++SIN 0 5V 2KHz 0 0 0
+R_R1         N00480 N00526  1k TC=0,0 
+R_R2         N00487 N00526  1k TC=0,0 
+R_R3         N00499 N00526  1k TC=0,0 
+R_R4         N00512 N00526  1k TC=0,0 
+R_R5         N00526 N00685  1k TC=0,0 
+R_R6         0 N00685  1k TC=0,0 
+V_V5         0 N00665 18V
+V_V6         N00624 0 18V
+X_U1         0 N00526 N00624 N00665 N00685 uA741

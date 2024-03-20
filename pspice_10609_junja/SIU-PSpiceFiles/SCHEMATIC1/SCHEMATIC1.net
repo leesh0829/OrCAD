@@ -1,0 +1,7 @@
+* source SIU
+X_U1         TP1 OUT 0 MC7805C
+V_V1         INPUT 0  AC 1
++SIN 0 10V 100Hz 0 0 0
+C_C1         0 TP1  47uF  TC=0,0 
+C_C3         0 OUT  47uF  TC=0,0 
+D_D2         INPUT TP1 D1N4001 

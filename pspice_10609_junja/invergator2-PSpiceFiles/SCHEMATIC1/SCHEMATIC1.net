@@ -1,0 +1,8 @@
+* source INVERGATOR2
+V_V2         N00756 0 15V
+X_U1         0 N00694 N00756 N00868 N00704 uA741
+R_R1         N00836 N00694  3k TC=0,0 
+V_V3         N00836 0  
++PULSE -2V 2V 1ns 1ns 1ns 0.25m 0.5m
+V_V1         0 N00868 15V
+C_C1         N00694 N00704  0.1uF IC=-15V TC=0,0 

@@ -1,0 +1,6 @@
+* source NEGATIVE CLAMPER
+R_R1         0 N00156  10k TC=0,0 
+V_V1         N00149 0  AC 1
++SIN 0 5V 1KHz 0 0 0
+C_C1         N00149 N00156  10uF  TC=0,0 
+D_D1         N00156 0 D1N4001 

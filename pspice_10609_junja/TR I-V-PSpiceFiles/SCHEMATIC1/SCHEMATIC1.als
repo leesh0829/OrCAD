@@ -1,0 +1,6 @@
+.ALIASES
+I_I1            I1(+=0 -=N00149 ) CN @TR I-V.SCHEMATIC1(sch_1):INS40@SOURCE.IDC.Normal(chips)
+R_R1            R1(1=N00149 2=N00156 ) CN @TR I-V.SCHEMATIC1(sch_1):INS65@ANALOG.R.Normal(chips)
+Q_Q1            Q1(c=N00160 b=N00156 e=0 ) CN @TR I-V.SCHEMATIC1(sch_1):INS92@BIPOLAR.Q2N3904.Normal(chips)
+V_V1            V1(+=N00160 -=0 ) CN @TR I-V.SCHEMATIC1(sch_1):INS119@SOURCE.VDC.Normal(chips)
+.ENDALIASES

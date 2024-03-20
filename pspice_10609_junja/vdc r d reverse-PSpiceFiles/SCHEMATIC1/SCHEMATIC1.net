@@ -1,0 +1,4 @@
+* source VDC R D REVERSE
+D_D1         0 0 D1N4001 
+V_V1         N00398 0 5V
+R_R1         N00398 0  1k TC=0,0 

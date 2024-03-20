@@ -1,0 +1,294 @@
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 1209PCAR
+X_U1         0 N01468 N01274 N01208 N01534 N01468 N01330 N01208 555C
+R_R3         N01468 N01330  100k TC=0,0 
+C_C1         0 N01468  0.01uF IC=-3 TC=0,0 
+R_R4         N01622 N01274  150 TC=0,0 
+D_D1         N01622 0 LT-L29S-TYP 
+R_R6         N01334 N01258  10k TC=0,0 
+C_C2         N01534 0  220uF  
+Q_Q3         N01326 N01542 N01580 Q2SA562
+Q_Q1         N01208 N01274 N01258 Q2SC1815
+V_V1         N01208 0 9V
+R_R5         0 N01580  30 TC=0,0 
+X_R1         N01476 N01476 N01334 POT PARAMS: SET=0.5 VALUE=50k
+R_R7         N01326 N01258  30 TC=0,0 
+R_R2         N01330 N01208  10k TC=0,0 
+Q_Q2         N01542 N01476 0 Q2SC1815
+
+**** RESUMING 1.cir ****
+.END
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LT-L29S-TYP     X_U1.DIODE      
+          IS   10.000000E-21   10.000000E-15 
+           N    2.844                        
+          RS   24.477            .01         
+
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2SA562         Q2SC1815        
+               PNP             NPN             
+       LEVEL    1               1            
+          IS    2.148000E-12  639.500000E-18 
+          BF  162.9           149.9          
+          NF    1               1            
+         VAF  100             172.5          
+         IKF     .8773           .8587       
+         ISE    5.013000E-12  750.100000E-18 
+          NE    1.655           1.47         
+          BR   10.18            6.575        
+          NR    1               1            
+         VAR  100             100            
+         IKR    1.838            .4534       
+         ISC   28.010000E-12    4.653000E-15 
+          NC    1.288           1.185        
+          NK     .5629           .5413       
+         ISS    0               0            
+          RE    0               0            
+          RC     .4968           .7972       
+         CJE    5.000000E-12    5.000000E-12 
+         VJE     .75             .75         
+         MJE     .3333           .3333       
+         CJC   27.040000E-12    4.858000E-12 
+         VJC     .75             .75         
+         MJC     .3333           .3333       
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          TF  767.900000E-12  314.300000E-12 
+         VTF   10              10            
+         ITF    1              13.01         
+          TR   10.000000E-09   10.000000E-09 
+         XTB    1.5             1.5          
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNEMOD     
+               NJF             
+         VTO   -2.5          
+        BETA    5.120000E-06 
+
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PCHAN555   X_U1.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U1.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N01208)    9.0000 (N01258)    7.1465 (N01274)    8.0026 (N01326)    3.2294     
+
+(N01330)    8.4545 (N01334)    5.3364 (N01468)    3.0000 (N01476)     .8114     
+
+(N01534)    6.0000 (N01542)    2.5144 (N01580)    3.1339 (N01622)    3.8087     
+
+(X_U1.1) 409.5E-12 (X_U1.2)    3.0000 (X_U1.3)    -.0041 (X_U1.4)    8.2000     
+
+(X_U1.5)    -.4106 (X_U1.6)-30.00E+03 (X_U1.7)    8.2000 (X_U1.8)    -.6835     
+
+(X_U1.9)     .0409 (X_U1.10)    9.0000                   (X_U1.11)    1.0503    
+
+(X_U1.12)    9.0000                   (X_U1.13) 409.5E-12                       
+
+(X_U1.14) 341.3E-12                   (X_U1.15)    9.0000                       
+
+(X_U1.16)    8.9540                   (X_U1.17)     .0529                       
+
+(X_U1.18) 409.5E-12                   (X_U1.19) 204.8E-12                       
+
+(X_U1.20)    9.0000                   (X_U1.21)     .1165                       
+
+(X_U1.22)    7.6552                   (X_U1.23)     .3894                       
+
+(X_U1.24)    7.8553                   (X_U1.25) 102.4E-12                       
+
+(X_U1.VDD)    9.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.299E-01
+    X_U1.V_U6_V2  -7.829E-08
+    X_U1.V_U7_V2  -3.000E-03
+
+    TOTAL POWER DISSIPATION   1.17E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/02/22 10:07:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\or cad\pspice_10609_junja\1209pcar-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .42
+

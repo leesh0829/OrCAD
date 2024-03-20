@@ -1,0 +1,228 @@
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 1209_NE555_2
+C_C2         0 N02295  0.1uF  TC=0,0 
+R_R1         N02117 N02045  10k TC=0,0 
+V_V1         N02045 0 9V
+X_U1         0 N02247 N02223 N02045 N02295 N02247 N02117 N02045 555C
+R_R4         0 N02223  1k TC=0,0 
+R_R2         N02247 N02117  100k TC=0,0 
+C_C3         0 N02247  4.7uF IC=-3 TC=0,0 
+
+**** RESUMING 1.cir ****
+.END
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DIODE      
+          IS   10.000000E-15 
+          RS     .01         
+
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNEMOD     
+               NJF             
+         VTO   -2.5          
+        BETA    5.120000E-06 
+
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PCHAN555   X_U1.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U1.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02045)    9.0000 (N02117)    8.4545 (N02223)    8.7124 (N02247)    3.0000     
+
+(N02295)    6.0000 (X_U1.1) 409.5E-12 (X_U1.2)    3.0000 (X_U1.3)    -.0041     
+
+(X_U1.4)    8.2000 (X_U1.5)    -.4106 (X_U1.6)-30.00E+03 (X_U1.7)    8.2000     
+
+(X_U1.8)    -.6835 (X_U1.9) 450.4E-06 (X_U1.10)    9.0000                       
+
+(X_U1.11)     .3405                   (X_U1.12)    9.0000                       
+
+(X_U1.13) 409.5E-12                   (X_U1.14) 341.3E-12                       
+
+(X_U1.15)    9.0000                   (X_U1.16)    8.9540                       
+
+(X_U1.17)     .0529                   (X_U1.18) 409.5E-12                       
+
+(X_U1.19) 204.8E-12                   (X_U1.20)    9.0000                       
+
+(X_U1.21)     .1165                   (X_U1.22)    7.6552                       
+
+(X_U1.23)     .3894                   (X_U1.24)    7.8553                       
+
+(X_U1.25) 102.4E-12                   (X_U1.VDD)    9.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.534E-04
+    X_U1.V_U6_V2  -7.829E-08
+    X_U1.V_U7_V2  -3.000E-03
+
+    TOTAL POWER DISSIPATION   3.78E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/27/22 09:34:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609 junja\1209_NE555_2-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .14
+

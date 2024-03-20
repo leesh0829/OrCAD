@@ -1,0 +1,15 @@
+.ALIASES
+V_V1            V1(+=N00512 -=0 ) CN @YAY.SCHEMATIC1(sch_1):INS46@SOURCE.VSIN.Normal(chips)
+V_V2            V2(+=N00499 -=0 ) CN @YAY.SCHEMATIC1(sch_1):INS74@SOURCE.VSIN.Normal(chips)
+V_V3            V3(+=N00487 -=0 ) CN @YAY.SCHEMATIC1(sch_1):INS102@SOURCE.VSIN.Normal(chips)
+V_V4            V4(+=N00480 -=0 ) CN @YAY.SCHEMATIC1(sch_1):INS130@SOURCE.VSIN.Normal(chips)
+R_R1            R1(1=N00480 2=N00526 ) CN @YAY.SCHEMATIC1(sch_1):INS167@ANALOG.R.Normal(chips)
+R_R2            R2(1=N00487 2=N00526 ) CN @YAY.SCHEMATIC1(sch_1):INS183@ANALOG.R.Normal(chips)
+R_R3            R3(1=N00499 2=N00526 ) CN @YAY.SCHEMATIC1(sch_1):INS199@ANALOG.R.Normal(chips)
+R_R4            R4(1=N00512 2=N00526 ) CN @YAY.SCHEMATIC1(sch_1):INS215@ANALOG.R.Normal(chips)
+R_R5            R5(1=N00526 2=N00685 ) CN @YAY.SCHEMATIC1(sch_1):INS231@ANALOG.R.Normal(chips)
+R_R6            R6(1=0 2=N00685 ) CN @YAY.SCHEMATIC1(sch_1):INS247@ANALOG.R.Normal(chips)
+V_V5            V5(+=0 -=N00665 ) CN @YAY.SCHEMATIC1(sch_1):INS272@SOURCE.VDC.Normal(chips)
+V_V6            V6(+=N00624 -=0 ) CN @YAY.SCHEMATIC1(sch_1):INS288@SOURCE.VDC.Normal(chips)
+X_U1            U1(+=0 -=N00526 V+=N00624 V-=N00665 OUT=N00685 ) CN @YAY.SCHEMATIC1(sch_1):INS323@YAY.uA741_0.Normal(chips)
+.ENDALIASES

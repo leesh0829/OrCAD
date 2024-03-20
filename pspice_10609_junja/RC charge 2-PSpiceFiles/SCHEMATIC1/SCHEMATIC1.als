@@ -1,0 +1,7 @@
+.ALIASES
+X_U1            U1(1=N00141 2=N00148 ) CN @RC CHARGE 2.SCHEMATIC1(sch_1):INS26@EVAL.Sw_tOpen.Normal(chips)
+X_U2            U2(1=0 2=N00148 ) CN @RC CHARGE 2.SCHEMATIC1(sch_1):INS51@EVAL.Sw_tClose.Normal(chips)
+V_V1            V1(+=N00141 -=0 ) CN @RC CHARGE 2.SCHEMATIC1(sch_1):INS76@SOURCE.VDC.Normal(chips)
+C_C1            C1(+=N00155 -=0 ) CN @RC CHARGE 2.SCHEMATIC1(sch_1):INS103@ANALOG.C_elect.Normal(chips)
+R_R1            R1(1=N00148 2=N00155 ) CN @RC CHARGE 2.SCHEMATIC1(sch_1):INS386@ANALOG.R.Normal(chips)
+.ENDALIASES

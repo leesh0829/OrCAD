@@ -1,0 +1,178 @@
+
+**** 07/01/22 11:10:13 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\pspice 10609 junja\yay-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 4 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source YAY
+V_V1         N00512 0  AC 1
++SIN 0 1V 2KHz 0 0 0
+V_V2         N00499 0  AC 1
++SIN 0 2V 2KHz 0 0 0
+V_V3         N00487 0  AC 1
++SIN 0 3V 2KHz 0 0 0
+V_V4         N00480 0  AC 1
++SIN 0 5V 2KHz 0 0 0
+R_R1         N00480 N00526  1k TC=0,0 
+R_R2         N00487 N00526  1k TC=0,0 
+R_R3         N00499 N00526  1k TC=0,0 
+R_R4         N00512 N00526  1k TC=0,0 
+R_R5         N00526 N00685  1k TC=0,0 
+R_R6         0 N00685  1k TC=0,0 
+V_V5         0 N00665 18V
+V_V6         N00624 0 18V
+X_U1         0 N00526 N00624 N00665 N00685 uA741
+
+**** RESUMING 1.cir ****
+.END
+
+**** 07/01/22 11:10:13 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\pspice 10609 junja\yay-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 07/01/22 11:10:13 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\pspice 10609 junja\yay-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+ERROR(ORPSIM-15413): Transient Stop time 1e-006 s is less than Print Start time 4 s.
+
+
+ABORTING SIMULATION
+**** 07/01/22 11:10:13 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ d:\pspice 10609 junja\yay-pspicefiles\schematic1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           9
+  External (NCNODS)                 =          24
+  Total (NUMNOD)                    =          29
+
+Total device count (NUMEL)          =          42
+  Capacitors (C)                    =           2
+  Diodes (D)                        =           5
+  VCVS (E)                          =           1
+  CCCS (F)                          =           1
+  VCCS (G)                          =           2
+  CCVS (H)                          =           1
+  Current Sources (I)               =           1
+  BJTs (Q)                          =           2
+  Resistors (R)                     =          15
+  Voltage Sources (V)               =          12
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          43
+  Initial no. elements (NTTAR)      =         141
+  No. elements w/ fillin (NTTBR)    =         141
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      92.374
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =         .03
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .09
+  License check-out time            =         .66
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,147 @@
+
+**** 05/10/22 16:46:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\TR LED multi-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TR LED MULTI
+R_R1         N00308 N00254  470 TC=0,0 
+R_R2         N00317 N00254  22K TC=0,0 
+R_R3         N00322 N00254  22K TC=0,0 
+R_R4         N00329 N00254  470 TC=0,0 
+V_V1         N00254 0 9V
+Q_Q1         N00329 N00317 0 Q2SC1815
+C_C3         N00308 N00317  22uF IC=0 
+Q_Q2         N00308 N00322 0 Q2SC1815
+C_C4         N00329 N00322  22uF IC=9 
+
+**** RESUMING 1.cir ****
+.END
+
+**** 05/10/22 16:46:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\TR LED multi-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2SC1815        
+               NPN             
+       LEVEL    1            
+          IS  639.500000E-18 
+          BF  149.9          
+          NF    1            
+         VAF  172.5          
+         IKF     .8587       
+         ISE  750.100000E-18 
+          NE    1.47         
+          BR    6.575        
+          NR    1            
+         VAR  100            
+         IKR     .4534       
+         ISC    4.653000E-15 
+          NC    1.185        
+          NK     .5413       
+         ISS    0            
+          RE    0            
+          RC     .7972       
+         CJE    5.000000E-12 
+         VJE     .75         
+         MJE     .3333       
+         CJC    4.858000E-12 
+         VJC     .75         
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  314.300000E-12 
+         VTF   10            
+         ITF   13.01         
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 05/10/22 16:46:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\TR LED multi-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00254)    9.0000 (N00308)     .8528 (N00317)     .8528 (N00322)   -8.9725     
+
+(N00329)     .0275 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.761E-02
+
+    TOTAL POWER DISSIPATION   3.39E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/10/22 16:46:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\pspice 10609\TR LED multi-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        2.44
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,1322 @@
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "fszfz.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 8s 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGINITSTATE= 0
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 20221202
+X_U2         0 N00898 N00974 VCC N00981 N00898 N00889 VCC 555C
+X_U4A         N00974 VCC VCC VCC VCC N01442 N01435 VCC 0 7476 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4B         N01442 VCC VCC VCC VCC DATA2 DATA1 VCC 0 7476 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+V_V1         VCC 0 5V
+R_R1         N00889 VCC  100k TC=0,0 
+R_R2         N00898 N00889  51k TC=0,0 
+R_R3         N005121 N00974  150 TC=0,0 
+R_R4         N005281 N01435  150 TC=0,0 
+R_R5         N005441 N01442  150 TC=0,0 
+R_R6         N005601 DATA1  150 TC=0,0 
+R_R7         N005761 DATA2  150 TC=0,0 
+C_C1         0 N00981  0.01uF  TC=0,0 
+C_C2         N00898 0  5uF IC=0V 
+D_D1         N005121 0 LT-L29S-TYP 
+D_D2         N005281 0 LT-L29S-TYP 
+D_D3         N005441 0 LT-L29S-TYP 
+D_D4         N005601 0 LT-L29S-TYP 
+D_D5         N005761 0 LT-L29S-TYP 
+
+**** RESUMING fszfz.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node VCC
+*
+* Moving X_U4B.UIBUF:IN4 from analog node VCC to new digital node VCC$AtoD
+X$VCC_AtoD1
++ VCC
++ VCC$AtoD
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4B.UIBUF:IN3 from analog node VCC to new digital node VCC$AtoD2
+X$VCC_AtoD2
++ VCC
++ VCC$AtoD2
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4B.UIBUF:IN2 from analog node VCC to new digital node VCC$AtoD3
+X$VCC_AtoD3
++ VCC
++ VCC$AtoD3
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4B.UIBUF:IN1 from analog node VCC to new digital node VCC$AtoD4
+X$VCC_AtoD4
++ VCC
++ VCC$AtoD4
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4A.UIBUF:IN4 from analog node VCC to new digital node VCC$AtoD5
+X$VCC_AtoD5
++ VCC
++ VCC$AtoD5
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4A.UIBUF:IN3 from analog node VCC to new digital node VCC$AtoD6
+X$VCC_AtoD6
++ VCC
++ VCC$AtoD6
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4A.UIBUF:IN2 from analog node VCC to new digital node VCC$AtoD7
+X$VCC_AtoD7
++ VCC
++ VCC$AtoD7
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4A.UIBUF:IN1 from analog node VCC to new digital node VCC$AtoD8
+X$VCC_AtoD8
++ VCC
++ VCC$AtoD8
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N00974
+*
+* Moving X_U4A.U2BUF:IN1 from analog node N00974 to new digital node N00974$AtoD
+X$N00974_AtoD1
++ N00974
++ N00974$AtoD
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01435
+*
+* Moving X_U4A.UOBUF:OUT2 from analog node N01435 to new digital node N01435$DtoA
+X$N01435_DtoA1
++ N01435$DtoA
++ N01435
++ VCC
++ 0
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N01442
+*
+* Moving X_U4B.U2BUF:IN1 from analog node N01442 to new digital node N01442$AtoD
+X$N01442_AtoD1
++ N01442
++ N01442$AtoD
++ VCC
++ 0
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U4A.UOBUF:OUT1 from analog node N01442 to new digital node N01442$DtoA
+X$N01442_DtoA1
++ N01442$DtoA
++ N01442
++ VCC
++ 0
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node DATA1
+*
+* Moving X_U4B.UOBUF:OUT2 from analog node DATA1 to new digital node DATA1$DtoA
+X$DATA1_DtoA1
++ DATA1$DtoA
++ DATA1
++ VCC
++ 0
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node DATA2
+*
+* Moving X_U4B.UOBUF:OUT1 from analog node DATA2 to new digital node DATA2$DtoA
+X$DATA2_DtoA1
++ DATA2$DtoA
++ DATA2
++ VCC
++ 0
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LT-L29S-TYP     X_U2.DIODE      D74CLMP         D74             
+          IS   10.000000E-21   10.000000E-15    1.000000E-15  100.000000E-18 
+           N    2.844                                                        
+          RS   24.477            .01            2              25            
+         CJO                                    2.000000E-12    2.000000E-12 
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.JNEMOD     
+               NJF             
+         VTO   -2.5          
+        BETA    5.120000E-06 
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.PCHAN555   X_U2.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U2.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN74           
+      S0NAME 0               
+       S0TSW    3.500000E-09 
+       S0RLO    7.13         
+       S0RHI  389            
+      S1NAME 1               
+       S1TSW    5.500000E-09 
+       S1RLO  467            
+       S1RHI  200            
+      S2NAME X               
+       S2TSW    3.500000E-09 
+       S2RLO   42.9          
+       S2RHI  116            
+      S3NAME R               
+       S3TSW    3.500000E-09 
+       S3RLO   42.9          
+       S3RHI  116            
+      S4NAME F               
+       S4TSW    3.500000E-09 
+       S4RLO   42.9          
+       S4RHI  116            
+      S5NAME Z               
+       S5TSW    3.500000E-09 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_76_4          D_76_3          
+      TPLHMN    0               6.000000E-09    2.400000E-09 
+      TPLHTY    0               6.000000E-09    6.000000E-09 
+      TPLHMX    0               6.000000E-09    6.000000E-09 
+      TPHLMN    0               0               2.400000E-09 
+      TPHLTY    0               0               6.000000E-09 
+      TPHLMX    0               0               6.000000E-09 
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Digital Gated FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_76_1          D_76_2          
+    TPDQLHMN    0               0            
+    TPDQLHTY    0               0            
+    TPDQLHMX    0               0            
+    TPDQHLMN    0               0            
+    TPDQHLTY    0               0            
+    TPDQHLMX    0               0            
+    TPGQLHMN    0               4.000000E-09 
+    TPGQLHTY    0              10.000000E-09 
+    TPGQLHMX    0              19.000000E-09 
+    TPGQHLMN    0               7.600000E-09 
+    TPGQHLTY    0              19.000000E-09 
+    TPGQHLMX    0              34.000000E-09 
+   TPPCQLHMN    0               4.000000E-09 
+   TPPCQLHTY    0              10.000000E-09 
+   TPPCQLHMX    0              19.000000E-09 
+   TPPCQHLMN    0               7.600000E-09 
+   TPPCQHLTY    0              19.000000E-09 
+   TPPCQHLMX    0              34.000000E-09 
+      TWGHMN    0               0            
+      TWGHTY   14.000000E-09   47.000000E-09 
+      TWGHMX   14.000000E-09   47.000000E-09 
+     TWPCLMN    0               0            
+     TWPCLTY   25.000000E-09   25.000000E-09 
+     TWPCLMX   25.000000E-09   25.000000E-09 
+     TSUDGMN    0               0            
+     TSUDGTY    0               0            
+     TSUDGMX    0               0            
+   TSUPCGHMN    0               0            
+   TSUPCGHTY    0               0            
+   TSUPCGHMX    0               0            
+      THDGMN    0               0            
+      THDGTY    0               0            
+      THDGMX    0               0            
+TIMING_SRDEL    0               0            
+TIMING_CLKDEL    0               0            
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STD          
+        DRVL  104            
+        DRVH   96.4          
+       AtoD1 AtoD_STD        
+       AtoD2 AtoD_STD_NX     
+       AtoD3 AtoD_STD        
+       AtoD4 AtoD_STD_NX     
+       DtoA1 DtoA_STD        
+       DtoA2 DtoA_STD        
+       DtoA3 DtoA_STD        
+       DtoA4 DtoA_STD        
+      TSWHL1    1.511000E-09 
+      TSWHL2    1.487000E-09 
+      TSWHL3    1.511000E-09 
+      TSWHL4    1.487000E-09 
+      TSWLH1    3.517000E-09 
+      TSWLH2    3.564000E-09 
+      TSWLH3    3.517000E-09 
+      TSWLH4    3.564000E-09 
+       TPWRT  100.000000E+03 
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)    5.0000  (DATA1)    3.2439  (DATA2)     .0900  (N00889)    1.6887     
+
+(N00898) 66.23E-09 (N00974)    4.4780 (N00981)    3.3333 (N01435)    3.2439     
+
+(N01442)     .0971 (X_U2.1) 417.5E-12 (X_U2.2)    1.6667 (X_U2.3) 16.67E+03     
+
+(X_U2.4)    4.2000 (X_U2.5)    4.0683 (X_U2.6)-33.33E+03 (X_U2.7)    4.2000     
+
+(X_U2.8)    -.6863 (X_U2.9) 55.19E-12 ($G_DGND)    0.0000                       
+
+($G_DPWR)    5.0000                   (N005121)    3.2372                       
+
+(N005281)    2.9688                   (N005441)     .0971                       
+
+(N005601)    2.9688                   (N005761)     .0900                       
+
+(X_U2.10)    5.0000                   (X_U2.11)    5.0000                       
+
+(X_U2.12)    5.0000                   (X_U2.13) 417.5E-12                       
+
+(X_U2.14) 347.9E-12                   (X_U2.15)    5.0000                       
+
+(X_U2.16)    5.0000                   (X_U2.17)    5.0000                       
+
+(X_U2.18) 417.5E-12                   (X_U2.19) 208.8E-12                       
+
+(X_U2.20)    5.0000                   (X_U2.21)     .1137                       
+
+(X_U2.22)    2.5000                   (X_U2.23)    4.8683                       
+
+(X_U2.24) 107.3E-12                   (X_U2.25) 104.4E-12                       
+
+(X_U2.VDD)    5.0000                  (X$VCC_AtoD1.1)    1.5648                 
+
+(X$VCC_AtoD1.2)     .7824             (X$VCC_AtoD1.3)    2.2862                 
+
+(X$VCC_AtoD2.1)    1.5648             (X$VCC_AtoD2.2)     .7824                 
+
+(X$VCC_AtoD2.3)    2.2862             (X$VCC_AtoD3.1)    1.5648                 
+
+(X$VCC_AtoD3.2)     .7824             (X$VCC_AtoD3.3)    2.2862                 
+
+(X$VCC_AtoD4.1)    1.5648             (X$VCC_AtoD4.2)     .7824                 
+
+(X$VCC_AtoD4.3)    2.2862             (X$VCC_AtoD5.1)    1.5648                 
+
+(X$VCC_AtoD5.2)     .7824             (X$VCC_AtoD5.3)    2.2862                 
+
+(X$VCC_AtoD6.1)    1.5648             (X$VCC_AtoD6.2)     .7824                 
+
+(X$VCC_AtoD6.3)    2.2862             (X$VCC_AtoD7.1)    1.5648                 
+
+(X$VCC_AtoD7.2)     .7824             (X$VCC_AtoD7.3)    2.2862                 
+
+(X$VCC_AtoD8.1)    1.5648             (X$VCC_AtoD8.2)     .7824                 
+
+(X$VCC_AtoD8.3)    2.2862             (X$N00974_AtoD1.1)    1.5648              
+
+(X$N00974_AtoD1.2)     .7824          (X$N00974_AtoD1.3)    2.2862              
+
+(X$N01442_AtoD1.1)     .1886          (X$N01442_AtoD1.2)     .0943              
+
+(X$N01442_AtoD1.3)     .9230          
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(X_U4A.PREBAR_BUF) : 1                (X_U4A.J_BUF) : 1  (X_U4A.Q2) : 0         
+
+(X_U4B.YB) : 1     ( X_U4B.Y) : 0     (X_U4B.W1) : 1     (X_U4B.J_BUF) : 1      
+
+(X_U4A.CLKBAR) : 0                    (VCC$AtoD5) : 1    (N01442$DtoA) : 0      
+
+(X_U4B.QB2D) : 1   (   $D_HI) : 1     (X_U4A.QB2) : 1    (VCC$AtoD6) : 1        
+
+(X_U4A.YB) : 1     (X_U4A.K_BUF) : 1  (X_U4A.CLRBAR_BUF) : 1                    
+
+(X_U4A.W1) : 1     (X_U4B.Q2D) : 0    (X_U4B.JB) : 0     (X_U4B.CLKBAR) : 1     
+
+(X_U4B.W2) : 0     (N01435$DtoA) : 1  (X_U4B.K_BUF) : 1  (VCC$AtoD2) : 1        
+
+(X_U4B.PREBAR_BUF) : 1                (VCC$AtoD7) : 1    (X_U4B.KB) : 0         
+
+(X_U4B.QB2) : 1    (VCC$AtoD8) : 1    (X_U4A.CLK_BUF) : 1                       
+
+( X_U4A.Y) : 0     (DATA1$DtoA) : 1   (X_U4A.JB) : 0     (X_U4A.W2) : 0         
+
+(VCC$AtoD) : 1     (X_U4B.Q2) : 0     (X_U4A.Q2D) : 0    (X_U4B.CLRBAR_BUF) : 1 
+
+(DATA2$DtoA) : 0   (X_U4A.KB) : 0     (N00974$AtoD) : 1  (VCC$AtoD3) : 1        
+
+(VCC$AtoD4) : 1    (X_U4B.CLK_BUF) : 0                   (N01442$AtoD) : 0      
+
+(X_U4A.QB2D) : 1   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.018E-02
+    X_U2.V_U6_V2   4.078E-12
+    X_U2.V_U7_V2  -3.333E-03
+    X$DIGIFPWR.VDPWR  -5.000E-06
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   2.54E-01  WATTS
+
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     SIMULATION ERRORS
+
+
+******************************************************************************
+
+
+
+
+DIGITAL Message ID#1 (WARNING):
+TIMING Hazard at time 828.5234955ms
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#2 (SERIOUS):
+PERSISTENT Hazard at time 828.523498ms
+  On D/A Node "N01442$DtoA"
+  See Message ID#1 for probable cause.
+
+DIGITAL Message ID#3 (SERIOUS):
+PERSISTENT Hazard at time 828.523498ms
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#1 for probable cause.
+
+DIGITAL Message ID#4 (SERIOUS):
+PERSISTENT Hazard at time 828.5235ms
+  On D/A Node "N01435$DtoA"
+  See Message ID#1 for probable cause.
+
+DIGITAL Message ID#5 (SERIOUS):
+PERSISTENT Hazard at time 828.5235ms
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#1 for probable cause.
+
+DIGITAL Message ID#6 (WARNING):
+TIMING Hazard at time 828.5235068ms
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "1", and
+  R (X_U4B.W2) input is "0" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#7 (WARNING):
+TIMING Hazard at time 1.0050496359s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#8 (WARNING):
+TIMING Hazard at time 1.5270712445s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "0", and
+  R (X_U4A.YB) input is "1" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#9 (SERIOUS):
+PERSISTENT Hazard at time 1.527071247s
+  On D/A Node "N01435$DtoA"
+  See Message ID#8 for probable cause.
+
+DIGITAL Message ID#10 (SERIOUS):
+PERSISTENT Hazard at time 1.527071247s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#8 for probable cause.
+
+DIGITAL Message ID#11 (SERIOUS):
+PERSISTENT Hazard at time 1.527071249s
+  On D/A Node "N01442$DtoA"
+  See Message ID#8 for probable cause.
+
+DIGITAL Message ID#12 (SERIOUS):
+PERSISTENT Hazard at time 1.527071249s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#8 for probable cause.
+
+DIGITAL Message ID#13 (WARNING):
+TIMING Hazard at time 1.5270712516s
+  Device: X_U4B.U2
+
+  Possible race condition exists:
+  S (X_U4B.Y) input is "1", and
+  R (X_U4B.YB) input is "0" during GATE (X_U4B.CLKBAR) assertion.
+
+
+DIGITAL Message ID#14 (SERIOUS):
+PERSISTENT Hazard at time 1.5270712541s
+  On D/A Node "DATA2$DtoA"
+  See Message ID#13 for probable cause.
+
+DIGITAL Message ID#15 (SERIOUS):
+PERSISTENT Hazard at time 1.5270712541s
+  Device: On D/A interface X$DATA2_DtoA1.N1, "DATA2$DtoA"
+  See Message ID#13 for probable cause.
+
+DIGITAL Message ID#16 (SERIOUS):
+PERSISTENT Hazard at time 1.5270712561s
+  On D/A Node "DATA1$DtoA"
+  See Message ID#13 for probable cause.
+
+DIGITAL Message ID#17 (SERIOUS):
+PERSISTENT Hazard at time 1.5270712561s
+  Device: On D/A interface X$DATA1_DtoA1.N1, "DATA1$DtoA"
+  See Message ID#13 for probable cause.
+
+DIGITAL Message ID#18 (WARNING):
+TIMING Hazard at time 1.7037143491s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "1", and
+  R (X_U4A.W2) input is "0" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#19 (WARNING):
+TIMING Hazard at time 2.2260638155s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#20 (SERIOUS):
+PERSISTENT Hazard at time 2.226063818s
+  On D/A Node "N01442$DtoA"
+  See Message ID#19 for probable cause.
+
+DIGITAL Message ID#21 (SERIOUS):
+PERSISTENT Hazard at time 2.226063818s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#19 for probable cause.
+
+DIGITAL Message ID#22 (SERIOUS):
+PERSISTENT Hazard at time 2.22606382s
+  On D/A Node "N01435$DtoA"
+  See Message ID#19 for probable cause.
+
+DIGITAL Message ID#23 (SERIOUS):
+PERSISTENT Hazard at time 2.22606382s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#19 for probable cause.
+
+DIGITAL Message ID#24 (WARNING):
+TIMING Hazard at time 2.2260638268s
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "0", and
+  R (X_U4B.W2) input is "1" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#25 (WARNING):
+TIMING Hazard at time 2.4027427965s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#26 (WARNING):
+TIMING Hazard at time 2.9248470871s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "0", and
+  R (X_U4A.YB) input is "1" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#27 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470896s
+  On D/A Node "N01435$DtoA"
+  See Message ID#26 for probable cause.
+
+DIGITAL Message ID#28 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470896s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#26 for probable cause.
+
+DIGITAL Message ID#29 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470916s
+  On D/A Node "N01442$DtoA"
+  See Message ID#26 for probable cause.
+
+DIGITAL Message ID#30 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470916s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#26 for probable cause.
+
+DIGITAL Message ID#31 (WARNING):
+TIMING Hazard at time 2.9248470942s
+  Device: X_U4B.U2
+
+  Possible race condition exists:
+  S (X_U4B.Y) input is "0", and
+  R (X_U4B.YB) input is "1" during GATE (X_U4B.CLKBAR) assertion.
+
+
+DIGITAL Message ID#32 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470967s
+  On D/A Node "DATA1$DtoA"
+  See Message ID#31 for probable cause.
+
+DIGITAL Message ID#33 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470967s
+  Device: On D/A interface X$DATA1_DtoA1.N1, "DATA1$DtoA"
+  See Message ID#31 for probable cause.
+
+DIGITAL Message ID#34 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470987s
+  On D/A Node "DATA2$DtoA"
+  See Message ID#31 for probable cause.
+
+DIGITAL Message ID#35 (SERIOUS):
+PERSISTENT Hazard at time 2.9248470987s
+  Device: On D/A interface X$DATA2_DtoA1.N1, "DATA2$DtoA"
+  See Message ID#31 for probable cause.
+
+DIGITAL Message ID#36 (WARNING):
+TIMING Hazard at time 3.1014992796s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "1", and
+  R (X_U4A.W2) input is "0" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#37 (WARNING):
+TIMING Hazard at time 3.6240877908s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#38 (SERIOUS):
+PERSISTENT Hazard at time 3.6240877933s
+  On D/A Node "N01442$DtoA"
+  See Message ID#37 for probable cause.
+
+DIGITAL Message ID#39 (SERIOUS):
+PERSISTENT Hazard at time 3.6240877933s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#37 for probable cause.
+
+DIGITAL Message ID#40 (SERIOUS):
+PERSISTENT Hazard at time 3.6240877953s
+  On D/A Node "N01435$DtoA"
+  See Message ID#37 for probable cause.
+
+DIGITAL Message ID#41 (SERIOUS):
+PERSISTENT Hazard at time 3.6240877953s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#37 for probable cause.
+
+DIGITAL Message ID#42 (WARNING):
+TIMING Hazard at time 3.6240878021s
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "1", and
+  R (X_U4B.W2) input is "0" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#43 (WARNING):
+TIMING Hazard at time 3.8008036914s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#44 (WARNING):
+TIMING Hazard at time 4.3229801965s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "0", and
+  R (X_U4A.YB) input is "1" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#45 (SERIOUS):
+PERSISTENT Hazard at time 4.322980199s
+  On D/A Node "N01435$DtoA"
+  See Message ID#44 for probable cause.
+
+DIGITAL Message ID#46 (SERIOUS):
+PERSISTENT Hazard at time 4.322980199s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#44 for probable cause.
+
+DIGITAL Message ID#47 (SERIOUS):
+PERSISTENT Hazard at time 4.322980201s
+  On D/A Node "N01442$DtoA"
+  See Message ID#44 for probable cause.
+
+DIGITAL Message ID#48 (SERIOUS):
+PERSISTENT Hazard at time 4.322980201s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#44 for probable cause.
+
+DIGITAL Message ID#49 (WARNING):
+TIMING Hazard at time 4.3229802036s
+  Device: X_U4B.U2
+
+  Possible race condition exists:
+  S (X_U4B.Y) input is "1", and
+  R (X_U4B.YB) input is "0" during GATE (X_U4B.CLKBAR) assertion.
+
+
+DIGITAL Message ID#50 (SERIOUS):
+PERSISTENT Hazard at time 4.3229802061s
+  On D/A Node "DATA2$DtoA"
+  See Message ID#49 for probable cause.
+
+DIGITAL Message ID#51 (SERIOUS):
+PERSISTENT Hazard at time 4.3229802061s
+  Device: On D/A interface X$DATA2_DtoA1.N1, "DATA2$DtoA"
+  See Message ID#49 for probable cause.
+
+DIGITAL Message ID#52 (SERIOUS):
+PERSISTENT Hazard at time 4.3229802081s
+  On D/A Node "DATA1$DtoA"
+  See Message ID#49 for probable cause.
+
+DIGITAL Message ID#53 (SERIOUS):
+PERSISTENT Hazard at time 4.3229802081s
+  Device: On D/A interface X$DATA1_DtoA1.N1, "DATA1$DtoA"
+  See Message ID#49 for probable cause.
+
+DIGITAL Message ID#54 (WARNING):
+TIMING Hazard at time 4.499180653s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "1", and
+  R (X_U4A.W2) input is "0" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#55 (WARNING):
+TIMING Hazard at time 5.0213261084s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#56 (SERIOUS):
+PERSISTENT Hazard at time 5.0213261109s
+  On D/A Node "N01442$DtoA"
+  See Message ID#55 for probable cause.
+
+DIGITAL Message ID#57 (SERIOUS):
+PERSISTENT Hazard at time 5.0213261109s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#55 for probable cause.
+
+DIGITAL Message ID#58 (SERIOUS):
+PERSISTENT Hazard at time 5.0213261129s
+  On D/A Node "N01435$DtoA"
+  See Message ID#55 for probable cause.
+
+DIGITAL Message ID#59 (SERIOUS):
+PERSISTENT Hazard at time 5.0213261129s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#55 for probable cause.
+
+DIGITAL Message ID#60 (WARNING):
+TIMING Hazard at time 5.0213261197s
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "0", and
+  R (X_U4B.W2) input is "1" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#61 (WARNING):
+TIMING Hazard at time 5.1979916756s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#62 (WARNING):
+TIMING Hazard at time 5.7203562832s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "0", and
+  R (X_U4A.YB) input is "1" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#63 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562857s
+  On D/A Node "N01435$DtoA"
+  See Message ID#62 for probable cause.
+
+DIGITAL Message ID#64 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562857s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#62 for probable cause.
+
+DIGITAL Message ID#65 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562877s
+  On D/A Node "N01442$DtoA"
+  See Message ID#62 for probable cause.
+
+DIGITAL Message ID#66 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562877s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#62 for probable cause.
+
+DIGITAL Message ID#67 (WARNING):
+TIMING Hazard at time 5.7203562903s
+  Device: X_U4B.U2
+
+  Possible race condition exists:
+  S (X_U4B.Y) input is "0", and
+  R (X_U4B.YB) input is "1" during GATE (X_U4B.CLKBAR) assertion.
+
+
+DIGITAL Message ID#68 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562928s
+  On D/A Node "DATA1$DtoA"
+  See Message ID#67 for probable cause.
+
+DIGITAL Message ID#69 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562928s
+  Device: On D/A interface X$DATA1_DtoA1.N1, "DATA1$DtoA"
+  See Message ID#67 for probable cause.
+
+DIGITAL Message ID#70 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562948s
+  On D/A Node "DATA2$DtoA"
+  See Message ID#67 for probable cause.
+
+DIGITAL Message ID#71 (SERIOUS):
+PERSISTENT Hazard at time 5.7203562948s
+  Device: On D/A interface X$DATA2_DtoA1.N1, "DATA2$DtoA"
+  See Message ID#67 for probable cause.
+
+DIGITAL Message ID#72 (WARNING):
+TIMING Hazard at time 5.8964010766s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "1", and
+  R (X_U4A.W2) input is "0" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#73 (WARNING):
+TIMING Hazard at time 6.4185739393s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#74 (SERIOUS):
+PERSISTENT Hazard at time 6.4185739418s
+  On D/A Node "N01442$DtoA"
+  See Message ID#73 for probable cause.
+
+DIGITAL Message ID#75 (SERIOUS):
+PERSISTENT Hazard at time 6.4185739418s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#73 for probable cause.
+
+DIGITAL Message ID#76 (SERIOUS):
+PERSISTENT Hazard at time 6.4185739438s
+  On D/A Node "N01435$DtoA"
+  See Message ID#73 for probable cause.
+
+DIGITAL Message ID#77 (SERIOUS):
+PERSISTENT Hazard at time 6.4185739438s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#73 for probable cause.
+
+DIGITAL Message ID#78 (WARNING):
+TIMING Hazard at time 6.4185739506s
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "1", and
+  R (X_U4B.W2) input is "0" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#79 (WARNING):
+TIMING Hazard at time 6.5951093638s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#80 (WARNING):
+TIMING Hazard at time 7.1174303083s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "0", and
+  R (X_U4A.YB) input is "1" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#81 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303108s
+  On D/A Node "N01435$DtoA"
+  See Message ID#80 for probable cause.
+
+DIGITAL Message ID#82 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303108s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#80 for probable cause.
+
+DIGITAL Message ID#83 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303128s
+  On D/A Node "N01442$DtoA"
+  See Message ID#80 for probable cause.
+
+DIGITAL Message ID#84 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303128s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#80 for probable cause.
+
+DIGITAL Message ID#85 (WARNING):
+TIMING Hazard at time 7.1174303154s
+  Device: X_U4B.U2
+
+  Possible race condition exists:
+  S (X_U4B.Y) input is "1", and
+  R (X_U4B.YB) input is "0" during GATE (X_U4B.CLKBAR) assertion.
+
+
+DIGITAL Message ID#86 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303179s
+  On D/A Node "DATA2$DtoA"
+  See Message ID#85 for probable cause.
+
+DIGITAL Message ID#87 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303179s
+  Device: On D/A interface X$DATA2_DtoA1.N1, "DATA2$DtoA"
+  See Message ID#85 for probable cause.
+
+DIGITAL Message ID#88 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303199s
+  On D/A Node "DATA1$DtoA"
+  See Message ID#85 for probable cause.
+
+DIGITAL Message ID#89 (SERIOUS):
+PERSISTENT Hazard at time 7.1174303199s
+  Device: On D/A interface X$DATA1_DtoA1.N1, "DATA1$DtoA"
+  See Message ID#85 for probable cause.
+
+DIGITAL Message ID#90 (WARNING):
+TIMING Hazard at time 7.2940967527s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "1", and
+  R (X_U4A.W2) input is "0" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#91 (WARNING):
+TIMING Hazard at time 7.8161182028s
+  Device: X_U4A.U2
+
+  Possible race condition exists:
+  S (X_U4A.Y) input is "1", and
+  R (X_U4A.YB) input is "0" during GATE (X_U4A.CLKBAR) assertion.
+
+
+DIGITAL Message ID#92 (SERIOUS):
+PERSISTENT Hazard at time 7.8161182053s
+  On D/A Node "N01442$DtoA"
+  See Message ID#91 for probable cause.
+
+DIGITAL Message ID#93 (SERIOUS):
+PERSISTENT Hazard at time 7.8161182053s
+  Device: On D/A interface X$N01442_DtoA1.N1, "N01442$DtoA"
+  See Message ID#91 for probable cause.
+
+DIGITAL Message ID#94 (SERIOUS):
+PERSISTENT Hazard at time 7.8161182073s
+  On D/A Node "N01435$DtoA"
+  See Message ID#91 for probable cause.
+
+DIGITAL Message ID#95 (SERIOUS):
+PERSISTENT Hazard at time 7.8161182073s
+  Device: On D/A interface X$N01435_DtoA1.N1, "N01435$DtoA"
+  See Message ID#91 for probable cause.
+
+DIGITAL Message ID#96 (WARNING):
+TIMING Hazard at time 7.8161182141s
+  Device: X_U4B.U1
+
+  Possible race condition exists:
+  S (X_U4B.W1) input is "0", and
+  R (X_U4B.W2) input is "1" during GATE (X_U4B.CLK_BUF) assertion.
+
+
+DIGITAL Message ID#97 (WARNING):
+TIMING Hazard at time 7.9924676299s
+  Device: X_U4A.U1
+
+  Possible race condition exists:
+  S (X_U4A.W1) input is "0", and
+  R (X_U4A.W2) input is "1" during GATE (X_U4A.CLK_BUF) assertion.
+
+
+
+          JOB CONCLUDED
+
+**** 12/02/22 09:35:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fszfz"  [ D:\Or CAD\pspice_10609_junja\20221202-PSpiceFiles\SCHEMATIC1\fszfz.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .92
+

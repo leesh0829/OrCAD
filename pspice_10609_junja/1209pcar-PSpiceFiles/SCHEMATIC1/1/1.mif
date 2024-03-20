@@ -1,0 +1,5 @@
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\osram_smartled.lib, offset=5701, size=1442
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\jbipolar.lib, offset=26874, size=316
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\jbipolar.lib, offset=63572, size=344
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\anl_misc.lib, offset=8165, size=3527
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

@@ -1,0 +1,8 @@
+* source RC CHARGE 2
+X_U1         N00141 N00148 Sw_tOpen PARAMS: tOpen=50 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+X_U2         0 N00148 Sw_tClose PARAMS: tClose=50s ttran=1u Rclosed=0.01
++  Ropen=1Meg
+V_V1         N00141 0 5V
+C_C1         N00155 0  100uF  
+R_R1         N00148 N00155  100k TC=0,0 
