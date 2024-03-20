@@ -1,0 +1,25 @@
+* D:\2022 pspice\nand-PSpiceFiles\SCHEMATIC1\3\3.stl written on Wed May 18 10:04:06 2022
+* by Stimulus Editor -- Serial Number: 65793 -- Version 17.2.0
+;!Stimulus Get
+;! A4 Digital B4 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 8ms
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS B4 STIM (1, 1) ;! CLOCKP 0.001 0.0005 0 0
++   +0s 0
++   +500us 1
++   Repeat Forever
++      +500us 0
++      +500us 1
++   EndRepeat
+.STIMULUS A4 STIM (1, 1) ;! CLOCKP 0.002 0.001 0 0
++   +0s 0
++   +1ms 1
++   Repeat Forever
++      +1ms 0
++      +1ms 1
++   EndRepeat

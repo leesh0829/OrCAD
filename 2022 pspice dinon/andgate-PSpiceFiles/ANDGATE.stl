@@ -1,0 +1,25 @@
+* D:\2022 pspice\andgate-PSpiceFiles\ANDGATE.stl written on Wed May 04 11:19:25 2022
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! B Digital A Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 16s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS A STIM (1, 1) ;! CLOCKP 4s 2s 0 0
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +2s 0
++      +2s 1
++   EndRepeat
+.STIMULUS B STIM (1, 1) ;! CLOCKP 2s 1s 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat

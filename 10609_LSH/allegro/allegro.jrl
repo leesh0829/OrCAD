@@ -1,0 +1,17 @@
+\t (00:00:02) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Nov 29 17:05:17 2022
+\t (00:00:02)         Host=USER User=user Pid=11824 CPUs=8
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user C:\10609_LSH\allegro\MOD10_COUNTER.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged MOD10_COUNTER
+\d (00:00:05) Design opened: C:/10609_LSH/allegro/MOD10_COUNTER.brd
+\i (00:00:05) trapsize 14364
+\i (00:00:05) trapsize 15086
+\i (00:00:05) trapsize 15018
+\i (00:00:05) trapsize 14364
+\i (00:00:05) trapsize 14364
+\i (00:00:05) generaledit 
+\i (00:34:54) exit 
+\t (00:34:56)     Journal end - Tue Nov 29 17:40:11 2022

@@ -1,0 +1,84 @@
+
+**** 08/25/22 16:29:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\2022 pspice dinon\encoder-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ENCODER
+.EXTERNAL OUTPUT Y0
+.EXTERNAL OUTPUT Y1
+X_U1A         D0 D1 N00620 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         D0 D1 N00717 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00620 N00632 Y1 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N00717 N00729 Y0 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4A         D1 D3 N00632 $G_DPWR $G_DGND 7402 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4B         D1 D3 N00729 $G_DPWR $G_DGND 7402 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM2         STIM(1,1)
++ $G_DPWR $G_DGND
++ D1 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 3ms 1  
++ 4ms 0  
+U_DSTM3         STIM(1,1)
++ $G_DPWR $G_DGND
++ D1 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 2ms 1  
++ 3ms0  
+--------$
+ERROR(ORPSIM-16257): Expecting < value>, GOTO, INCR, or DECR
+U_DSTM4         STIM(1,1)
++ $G_DPWR $G_DGND
++ D3 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 1ms 1  
++ 2ms 0  
+U_DSTM5         STIM(1,1)
++ $G_DPWR $G_DGND
++ D0 
++ IO_STM
++ IO_LEVEL=0
++  0ms 1  
++ 1ms 0  
+
+**** RESUMING 1.cir ****
+.END
+

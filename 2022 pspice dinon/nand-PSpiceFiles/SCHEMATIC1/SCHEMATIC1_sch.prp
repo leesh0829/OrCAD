@@ -1,0 +1,57 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("DigStim1")
+        ("7432")
+    )
+    ("instances"
+        ("DSTM1"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM1")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("DSTM2"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_DSTM2")
+            ("level"	"0")
+            ("model_params"
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+            )
+        )
+        ("U1A"
+            ("device_name"	"7432")
+            ("pspice_path"	"X_U1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+    )
+)

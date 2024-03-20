@@ -1,0 +1,278 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DATA1        pins ADDED TO this new net
+                                 U3.11          U5.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DATA2        pins ADDED TO this new net
+                                 U3.10          U7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C1.2                           
+                                 C2.2                           
+                                 D1.1                           
+                                 D2.1                           
+                                 D3.1                           
+                                 R7.2                           
+                                 U1.1                           
+                                 U2.13                          
+                                 U3.13                          
+                                 U5.10                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01284       pins ADDED TO this new net
+                                 R1.2           R2.1           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01288       pins ADDED TO this new net
+                                 C1.1           R2.2           U1.2           
+                                 U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01339       pins ADDED TO this new net
+                                 C2.1           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01374       pins ADDED TO this new net
+                                 D3.2           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01402       pins ADDED TO this new net
+                                 R5.1           U1.3           U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01481       pins ADDED TO this new net
+                                 D1.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01485       pins ADDED TO this new net
+                                 R3.1           U2.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01489       pins ADDED TO this new net
+                                 R4.1           U2.15          U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01496       pins ADDED TO this new net
+                                 D2.2           R4.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N01924       pins ADDED TO this new net
+                                 LS1.1          R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01935       pins ADDED TO this new net
+                                 LS1.2          Q2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02032       pins ADDED TO this new net
+                                 Q1.2           Q2.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02181       pins ADDED TO this new net
+                                 Q1.3           Q2.1           R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02192       pins ADDED TO this new net
+                                 Q1.1           R12.2          R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02610       pins ADDED TO this new net
+                                 C6.2           R9.1           U7.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02621       pins ADDED TO this new net
+                                 C6.1           R8.1           U4.4           
+                                 U4.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02677       pins ADDED TO this new net
+                                 C5.2           R9.2           U7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02748       pins ADDED TO this new net
+                                 C4.2           R11.1          U5.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02759       pins ADDED TO this new net
+                                 C4.1           R10.1          U6.12          
+                                 U6.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02763       pins ADDED TO this new net
+                                 C3.1           R10.2          R13.2          
+                                 U6.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02767       pins ADDED TO this new net
+                                 C3.2           R11.2          U5.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this existing net (pins not previously on any net)
+                                 C5.1                           
+                                 R1.1                           
+                                 R6.1                           
+                                 R8.2                           
+                                 R12.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R14.1                          
+                                 U1.4                           
+                                 U1.8                           
+                                 U2.2                           
+                                 U2.3                           
+                                 U2.4                           
+                                 U2.5                           
+                                 U2.16                          
+                                 U3.5                           
+                                 U3.7                           
+                                 U3.8                           
+                                 U3.9                           
+                                 U3.12                          
+                                 U4.6                           
+                                 U7.14                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74LS00_11_DIP14_3_74LS00
+ 74LS00_12_DIP14_3_74LS00
+ 74LS00_DIP14_3_74LS00
+ 74LS76_0_DIP16_3_74LS76
+ 74LS76_1_DIP16_3_74LS76
+ CAP NP_CAPCK05_0.01UF
+ CAP POL_CAP196_1UF
+ CAP POL_CAP196_4.7UF
+ LED_DO41_LT-L29S-TYP
+ NE555_0_DIP8_3_NE555
+ NPN BEC_TO220AB_Q2SC1815
+ NPN BEC_TO220AB_QS2C1815
+ R_RES400_1.5K
+ R_RES400_1K
+ R_RES400_2.2
+ R_RES400_10K
+ R_RES400_31K
+ R_RES400_100K
+ R_RES400_10
+ R_RES400_150
+ R_RES400_680
+ SPEAKER_JUMPER2_SPEAKER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP POL_CAP196_1UF    
+ C2                  CAP NP_CAPCK05_0.01UF 
+ C3                  CAP POL_CAP196_4.7UF  
+ C4                  CAP POL_CAP196_4.7UF  
+ C5                  CAP POL_CAP196_1UF    
+ C6                  CAP POL_CAP196_1UF    
+ D1                  LED_DO41_LT-L29S-TYP  
+ D2                  LED_DO41_LT-L29S-TYP  
+ D3                  LED_DO41_LT-L29S-TYP  
+ LS1                 SPEAKER_JUMPER2_SPEAKER 
+ Q1                  NPN BEC_TO220AB_Q2SC1815 
+ Q2                  NPN BEC_TO220AB_QS2C1815 
+ R1                  R_RES400_100K         
+ R2                  R_RES400_31K          
+ R3                  R_RES400_150          
+ R4                  R_RES400_150          
+ R5                  R_RES400_150          
+ R6                  R_RES400_10           
+ R7                  R_RES400_2.2          
+ R8                  R_RES400_1K           
+ R9                  R_RES400_1K           
+ R10                 R_RES400_680          
+ R11                 R_RES400_680          
+ R12                 R_RES400_10K          
+ R13                 R_RES400_10K          
+ R14                 R_RES400_1.5K         
+ U1                  NE555_0_DIP8_3_NE555  
+ U2                  74LS76_0_DIP16_3_74LS76 
+ U3                  74LS76_1_DIP16_3_74LS76 
+ U4                  74LS00_DIP14_3_74LS00 
+ U5                  74LS00_11_DIP14_3_74LS00 
+ U6                  74LS00_DIP14_3_74LS00 
+ U7                  74LS00_12_DIP14_3_74LS00 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ LS1.2                          PRIM_FILE      .\pstchip.dat
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q2.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U2.4                           PRIM_FILE      .\pstchip.dat
+ U3.9                           PRIM_FILE      .\pstchip.dat
+ U4.6                           PRIM_FILE      .\pstchip.dat
+ U5.9                           PRIM_FILE      .\pstchip.dat
+ U6.11                          PRIM_FILE      .\pstchip.dat
+ U7.1                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd                          |
+|                                                    Tue Nov 08 17:45:15 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      94                                        |
+|       Comp definitions added:      22                                        |
+|       Components added      :      33                                        |
+|       Slot property added   :      33                                        |
+|                                                                              |
+|   Total ECO changes reported:     182                                        |
+|------------------------------------------------------------------------------|

@@ -1,0 +1,62 @@
+* D:\2022 PSPICE DINON\test-PSpiceFiles\TEST.stl written on Wed Jun 29 09:34:29 2022
+* by Stimulus Editor -- Serial Number: 65793 -- Version 17.2.0
+;!Stimulus Get
+;! A2 Digital B2 Digital C2 Digital D2 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 32ms
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS D2 STIM (1, 1) ;! CLOCKP 1ms 0.5ms 0 0
++   +0s 0
++   +500us 1
++   Repeat Forever
++      +500us 0
++      +500us 1
++   EndRepeat
+.STIMULUS C2 STIM (1, 1) ;! CLOCKP 2ms 1ms 0 0
++   +0s 0
++   +1ms 1
++   Repeat Forever
++      +1ms 0
++      +1ms 1
++   EndRepeat
+.STIMULUS B2 STIM (1, 1) ;! CLOCKP 4ms 2ms 0 0
++   +0s 0
++   +2ms 1
++   Repeat Forever
++      +2ms 0
++      +2ms 1
++   EndRepeat
+.STIMULUS A2 STIM (1, 1) ;! CLOCKP 8ms 4ms 0 0
++   +0s 0
++   +4ms 1
++   Repeat Forever
++      +4ms 0
++      +4ms 1
++   EndRepeat
+.STIMULUS C1 STIM (1, 1) ;! CLOCKP 4ms 2ms 0 0
++   +0s 0
++   +2ms 1
++   Repeat Forever
++      +2ms 0
++      +2ms 1
++   EndRepeat
+.STIMULUS B1 STIM (1, 1) ;! CLOCKP 4ms 2ms 0 0
++   +0s 0
++   +2ms 1
++   Repeat Forever
++      +2ms 0
++      +2ms 1
++   EndRepeat
+.STIMULUS A1 STIM (1, 1) ;! CLOCKP 8ms 4ms 0 0
++   +0s 0
++   +4ms 1
++   Repeat Forever
++      +4ms 0
++      +4ms 1
++   EndRepeat
+.STIMULUS A STIM (1, 1)
++   +0s 0

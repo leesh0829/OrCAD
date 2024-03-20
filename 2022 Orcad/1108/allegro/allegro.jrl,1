@@ -1,0 +1,17 @@
+\t (00:00:10) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:10)     Journal start - Tue Nov 08 17:45:26 2022
+\t (00:00:10)         Host=USER User=user Pid=1308 CPUs=8
+\t (00:00:10) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user D:\OR CAD\2022 ORCAD\1108\allegro\AMBUKACE_CAR.brd
+\t (00:00:10) 
+   (00:00:11) Loading axlcore.cxt 
+\t (00:00:11) Opening existing design...
+\i (00:00:12) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AMBUKACE_CAR
+\d (00:00:12) Design opened: D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd
+\i (00:00:13) trapsize 14364
+\i (00:00:13) trapsize 15086
+\i (00:00:13) trapsize 15018
+\i (00:00:13) trapsize 14364
+\i (00:00:13) trapsize 14364
+\i (00:00:14) generaledit 
+\i (00:00:22) exit 
+\t (00:00:23)     Journal end - Tue Nov 08 17:45:39 2022

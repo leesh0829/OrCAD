@@ -1,0 +1,220 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("7476")
+        ("STIM1")
+        ("DigClock")
+        ("7408")
+    )
+    ("instances"
+        ("U1A"
+            ("device_name"	"7476")
+            ("pspice_path"	"X_U1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U1B"
+            ("device_name"	"7476")
+            ("pspice_path"	"X_U1B")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U2A"
+            ("device_name"	"7476")
+            ("pspice_path"	"X_U2A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("DSTM1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_DSTM1")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("DSTM4"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_DSTM4")
+            ("level"	"0")
+            ("model_params"
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+                ("ONTIME"
+                    ("value"	".5uS")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("OFFTIME"
+                    ("value"	".5uS")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+            )
+        )
+        ("U3A"
+            ("device_name"	"7408")
+            ("pspice_path"	"X_U3A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+    )
+)

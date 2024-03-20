@@ -1,0 +1,185 @@
+
+**** 12/07/22 10:49:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-11"  [ D:\Or CAD\2022 pspice dinon\messihattrick-PSpiceFiles\SCHEMATIC1\11.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "11.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10us 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGINITSTATE= 0
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MESSIHATTRICK
+X_U1A         CLK PR PR PR PR A M_UN0001 $G_DPWR $G_DGND 7476 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         CLK PR PR A A B M_UN0002 $G_DPWR $G_DGND 7476 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         CLK PR PR N01209 N01209 C M_UN0003 $G_DPWR $G_DGND 7476 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ PR 
++ IO_STM
++ IO_LEVEL=0
++  0s 1  
+U_DSTM4         STIM(1,1) $G_DPWR $G_DGND CLK IO_STM IO_LEVEL=0 
++ 0 0
++ +.5uS 1
++REPEAT FOREVER
++ +.5uS 0
++  +.5uS 1
++ ENDREPEAT
+X_U3A         B A N01209 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+**** RESUMING 11.cir ****
+.END
+
+**** 12/07/22 10:49:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-11"  [ D:\Or CAD\2022 pspice dinon\messihattrick-PSpiceFiles\SCHEMATIC1\11.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D0_GATE         D_76_4          D_76_3          D_08            
+      TPLHMN    0               6.000000E-09    2.400000E-09    7.000000E-09 
+      TPLHTY    0               6.000000E-09    6.000000E-09   17.500000E-09 
+      TPLHMX    0               6.000000E-09    6.000000E-09   27.000000E-09 
+      TPHLMN    0               0               2.400000E-09    4.800000E-09 
+      TPHLTY    0               0               6.000000E-09   12.000000E-09 
+      TPHLMX    0               0               6.000000E-09   19.000000E-09 
+
+
+**** 12/07/22 10:49:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-11"  [ D:\Or CAD\2022 pspice dinon\messihattrick-PSpiceFiles\SCHEMATIC1\11.sim ] 
+
+
+ ****     Digital Gated FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_76_1          D_76_2          
+    TPDQLHMN    0               0            
+    TPDQLHTY    0               0            
+    TPDQLHMX    0               0            
+    TPDQHLMN    0               0            
+    TPDQHLTY    0               0            
+    TPDQHLMX    0               0            
+    TPGQLHMN    0               4.000000E-09 
+    TPGQLHTY    0              10.000000E-09 
+    TPGQLHMX    0              19.000000E-09 
+    TPGQHLMN    0               7.600000E-09 
+    TPGQHLTY    0              19.000000E-09 
+    TPGQHLMX    0              34.000000E-09 
+   TPPCQLHMN    0               4.000000E-09 
+   TPPCQLHTY    0              10.000000E-09 
+   TPPCQLHMX    0              19.000000E-09 
+   TPPCQHLMN    0               7.600000E-09 
+   TPPCQHLTY    0              19.000000E-09 
+   TPPCQHLMX    0              34.000000E-09 
+      TWGHMN    0               0            
+      TWGHTY   14.000000E-09   47.000000E-09 
+      TWGHMX   14.000000E-09   47.000000E-09 
+     TWPCLMN    0               0            
+     TWPCLTY   25.000000E-09   25.000000E-09 
+     TWPCLMX   25.000000E-09   25.000000E-09 
+     TSUDGMN    0               0            
+     TSUDGTY    0               0            
+     TSUDGMX    0               0            
+   TSUPCGHMN    0               0            
+   TSUPCGHTY    0               0            
+   TSUPCGHMX    0               0            
+      THDGMN    0               0            
+      THDGTY    0               0            
+      THDGMX    0               0            
+TIMING_SRDEL    0               0            
+TIMING_CLKDEL    0               0            
+
+
+**** 12/07/22 10:49:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-11"  [ D:\Or CAD\2022 pspice dinon\messihattrick-PSpiceFiles\SCHEMATIC1\11.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+
+          JOB CONCLUDED
+
+**** 12/07/22 10:49:59 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-11"  [ D:\Or CAD\2022 pspice dinon\messihattrick-PSpiceFiles\SCHEMATIC1\11.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .67
+  Total job time                    =         .05
+

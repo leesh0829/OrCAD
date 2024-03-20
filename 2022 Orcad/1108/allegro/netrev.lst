@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : AMBUKACE_CAR.brd                              )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Tue Nov 08 17:45:15 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\OR CAD\2022 ORCAD\1108\allegro'
+Design Directory:            'D:/OR CAD/2022 ORCAD/1108/allegro'
+Old design name:             'D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd'
+New design name:             'D:/OR CAD/2022 ORCAD/1108/allegro/AMBUKACE_CAR.brd'
+
+CmdLine: netrev.exe -y 1 -n -i D:\OR CAD\2022 ORCAD\1108\allegro D:\OR CAD\2022 ORCAD\1108\allegro\AMBUKACE_CAR.brd D:\OR CAD\2022 ORCAD\1108\allegro\AMBUKACE_CAR.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/OR CAD/2022 ORCAD/1108/allegro/pstchip.dat 
+   Finished reading D:/OR CAD/2022 ORCAD/1108/allegro/pstchip.dat (00:00:00.05)
+Starting to read D:/OR CAD/2022 ORCAD/1108/allegro/pstxprt.dat 
+   Finished reading D:/OR CAD/2022 ORCAD/1108/allegro/pstxprt.dat (00:00:00.00)
+Starting to read D:/OR CAD/2022 ORCAD/1108/allegro/pstxnet.dat 
+   Finished reading D:/OR CAD/2022 ORCAD/1108/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 8 17:45:15 2022
+   DESIGN NAME : 'AMBUKACE_CAR'
+   PACKAGING ON Dec 21 2020 02:31:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:29
+elapsed time  0:00:00
+

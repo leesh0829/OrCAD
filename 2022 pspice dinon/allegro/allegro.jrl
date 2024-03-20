@@ -1,0 +1,56 @@
+\t (00:00:33) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:33)     Journal start - Thu Sep 01 17:26:07 2022
+\t (00:00:33)         Host=USER User=user Pid=4176 CPUs=8
+\t (00:00:33) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user D:\OR CAD\2022 PSPICE DINON\allegro\DA COMBERTER.brd
+\t (00:00:33) 
+   (00:00:33) Loading axlcore.cxt 
+\t (00:00:34) Opening existing design...
+\i (00:00:35) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "DA COMBERTER"
+\d (00:00:35) Design opened: D:/OR CAD/2022 PSPICE DINON/allegro/DA COMBERTER.brd
+\i (00:00:35) trapsize 14364
+\i (00:00:35) trapsize 15086
+\i (00:00:35) trapsize 14364
+\i (00:00:36) trapsize 14364
+\i (00:00:36) generaledit 
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 12697.67 8352.94
+\i (00:01:27) trapsize 7182
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 12568.40 8309.85
+\i (00:01:27) trapsize 3591
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 12496.58 8288.31
+\i (00:01:27) trapsize 1795
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 12496.58 8284.72
+\i (00:01:27) trapsize 3591
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 12496.58 8284.73
+\i (00:01:27) trapsize 7182
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 12453.50 8256.01
+\i (00:01:27) trapsize 14364
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 11778.39 7950.75
+\i (00:01:27) trapsize 14364
+\i (00:01:27) drag_start grid 12151.85 8151.85
+\i (00:01:28) drag_stop 4883.72 6140.90
+\i (00:01:28) drag_start grid 10830.37 11685.36
+\i (00:01:28) drag_stop 316.01 -811.22
+\i (00:01:28) drag_start grid 12151.85 11742.82
+\i (00:01:29) drag_stop 2958.96 -2075.24
+\i (00:01:29) pick grid 9049.25 7290.01
+\t (00:01:29) last pick:  9000.00 7300.00
+\i (00:01:29) drag_start grid 8158.69 5796.17
+\i (00:01:29) drag_stop 6061.56 2032.83
+\i (00:01:30) drag_start grid 10169.63 9961.70
+\i (00:01:30) drag_stop 6923.39 108.07
+\i (00:01:58) exit 
+\t (00:02:00)     Journal end - Thu Sep 01 17:27:33 2022

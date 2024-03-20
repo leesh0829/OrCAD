@@ -1,0 +1,39 @@
+* source 38DECORDER
+.EXTERNAL OUTPUT Y
+X_U1A         N00230 N00237 N00241 N00245 Y $G_DPWR $G_DGND 7420 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3         +5V 0 0 A B C N00230 M_UN0001 N00237 M_UN0002 N00241 M_UN0003
++  M_UN0004 N00245 $G_DPWR $G_DGND 74LS138 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ A 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 1ms 1  
++ 2ms 0  
++ 3ms 1 
++ 4ms 0  
++ 5ms 1  
++ 6ms 0  
++ 7ms 1  
++ 8ms 0  
+U_DSTM2         STIM(1,1)
++ $G_DPWR $G_DGND
++ B 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 2ms 1  
++ 4ms 0  
++ 6ms 1 
++ 8ms 0  
+U_DSTM3         STIM(1,1)
++ $G_DPWR $G_DGND
++ C 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 4ms 1  
++ 8ms 0  

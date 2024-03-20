@@ -1,0 +1,9 @@
+* source ANYTHING
+X_U1A         0 N00295 VCC VEE OUT LM324
+R_R2         IN N00295  2k TC=0,0 
+R_R1         N00295 OUT  2k TC=0,0 
+R_R3         OUT 0  1k TC=0,0 
+V_V1         IN 0  AC 0
++SIN 0 5V 1Khz 0 0 0
+V_V2         VCC 0 15V
+V_V3         VEE 0 -15V

@@ -1,0 +1,25 @@
+* D:\2022 pspice dinon\ronaldo is best player in the world-PSpiceFiles\SCHEMATIC1\2\2.stl written on Wed May 18 19:53:35 2022
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! A3 Digital B3 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 16s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS B3 STIM (1, 1) ;! CLOCKP 2 1 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat
+.STIMULUS A3 STIM (1, 1) ;! CLOCKP 4 2 0 0
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +2s 0
++      +2s 1
++   EndRepeat

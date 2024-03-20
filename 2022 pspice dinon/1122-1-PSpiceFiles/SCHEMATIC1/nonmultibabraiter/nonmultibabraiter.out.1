@@ -1,0 +1,58 @@
+
+**** 11/22/22 17:31:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-nonmultibabraiter"  [ D:\Or CAD\2022 pspice dinon\1122-1-PSpiceFiles\SCHEMATIC1\nonmultibabraiter.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "nonmultibabraiter.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 1122-1
+R_R1         N00241 N00203  6.8k TC=0,0 
+R_R2         N00248 N00203  100k TC=0,0 
+R_R3         N00255 N00203  100k TC=0,0 
+R_R4         N00262 N00203  6.8k TC=0,0 
+C_C1         N00241 N00248  0.01uF IC=5V TC=0,0 
+C_C2         N00255 N00262  0.01uF IC=5V TC=0,0 
+Q_Q1         N00241 N00255 N00293 Q2N3904
+Q_Q2         N00262 N00248 N00293 Q2N3904
+V_V1         N00203 N00293 5V
+
+**** RESUMING nonmultibabraiter.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00241 is floating
+
+ERROR(ORPSIM-15142): Node N00203 is floating
+
+ERROR(ORPSIM-15142): Node N00248 is floating
+
+ERROR(ORPSIM-15142): Node N00255 is floating
+
+ERROR(ORPSIM-15142): Node N00262 is floating
+
+ERROR(ORPSIM-15142): Node N00293 is floating
+

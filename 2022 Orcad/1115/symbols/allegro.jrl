@@ -1,0 +1,46 @@
+\t (00:00:15) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Tue Nov 22 16:59:29 2022
+\t (00:00:15)         Host=USER User=user Pid=9968 CPUs=8
+\t (00:00:15) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:15) 
+   (00:00:16) Loading axlcore.cxt 
+\t (00:00:16) Opening existing design...
+\i (00:00:17) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged FND500
+\d (00:00:17) Design opened: D:/Or CAD/2022 Orcad/1115/symbols/FND500.dra
+\i (00:00:17) trapsize 156
+\i (00:00:17) trapsize 164
+\i (00:00:17) trapsize 156
+\i (00:00:17) trapsize 156
+\i (00:00:19) generaledit 
+\i (00:00:21) drag_start grid 8.327 -8.309
+\i (00:00:21) move 
+\t (00:00:21) last pick:  7.620 -7.620
+\t (00:00:21) Element has no origin, using pick.
+\t (00:00:21) Pick new location for the element(s).
+\i (00:00:23) drag_stop grid 10.015 -11.593
+\i (00:00:23) generaledit 
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 9.859 -9.779
+\i (00:00:23) trapsize 313
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 9.860 -8.000
+\i (00:00:24) trapsize 446
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 9.550 -16.706
+\i (00:00:24) trapsize 446
+\i (00:00:25) drag_start grid 9.550 -12.158
+\i (00:00:25) move 
+\t (00:00:25) last pick:  10.160 -12.700
+\t (00:00:25) Element has no origin, using pick.
+\t (00:00:25) Pick new location for the element(s).
+\i (00:00:26) drag_stop grid 8.123 -7.431
+\i (00:00:26) generaledit 
+\i (00:00:28) new 
+\e (00:00:28) Do you want to save the changes you made to FND500.dra?
+\i (00:00:30) fillin yes 
+\t (00:00:33) Symbol 'fnd500.psm' created.
+\i (00:01:41) newdrawfillin "FND507.dra" "Package Symbol (Wizard)"
+\t (00:01:41)     Journal end - Tue Nov 22 17:00:54 2022

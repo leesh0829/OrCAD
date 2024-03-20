@@ -1,0 +1,104 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/MV1/allegro/MV1.brd                                                |
+|                                                    Fri Mar 03 10:02:58 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 D1.1           D2.1           J1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00504       pins ADDED TO this new net
+                                 C2.1           Q1.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00511       pins ADDED TO this new net
+                                 C1.1           Q2.2           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00526       pins ADDED TO this new net
+                                 C1.2           Q1.3           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00533       pins ADDED TO this new net
+                                 C2.2           Q2.3           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00540       pins ADDED TO this new net
+                                 D1.2           Q2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00557       pins ADDED TO this new net
+                                 D2.2           Q1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 J1.1           R1.1           R2.1           
+                                 R3.1           R4.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/MV1/allegro/MV1.brd                                                |
+|                                                    Fri Mar 03 10:02:58 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP POL_CAP196_CAP POL
+ CON2_JUMPER2_CON2
+ LED_CAP196_LED
+ NPN ECB_TO92_NPN ECB
+ R_RES400_33K
+ R_RES400_220
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/MV1/allegro/MV1.brd                                                |
+|                                                    Fri Mar 03 10:02:58 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP POL_CAP196_CAP POL 
+ C2                  CAP POL_CAP196_CAP POL 
+ D1                  LED_CAP196_LED        
+ D2                  LED_CAP196_LED        
+ J1                  CON2_JUMPER2_CON2     
+ Q1                  NPN ECB_TO92_NPN ECB  
+ Q2                  NPN ECB_TO92_NPN ECB  
+ R1                  R_RES400_220          
+ R2                  R_RES400_33K          
+ R3                  R_RES400_33K          
+ R4                  R_RES400_220          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/ORCAD/MV1/allegro/MV1.brd                                                |
+|                                                    Fri Mar 03 10:02:58 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ Q2.1                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      24                                        |
+|       Comp definitions added:       6                                        |
+|       Components added      :      11                                        |
+|       Slot property added   :      11                                        |
+|                                                                              |
+|   Total ECO changes reported:      52                                        |
+|------------------------------------------------------------------------------|

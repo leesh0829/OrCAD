@@ -1,0 +1,7 @@
+* source RLC
+V_V1         N00149 0  AC 0
++SIN 0 200 60 0 0 0
+R_R1         N00161 N00149  1k TC=0,0 
+L_L1         N00161 N00165  5uH  
+C_C1         0 N00165  {cv}  TC=0,0 
+.PARAM  cv=0.5u

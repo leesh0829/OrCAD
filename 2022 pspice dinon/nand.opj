@@ -1,0 +1,21 @@
+(ExpressProject "nand"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\nand.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries")
+    (Folder "Include Files")
+    (Folder "Stimulus Files"
+      (File ".\nand-PSpiceFiles\NAND.stl"
+        (DisplayName ".\nand-PSpiceFiles\NAND.stl")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice"))

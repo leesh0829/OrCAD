@@ -1,0 +1,96 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Mar-08-2023 at 15:56:02}
+primitive 'CAP POL_CAP196_22U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='22u';
+  end_body;
+end_primitive;
+primitive 'LED_CAP196_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='CAP196';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'NPN ECB_TO92_2SC1815';
+  pin
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN ECB';
+    JEDEC_TYPE='TO92';
+    VALUE='2SC1815';
+  end_body;
+end_primitive;
+primitive 'R_RES400_220';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='220';
+  end_body;
+end_primitive;
+primitive 'R_RES400_33K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='33k';
+  end_body;
+end_primitive;
+END.

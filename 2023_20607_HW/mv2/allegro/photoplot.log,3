@@ -1,0 +1,140 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : MV5.brd                                       )
+(    Software Version : 17.2S073                                      )
+(    Date/Time        : Wed Mar 08 21:08:27 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/ORCAD/2023_20607_HW/MV2/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/ORCAD/2023_20607_HW/MV2/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01270                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
+  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < Drill_DRAW >
+     TO FILE < D:/ORCAD/2023_20607_HW/MV2/allegro/Drill_DRAW.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-21.5900 -35.0750)
+           ... using undefined line width of 0.2000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+    WARNING: text composed 0 width line found at (-10.1727 -20.7875)
+           ... using undefined line width of 0.2000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     Drill_DRAW created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        Drill_DRAW created with warnings
+
+ ARTWORK had warnings

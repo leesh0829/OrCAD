@@ -1,0 +1,350 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Nov-08-2022 at 17:42:28 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='AMBUKACE_CAR';
+ POST_TIME='Dec 21 2020 02:31:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BT2 'BATTERY_BH800S_5V':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS15304@DISCRETE.BATTERY.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins15304@discrete.\battery.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins15304@discrete.\battery.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP POL_CAP196_1UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS949@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins949@discrete.\cap pol.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins949@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAPCK05_0.01UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS974@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins974@discrete.\cap np.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins974@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP POL_CAP196_4.7UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS999@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins999@discrete.\cap pol.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins999@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP POL_CAP196_4.7UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1015@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1015@discrete.\cap pol.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1015@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP POL_CAP196_1UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1031@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1031@discrete.\cap pol.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1031@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP POL_CAP196_1UF':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1047@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1047@discrete.\cap pol.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1047@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_DO41_LT-L29S-TYP':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS892@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins892@discrete.\led.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins892@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_DO41_LT-L29S-TYP':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS908@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins908@discrete.\led.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins908@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_DO41_LT-L29S-TYP':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS924@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins924@discrete.\led.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins924@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'SPEAKER_JUMPER2_SPEAKER':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS867@DISCRETE.SPEAKER.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins867@discrete.\speaker.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins867@discrete.\speaker.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN BEC_TO220AB_Q2SC1815':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS822@TRANSISTOR.NPN BEC.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins822@transistor.\npn bec.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins822@transistor.\npn bec.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'NPN BEC_TO220AB_QS2C1815':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS840@TRANSISTOR.NPN BEC.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins840@transistor.\npn bec.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins840@transistor.\npn bec.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_100K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1072@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1072@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1072@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES400_680':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1216@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1216@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1216@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RES400_680':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1232@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1232@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1232@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1248@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1248@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1248@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1264@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1264@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1264@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RES400_1.5K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS2151@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins2151@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins2151@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_31K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1088@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1088@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1088@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_150':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1104@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1104@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1104@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_150':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1120@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1120@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1120@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_150':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1136@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1136@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1136@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_10':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1152@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1152@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1152@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_2.2':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1168@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1168@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1168@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1184@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1184@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1184@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS1200@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins1200@discrete.\r.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins1200@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555_0_DIP8_3_NE555':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS38@AMBUKACE_CAR.NE555_0.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins38@ambukace_car.\ne555_0.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins38@ambukace_car.\ne555_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '74LS76_0_DIP16_3_74LS76':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS201@AMBUKACE_CAR.74LS76_0.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins201@ambukace_car.\74ls76_0.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins201@ambukace_car.\74ls76_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U3 '74LS76_1_DIP16_3_74LS76':;
+
+SECTION_NUMBER 2
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS281@AMBUKACE_CAR.74LS76_1.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins281@ambukace_car.\74ls76_1.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins281@ambukace_car.\74ls76_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U4 '74LS00_DIP14_3_74LS00':;
+
+SECTION_NUMBER 2
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS10930@GATE.74LS00.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins10930@gate.\74ls00.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins10930@gate.\74ls00.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U5 '74LS00_11_DIP14_3_74LS00':;
+
+SECTION_NUMBER 3
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS11091@AMBUKACE_CAR.74LS00_11.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins11091@ambukace_car.\74ls00_11.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins11091@ambukace_car.\74ls00_11.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+PART_NAME
+ U6 '74LS00_DIP14_3_74LS00':;
+
+SECTION_NUMBER 4
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS11245@GATE.74LS00.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins11245@gate.\74ls00.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins11245@gate.\74ls00.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U7 '74LS00_12_DIP14_3_74LS00':;
+
+SECTION_NUMBER 1
+ '@AMBUKACE_CAR.SCHEMATIC1(SCH_1):INS10761@AMBUKACE_CAR.74LS00_12.NORMAL(CHIPS)':
+ C_PATH='@ambukace_car.schematic1(sch_1):ins10761@ambukace_car.\74ls00_12.normal\(chips)',
+ P_PATH='@ambukace_car.schematic1(sch_1):page1_ins10761@ambukace_car.\74ls00_12.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+END.

@@ -1,0 +1,183 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/10609_LSH/allegro/MOD10_COUNTER.brd                                      |
+|                                                    Tue Nov 29 17:00:29 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           D1.1           
+                                 U3.1           U4.2           U4.3           
+                                 U4.6           U4.7           U4.10          
+                                 U5.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00608       pins ADDED TO this new net
+                                 R1.2           R2.1           U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00612       pins ADDED TO this new net
+                                 C1.1           R2.2           U3.2           
+                                 U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00632       pins ADDED TO this new net
+                                 C2.1           U3.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00652       pins ADDED TO this new net
+                                 R3.1           U3.3           U4.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00659       pins ADDED TO this new net
+                                 D1.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01296       pins ADDED TO this new net
+                                 U4.11          U5.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01300       pins ADDED TO this new net
+                                 U4.8           U5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01304       pins ADDED TO this new net
+                                 U4.9           U5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02225       pins ADDED TO this new net
+                                 R10.1          U5.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02237       pins ADDED TO this new net
+                                 R10.2          U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02249       pins ADDED TO this new net
+                                 R9.2           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02261       pins ADDED TO this new net
+                                 R8.2           U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02273       pins ADDED TO this new net
+                                 R7.2           U1.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/10609_LSH/allegro/MOD10_COUNTER.brd                                      |
+|                                                    Tue Nov 29 17:00:29 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N02285       pins ADDED TO this new net
+                                 R6.2           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02294       pins ADDED TO this new net
+                                 R5.2           U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02298       pins ADDED TO this new net
+                                 R4.2           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02305       pins ADDED TO this new net
+                                 R9.1           U5.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02317       pins ADDED TO this new net
+                                 R8.1           U5.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02329       pins ADDED TO this new net
+                                 R7.1           U5.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02542       pins ADDED TO this new net
+                                 R6.1           U5.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02554       pins ADDED TO this new net
+                                 R5.1           U5.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02566       pins ADDED TO this new net
+                                 R4.1           U5.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 R1.1           U1.8           U3.4           
+                                 U3.8           U4.1           U4.5           
+                                 U4.12          U5.7           U5.16          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/10609_LSH/allegro/MOD10_COUNTER.brd                                      |
+|                                                    Tue Nov 29 17:00:29 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74LS47_1_DIP16_3_74LS47
+ 74LS90_0_DIP14_3_74LS90
+ CAP NP_CAP300_0.01UF
+ CAP POL_CAP196_10UF
+ FND507_FND507_FND507
+ LED_JUMPER2_LED
+ NE555_0_DIP8_3_NE555
+ R_RES400_47K
+ R_RES400_100K
+ R_RES400_220
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/10609_LSH/allegro/MOD10_COUNTER.brd                                      |
+|                                                    Tue Nov 29 17:00:29 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP POL_CAP196_10UF   
+ C2                  CAP NP_CAP300_0.01UF  
+ D1                  LED_JUMPER2_LED       
+ R1                  R_RES400_100K         
+ R2                  R_RES400_47K          
+ R3                  R_RES400_220          
+ R4                  R_RES400_220          
+ R5                  R_RES400_220          
+ R6                  R_RES400_220          
+ R7                  R_RES400_220          
+ R8                  R_RES400_220          
+ R9                  R_RES400_220          
+ R10                 R_RES400_220          
+ U1                  FND507_FND507_FND507  
+ U3                  NE555_0_DIP8_3_NE555  
+ U4                  74LS90_0_DIP14_3_74LS90 
+ U5                  74LS47_1_DIP16_3_74LS47 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/10609_LSH/allegro/MOD10_COUNTER.brd                                      |
+|                                                    Tue Nov 29 17:00:29 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ U1.10                          PRIM_FILE      .\pstchip.dat
+ U3.8                           PRIM_FILE      .\pstchip.dat
+ U4.5                           PRIM_FILE      .\pstchip.dat
+ U5.16                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      67                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      17                                        |
+|       Slot property added   :      17                                        |
+|                                                                              |
+|   Total ECO changes reported:     111                                        |
+|------------------------------------------------------------------------------|

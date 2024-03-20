@@ -1,0 +1,39 @@
+* source 24DECORDER
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ A3 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 1s 1  
++ 2s 0  
++ 3s 1 
++ 4s 0  
++ 5s 1  
++ 6s 0  
++ 7s 1  
++ 8s 0  
+U_DSTM3         STIM(1,1)
++ $G_DPWR $G_DGND
++ C3 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 4s 1  
++ 8s 0  
+U_DSTM2         STIM(1,1)
++ $G_DPWR $G_DGND
++ B3 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 2s 1  
++ 4s 0  
++ 6s 1 
++ 8s 0  
+X_U2B         C3 N00485 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         A3 B3 C3 Y0 Y1 Y2 Y3 $G_DPWR $G_DGND 74LS139A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         A3 B3 N00485 Y4 Y5 Y6 Y7 $G_DPWR $G_DGND 74LS139A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0

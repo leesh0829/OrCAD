@@ -1,0 +1,25 @@
+* d:\2022 pspice\andgate-PSpiceFiles\SCHEMATIC1\andgate\andgate.stl written on Wed May 11 20:17:34 2022
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! A1 Digital B1 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 16s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS B1 STIM (1, 1) ;! CLOCKP 2 1 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat
+.STIMULUS A1 STIM (1, 1) ;! CLOCKP 4 2 0 0
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +2s 0
++      +2s 1
++   EndRepeat

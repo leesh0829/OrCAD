@@ -1,0 +1,201 @@
+\t (00:01:07) allegro 17.2 S073 Windows SPB 64-bit Edition
+\t (00:01:07)     Journal start - Tue Nov 01 17:25:14 2022
+\t (00:01:07)         Host=USER User=user Pid=7040 CPUs=8
+\t (00:01:07) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user D:\OR CAD\2022 ORCAD\1101\allegro\DACOMBORTOR.brd
+\t (00:01:07) 
+   (00:01:07) Loading axlcore.cxt 
+\t (00:01:08) Opening existing design...
+\i (00:01:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DACOMBORTOR
+\d (00:01:08) Design opened: D:/OR CAD/2022 ORCAD/1101/allegro/DACOMBORTOR.brd
+\i (00:01:08) trapsize 14364
+\i (00:01:08) trapsize 15086
+\i (00:01:08) trapsize 14364
+\i (00:01:08) trapsize 14364
+\i (00:01:09) generaledit 
+\i (00:05:28) xdehilite 
+\i (00:05:28) xrefdes U3 
+\t (00:05:28) Can not select unplaced component U3.
+\t (00:05:28) Can not select unplaced component U3.
+\i (00:05:28) xname_flush 
+\i (00:05:28) done 
+\i (00:05:28) xhilite 
+\i (00:05:28) xrefdes J2 
+\t (00:05:28) Can not select unplaced component J2.
+\t (00:05:28) Can not select unplaced component J2.
+\i (00:05:28) xname_flush 
+\i (00:05:28) done 
+\i (00:05:28) generaledit 
+\i (00:05:29) xdehilite 
+\i (00:05:29) xrefdes J2 
+\t (00:05:29) Can not select unplaced component J2.
+\t (00:05:29) Can not select unplaced component J2.
+\i (00:05:29) xname_flush 
+\i (00:05:29) done 
+\i (00:05:29) generaledit 
+\i (00:05:29) xrefdes J2.2 
+\t (00:05:29) Can not select unplaced component J2.
+\i (00:05:29) xname_flush 
+\i (00:05:30) xdehilite 
+\i (00:05:30) xrefdes J2.2 
+\t (00:05:30) Can not select unplaced component J2.
+\i (00:05:30) xname_flush 
+\i (00:05:30) done 
+\i (00:05:30) xhilite 
+\i (00:05:30) xrefdes J2 
+\t (00:05:30) Can not select unplaced component J2.
+\t (00:05:30) Can not select unplaced component J2.
+\i (00:05:30) xname_flush 
+\i (00:05:30) done 
+\i (00:05:30) generaledit 
+\i (00:09:40) grid toggle 
+\t (00:09:40) Grids are drawn 200.00, 200.00 apart for enhanced viewing.
+\i (00:09:40) generaledit 
+\i (00:11:32) pick grid 9164.16 8295.48
+\t (00:11:32) last pick:  9200.00 8300.00
+\i (00:11:33) drag_start grid 6693.57 11168.26
+\i (00:11:33) drag_stop 11835.84 5336.52
+\i (00:11:33) pick grid 11692.20 9272.23
+\t (00:11:33) last pick:  11700.00 9300.00
+\i (00:11:34) drag_start grid 11634.75 12633.38
+\i (00:11:34) drag_stop 7268.13 3957.59
+\i (00:12:32) pick grid 1580.03 5020.52
+\t (00:12:32) last pick:  1600.00 5000.00
+\i (00:12:33) drag_start grid 2614.23 7807.11
+\i (00:12:33) drag_stop 7813.95 7922.02
+\i (00:12:35) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:12:36) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DACOMBORTOR
+\i (00:12:39) status 
+\i (00:12:39) generaledit 
+\i (00:12:41) add text 
+\t (00:12:41) Pick text location.
+\i (00:12:41) setwindow form.status
+\i (00:12:41) FORM status done  
+\i (00:13:07) setwindow pcb
+\i (00:13:07) dt_wizard 
+\i (00:13:10) setwindow form.dtw_form
+\i (00:13:10) FORM dtw_form close  
+   (00:13:10) Loading mfg.cxt 
+\i (00:14:29) setwindow pcb
+\i (00:14:29) define grid 
+\t (00:14:30) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:14:38) setwindow form.grid
+\i (00:14:38) FORM grid non_etch non_etch_x_grids 0.5 
+\i (00:14:42) FORM grid non_etch non_etch_y_grids 0.5 
+\i (00:14:42) FORM grid done  
+\t (00:14:42) Grids are drawn 128.00, 128.00 apart for enhanced viewing.
+\i (00:14:54) setwindow pcb
+\i (00:14:54) prmed 
+\i (00:14:56) setwindow form.prmedit
+\i (00:14:56) FORM prmedit design  
+\i (00:15:03) FORM prmedit display  
+\i (00:15:14) FORM prmedit cancel  
+\i (00:15:15) setwindow pcb
+\i (00:15:15) generaledit 
+\i (00:15:21) done 
+\i (00:15:21) place manual 
+\i (00:15:22) FORM plc_manual placement_list 
+\i (00:15:22) FORM plc_manual categories Components by refdes 
+\i (00:15:22) trapsize 14364
+\i (00:15:39) setwindow form.plc_manual
+\i (00:15:39) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:15:48) setwindow pcb
+\i (00:15:48) pick grid 7009.58 11283.17
+\t (00:15:48) last pick:  7009.50 11283.00
+\i (00:15:50) setwindow form.plc_manual
+\i (00:15:50) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:15:50) FORM plc_manual tree  D2 'Components by refdes' 
+\i (00:15:54) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:15:57) setwindow pcb
+\i (00:15:57) pick grid 9049.25 12030.09
+\t (00:15:57) last pick:  9049.50 12030.00
+\i (00:16:03) setwindow form.plc_manual
+\i (00:16:03) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:16:03) Placing C1 / CAP NP_CAPCK05_0.1UF / CAPCK05 on Top.
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom in 1 
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom in 8675.79 7634.74
+\t (00:16:04) Grids are drawn 64.00, 64.00 apart for enhanced viewing.
+\i (00:16:04) trapsize 7182
+\i (00:16:04) zoom in 1 
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom in 8661.43 7562.93
+\t (00:16:04) Grids are drawn 32.00, 32.00 apart for enhanced viewing.
+\i (00:16:04) trapsize 3591
+\i (00:16:04) zoom in 1 
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom in 8654.25 7541.38
+\t (00:16:04) Grids are drawn 16.00, 16.00 apart for enhanced viewing.
+\i (00:16:04) trapsize 1795
+\i (00:16:04) zoom out 1 
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom out 8603.98 7516.24
+\t (00:16:04) Grids are drawn 32.00, 32.00 apart for enhanced viewing.
+\i (00:16:04) trapsize 3591
+\i (00:16:05) zoom in 1 
+\i (00:16:05) setwindow pcb
+\i (00:16:05) zoom in 8840.98 7789.17
+\t (00:16:05) Grids are drawn 16.00, 16.00 apart for enhanced viewing.
+\i (00:16:05) trapsize 1795
+\i (00:16:05) zoom in 1 
+\i (00:16:05) setwindow pcb
+\i (00:16:05) zoom in 8880.48 7595.26
+\t (00:16:05) Grids are drawn 8.00, 8.00 apart for enhanced viewing.
+\i (00:16:05) trapsize 898
+\i (00:16:05) zoom in 1 
+\i (00:16:05) setwindow pcb
+\i (00:16:05) zoom in 8905.62 7516.26
+\t (00:16:05) Grids are drawn 4.00, 4.00 apart for enhanced viewing.
+\i (00:16:05) trapsize 449
+\i (00:16:14) setwindow form.plc_manual
+\i (00:16:14) FORM plc_manual tree 'MULTISEL NO' C1 'Components by refdes' 
+\i (00:16:15) FORM plc_manual tree 'MULTISEL YES' R5 'Components by refdes' 
+\t (00:16:15) Placing R5 / R_RES400_1K / RES400 on Top.
+\i (00:16:15) FORM plc_manual tree  R5 'Components by refdes' 
+\i (00:16:18) FORM plc_manual tree 'MULTISEL YES' R10 'Components by refdes' 
+\i (00:16:18) FORM plc_manual tree  R10 'Components by refdes' 
+\i (00:16:19) FORM plc_manual tree 'MULTISEL NO' R5 'Components by refdes' 
+\t (00:16:19) Placing R10 / R_RES400_22K / RES400 on Top.
+\i (00:16:19) FORM plc_manual tree  R5 'Components by refdes' 
+\i (00:16:21) FORM plc_manual tree 'MULTISEL NO' R10 'Components by refdes' 
+\i (00:16:21) FORM plc_manual tree  R10 'Components by refdes' 
+\i (00:16:22) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:16:22) Placing J1 / CON4_JUMPER4_CON4 / JUMPER4 on Top.
+\i (00:16:22) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:16:26) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\i (00:16:29) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\t (00:16:29) Placing U1 / LM741_2_DIP8_3_LM741 / DIP8_3 on Top.
+\i (00:16:29) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:16:32) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
+\i (00:16:32) FORM plc_manual tree  U4 'Components by refdes' 
+\i (00:16:34) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
+\t (00:16:34) Placing U4 / 74LS90_1_DIP14_3_74LS90 / DIP14_3 on Top.
+\i (00:16:34) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom out 1 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom out 8831.11 7820.60
+\t (00:16:37) Grids are drawn 8.00, 8.00 apart for enhanced viewing.
+\i (00:16:37) trapsize 898
+\i (00:16:37) zoom out 1 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom out 8832.91 7817.01
+\t (00:16:37) Grids are drawn 16.00, 16.00 apart for enhanced viewing.
+\i (00:16:37) trapsize 1795
+\i (00:16:37) zoom in 1 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom in 8872.41 7720.05
+\t (00:16:37) Grids are drawn 8.00, 8.00 apart for enhanced viewing.
+\i (00:16:37) trapsize 898
+\i (00:16:39) setwindow form.plc_manual
+\i (00:16:39) FORM plc_manual cancel  
+\i (00:16:39) setwindow pcb
+\i (00:16:39) generaledit 
+\i (00:18:23) exit 
+\e (00:18:23) Do you want to save the changes you made to DACOMBORTOR.brd?
+\i (00:18:23) fillin menu_cancel 
+\i (00:18:23) generaledit 
+\i (00:18:24) exit 
+\e (00:18:24) Do you want to save the changes you made to DACOMBORTOR.brd?
+\i (00:18:25) fillin yes 
+\t (00:18:29)     Journal end - Tue Nov 01 17:42:36 2022

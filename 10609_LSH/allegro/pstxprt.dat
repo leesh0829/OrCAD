@@ -1,0 +1,180 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Nov-29-2022 at 17:05:14 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='MOD10_COUNTER';
+ POST_TIME='Dec 21 2020 02:31:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP POL_CAP196_10UF':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS166@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins166@discrete.\cap pol.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins166@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAP300_0.01UF':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS141@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins141@discrete.\cap np.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins141@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_JUMPER2_LED':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS376@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins376@discrete.\led.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins376@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_100K':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS91@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins91@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins91@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1906@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1906@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1906@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_47K':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS107@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins107@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins107@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS351@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins351@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins351@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1810@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1810@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1810@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1826@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1826@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1826@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1842@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1842@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1842@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1858@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1858@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1858@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1874@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1874@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1874@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS1890@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins1890@discrete.\r.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins1890@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'FND507_FND507_FND507':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS42@FND507.FND507.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins42@fnd507.\fnd507.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins42@fnd507.\fnd507.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'NE555_0_DIP8_3_NE555':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS256@MOD10_COUNTER.NE555_0.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins256@mod10_counter.\ne555_0.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins256@mod10_counter.\ne555_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 '74LS90_0_DIP14_3_74LS90':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS421@MOD10_COUNTER.74LS90_0.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins421@mod10_counter.\74ls90_0.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins421@mod10_counter.\74ls90_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 '74LS47_1_DIP16_3_74LS47':;
+
+SECTION_NUMBER 1
+ '@MOD10_COUNTER.SCHEMATIC1(SCH_1):INS498@MOD10_COUNTER.74LS47_1.NORMAL(CHIPS)':
+ C_PATH='@mod10_counter.schematic1(sch_1):ins498@mod10_counter.\74ls47_1.normal\(chips)',
+ P_PATH='@mod10_counter.schematic1(sch_1):page1_ins498@mod10_counter.\74ls47_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

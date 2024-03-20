@@ -1,0 +1,6 @@
+.ALIASES
+V_V1            V1(+=N00149 -=0 ) CN @RLC.SCHEMATIC1(sch_1):INS32@SOURCE.VSIN.Normal(chips)
+R_R1            R1(1=N00161 2=N00149 ) CN @RLC.SCHEMATIC1(sch_1):INS69@ANALOG.R.Normal(chips)
+L_L1            L1(1=N00161 2=N00165 ) CN @RLC.SCHEMATIC1(sch_1):INS94@ANALOG.L.Normal(chips)
+C_C1            C1(1=0 2=N00165 ) CN @RLC.SCHEMATIC1(sch_1):INS119@ANALOG.C.Normal(chips)
+.ENDALIASES

@@ -1,0 +1,6 @@
+{ Using PSTWRITER 17.2.0 d001Nov-15-2022 at 17:41:05 }
+
+#1 ERROR(ORCAP-36040): Pin Number "11" specified in "NC" property also found on Pin Y of Package 7486 , : SCHEMATIC1, PAGE1 (208.28, 114.30).
+#2 ERROR(ORCAP-36040): Pin Number "12" specified in "NC" property also found on Pin A of Package 7486 , : SCHEMATIC1, PAGE1 (208.28, 114.30).
+#3 ERROR(ORCAP-36040): Pin Number "13" specified in "NC" property also found on Pin B of Package 7486 , : SCHEMATIC1, PAGE1 (208.28, 114.30).
+#4 ERROR(ORCAP-36018): Aborting Netlisting... Please correct the above errors and retry.

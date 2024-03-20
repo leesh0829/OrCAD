@@ -1,0 +1,202 @@
+
+**** 07/13/22 09:10:32 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1\1_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+
+**** INCLUDING 1_profile.inc ****
+.STMLIB "./1.stl" 
+
+**** RESUMING 1.cir ****
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 16ms 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DY
+X_U1A         A B N00258 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00258 C Y $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_DSTM1         STIM(1,0) $G_DPWR $G_DGND A IO_STM STIMULUS=A
+U_DSTM2         STIM(1,0) $G_DPWR $G_DGND B IO_STM STIMULUS=B
+U_DSTM3         STIM(1,0) $G_DPWR $G_DGND C IO_STM STIMULUS=C
+
+**** RESUMING 1.cir ****
+.END
+
+* D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1\1.stl written on Wed Jul 13 09:08:35 2022
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! A Digital B Digital C Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 32ms
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS C STIM (1, 1) ;! CLOCKP 2ms 1ms 0 0
++   +0s 0
++   +1ms 1
++   Repeat Forever
++      +1ms 0
++      +1ms 1
++   EndRepeat
+.STIMULUS B STIM (1, 1) ;! CLOCKP 4ms 2ms 0 0
++   +0s 0
++   +2ms 1
++   Repeat Forever
++      +2ms 0
++      +2ms 1
++   EndRepeat
+.STIMULUS A STIM (1, 1) ;! CLOCKP 8ms 4ms 0 0
++   +0s 0
++   +4ms 1
++   Repeat Forever
++      +4ms 0
++      +4ms 1
++   EndRepeat
+
+**** 07/13/22 09:10:32 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_08            D_32            
+      TPLHMN    7.000000E-09    4.000000E-09 
+      TPLHTY   17.500000E-09   10.000000E-09 
+      TPLHMX   27.000000E-09   15.000000E-09 
+      TPHLMN    4.800000E-09    5.600000E-09 
+      TPHLTY   12.000000E-09   14.000000E-09 
+      TPHLMX   19.000000E-09   22.000000E-09 
+
+
+**** 07/13/22 09:10:32 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.511000E-09 
+      TSWHL2                    1.487000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.517000E-09 
+      TSWLH2                    3.564000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+ERROR(ORPSIM-15413): Transient Stop time 1e-006 s is less than Print Start time 0.016 s.
+
+
+ABORTING SIMULATION
+**** 07/13/22 09:10:32 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ D:\2022 pspice dinon\dy-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           1
+  External (NCNODS)                 =           1
+  Total (NUMNOD)                    =           1
+
+Total device count (NUMEL)          =           5
+  Dig. Devices (U)                  =           5
+
+Number of subcircuits (X)           =           2
+
+Matrix statistics:
+  Matrix size (NSTOP)               =           1
+  Initial no. elements (NTTAR)      =           0
+  No. elements w/ fillin (NTTBR)    =           0
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =     100.000
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+  No. digital nets (DIGNET)         =           5
+  No. next time evals (DIGTP)       =           0
+  No. events (DIGEVT)               =           0
+  No. device evals (DIGEVL)         =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Digital simulation                =        0.00
+  Readin                            =         .03
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .09
+  Total job time                    =         .47
+
