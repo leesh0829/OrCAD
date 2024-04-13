@@ -1,0 +1,359 @@
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5ms 0 
+.STEP LIN PARAM var 0 0.2u 0.1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 107_PS6
+.EXTERNAL INPUT OUT
+V_V1         VCC+ 0 15Vdc
+V_V2         0 VCC- 15vdc
+C_C1         0 NET1  {var} IC=5 TC=0,0 
+C_C2         N00677 OUT  1n  TC=0,0 
+X_U1         N00577 NET1 VCC+ VCC- NET2 uA741
+X_U2         N00693 N00677 VCC+ VCC- OUT uA741
+R_R1         NET1 NET2  4.7k TC=0,0 
+R_R2         N00577 NET2  47k TC=0,0 
+R_R3         0 N00577  47k TC=0,0 
+R_R4         0 N00693  1k TC=0,0 
+R_R5         N00693 OUT  4.7k TC=0,0 
+R_R6         0 OUT  1Meg TC=0,0 
+D_D1         N00677 OUT D1N4148 
+D_D2         OUT N00677 D1N4148 
+C_C3         NET2 N00677  1n  TC=0,0 
+.PARAM  var=0
+
+**** RESUMING 1.cir ****
+.END
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         X_U1.dx         X_U1.dy         X_U2.dx         
+          IS    2.682000E-09  800.000000E-18  800.000000E-18  800.000000E-18 
+           N    1.836                                                        
+         ISR    1.565000E-09                                                 
+         IKF     .04417                                                      
+          BV  100                                                            
+         IBV  100.000000E-06                                                 
+          RS     .5664          1               1.000000E-03    1            
+          TT   11.540000E-09                                                 
+         CJO    4.000000E-12                   10.000000E-12                 
+          VJ     .5                                                          
+           M     .3333                                                       
+
+
+               X_U2.dy         
+          IS  800.000000E-18 
+          RS    1.000000E-03 
+         CJO   10.000000E-12 
+
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         X_U2.qx         
+               NPN             NPN             
+       LEVEL    1               1            
+          IS  800.000000E-18  800.000000E-18 
+          BF   93.75           93.75         
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM VAR =    0     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)     .1756  ( NET1)   -5.0000  ( NET2)   -9.9968  ( VCC+)   15.0000      
+
+( VCC-)  -15.0000  (N00577)   -5.0002 (N00677)     .0308 (N00693)     .0307     
+
+(X_U1.6) 959.0E-06 (X_U1.7)  -10.0550 (X_U1.8)  -10.0550 (X_U1.9)    0.0000     
+
+(X_U2.6)-17.00E-06 (X_U2.7)     .1772 (X_U2.8)     .1772 (X_U2.9)    0.0000     
+
+(X_U1.10)   -5.6068                   (X_U1.11)   14.9610                       
+
+(X_U1.12)   14.9610                   (X_U1.13)   -5.5932                       
+
+(X_U1.14)   -5.5933                   (X_U1.53)   14.0000                       
+
+(X_U1.54)  -14.0000                   (X_U1.90)   -1.1695                       
+
+(X_U1.91)   40.0000                   (X_U1.92)  -40.0000                       
+
+(X_U1.99)    0.0000                   (X_U2.10)    -.5769                       
+
+(X_U2.11)   14.9600                   (X_U2.12)   14.9600                       
+
+(X_U2.13)    -.5630                   (X_U2.14)    -.5630                       
+
+(X_U2.53)   14.0000                   (X_U2.54)  -14.0000                       
+
+(X_U2.90)     .0311                   (X_U2.91)   40.0000                       
+
+(X_U2.92)  -40.0000                   (X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.334E-03
+    V_V2        -3.334E-03
+    X_U1.vb      9.590E-09
+    X_U1.vc      2.400E-11
+    X_U1.ve      5.920E-12
+    X_U1.vlim   -1.169E-03
+    X_U1.vlp    -4.117E-11
+    X_U1.vln    -3.883E-11
+    X_U2.vb     -1.700E-10
+    X_U2.vc      1.383E-11
+    X_U2.ve      1.609E-11
+    X_U2.vlim    3.108E-05
+    X_U2.vlp    -3.997E-11
+    X_U2.vln    -4.003E-11
+
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
+
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM VAR =  100.0000E-09
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)     .1756  ( NET1)   -5.0000  ( NET2)   -9.9968  ( VCC+)   15.0000      
+
+( VCC-)  -15.0000  (N00577)   -5.0002 (N00677)     .0308 (N00693)     .0307     
+
+(X_U1.6) 959.0E-06 (X_U1.7)  -10.0550 (X_U1.8)  -10.0550 (X_U1.9)    0.0000     
+
+(X_U2.6)-17.00E-06 (X_U2.7)     .1772 (X_U2.8)     .1772 (X_U2.9)    0.0000     
+
+(X_U1.10)   -5.6068                   (X_U1.11)   14.9610                       
+
+(X_U1.12)   14.9610                   (X_U1.13)   -5.5932                       
+
+(X_U1.14)   -5.5933                   (X_U1.53)   14.0000                       
+
+(X_U1.54)  -14.0000                   (X_U1.90)   -1.1695                       
+
+(X_U1.91)   40.0000                   (X_U1.92)  -40.0000                       
+
+(X_U1.99)    0.0000                   (X_U2.10)    -.5769                       
+
+(X_U2.11)   14.9600                   (X_U2.12)   14.9600                       
+
+(X_U2.13)    -.5630                   (X_U2.14)    -.5630                       
+
+(X_U2.53)   14.0000                   (X_U2.54)  -14.0000                       
+
+(X_U2.90)     .0311                   (X_U2.91)   40.0000                       
+
+(X_U2.92)  -40.0000                   (X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.334E-03
+    V_V2        -3.334E-03
+    X_U1.vb      9.590E-09
+    X_U1.vc      2.400E-11
+    X_U1.ve      5.920E-12
+    X_U1.vlim   -1.169E-03
+    X_U1.vlp    -4.117E-11
+    X_U1.vln    -3.883E-11
+    X_U2.vb     -1.700E-10
+    X_U2.vc      1.383E-11
+    X_U2.ve      1.609E-11
+    X_U2.vlim    3.108E-05
+    X_U2.vlp    -3.997E-11
+    X_U2.vln    -4.003E-11
+
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
+
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM VAR =  200.0000E-09
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)     .1756  ( NET1)   -5.0000  ( NET2)   -9.9968  ( VCC+)   15.0000      
+
+( VCC-)  -15.0000  (N00577)   -5.0002 (N00677)     .0308 (N00693)     .0307     
+
+(X_U1.6) 959.0E-06 (X_U1.7)  -10.0550 (X_U1.8)  -10.0550 (X_U1.9)    0.0000     
+
+(X_U2.6)-17.00E-06 (X_U2.7)     .1772 (X_U2.8)     .1772 (X_U2.9)    0.0000     
+
+(X_U1.10)   -5.6068                   (X_U1.11)   14.9610                       
+
+(X_U1.12)   14.9610                   (X_U1.13)   -5.5932                       
+
+(X_U1.14)   -5.5933                   (X_U1.53)   14.0000                       
+
+(X_U1.54)  -14.0000                   (X_U1.90)   -1.1695                       
+
+(X_U1.91)   40.0000                   (X_U1.92)  -40.0000                       
+
+(X_U1.99)    0.0000                   (X_U2.10)    -.5769                       
+
+(X_U2.11)   14.9600                   (X_U2.12)   14.9600                       
+
+(X_U2.13)    -.5630                   (X_U2.14)    -.5630                       
+
+(X_U2.53)   14.0000                   (X_U2.54)  -14.0000                       
+
+(X_U2.90)     .0311                   (X_U2.91)   40.0000                       
+
+(X_U2.92)  -40.0000                   (X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.334E-03
+    V_V2        -3.334E-03
+    X_U1.vb      9.590E-09
+    X_U1.vc      2.400E-11
+    X_U1.ve      5.920E-12
+    X_U1.vlim   -1.169E-03
+    X_U1.vlp    -4.117E-11
+    X_U1.vln    -3.883E-11
+    X_U2.vb     -1.700E-10
+    X_U2.vc      1.383E-11
+    X_U2.ve      1.609E-11
+    X_U2.vlim    3.108E-05
+    X_U2.vlp    -3.997E-11
+    X_U2.vln    -4.003E-11
+
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/23/24 13:44:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM VAR =  200.0000E-09
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .87
+  Total job time (using Solver 1)   =         .16
+

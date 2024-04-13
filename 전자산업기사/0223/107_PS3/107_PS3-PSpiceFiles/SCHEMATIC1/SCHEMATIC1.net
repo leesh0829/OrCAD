@@ -1,0 +1,10 @@
+* source 107_PS3
+R_R1         NET1 N00217  6.8k TC=0,0 
+R_R2         N00269 N00217  100k TC=0,0 
+R_R3         N00276 N00217  100k TC=0,0 
+R_R4         NET2 N00217  6.8k TC=0,0 
+C_C1         N00269 NET1  0.01uF IC=5V TC=0,0 
+C_C2         NET2 N00276  0.01uF IC=5V TC=0,0 
+Q_Q1         NET1 N00276 0 Q2N3904
+Q_Q2         NET2 N00269 0 Q2N3904
+V_V1         N00217 0 5Vdc

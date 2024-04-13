@@ -1,0 +1,57 @@
+
+**** 02/23/24 13:40:37 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS6\107_PS6-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5ms 0 
+.STEP LIN PARAM var 0 0.2u 0.1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 107_PS6
+.EXTERNAL INPUT OUT
+V_V1         VCC+ 0 15Vdc
+V_V2         0 VCC- 15vdc
+C_C1         0 NET1  {var} IC=5 TC=0,0 
+C_C2         N00677 OUT  1n  TC=0,0 
+X_U1         N00577 NET1 VCC+ VCC- NET2 uA741
+X_U2         N00693 N00677 VCC+ VCC- OUT uA741
+R_R1         NET1 NET2  4,7k TC=0,0 
+--------------------------$
+ERROR(ORPSIM-16015): Unknown parameter.
+R_R2         N00577 NET2  47k TC=0,0 
+R_R3         0 N00577  47k TC=0,0 
+R_R4         0 N00693  1k TC=0,0 
+R_R5         N00693 OUT  4.7k TC=0,0 
+R_R6         0 OUT  1Meg TC=0,0 
+D_D1         N00677 OUT D1N4148 
+D_D2         OUT N00677 D1N4148 
+C_C3         NET2 N00677  1n  TC=0,0 
+.PARAM  var=0
+
+**** RESUMING 1.cir ****
+.END
+

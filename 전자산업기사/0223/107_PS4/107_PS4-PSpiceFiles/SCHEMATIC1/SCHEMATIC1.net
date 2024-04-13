@@ -1,0 +1,9 @@
+* source 107_PS4
+X_U1A         0 N00281 VCC VEE N00324 LM324
+V_V1         IN 0  AC 0
++SIN 0 5 1k 0 0 0
+R_R1         IN N00281  2k TC=0,0 
+R_R2         N00281 N00324  2k TC=0,0 
+R_R3         N00324 0  1k TC=0,0 
+V_V2         VCC 0 15Vdc
+V_V3         VEE 0 -15Vdc

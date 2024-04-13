@@ -1,0 +1,46 @@
+
+**** 02/23/24 13:21:08 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\User\Desktop\0223\107_PS5\107_PS5-PSpiceFiles\SCHEMATIC1\1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ms 0 
+.STEP LIN Cv 0.5uF 1.5uF 0.1uF 
+----------$
+ERROR(ORPSIM-16063): Must be 'I' or 'V'
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 107_PS5
+V_V1         N00149 0  AC 0
++SIN 0 200 60 0 0 0
+R_R1         N00172 N00149  1k TC=0,0 
+L_L1         N00172 N00176  5uH  
+C_C1         0 N00176  {Cv}  TC=0,0 
+.PARAM  cv=0.5u
+
+**** RESUMING 1.cir ****
+.END
+

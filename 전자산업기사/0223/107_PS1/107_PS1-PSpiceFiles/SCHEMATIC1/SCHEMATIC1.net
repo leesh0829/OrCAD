@@ -1,0 +1,9 @@
+* source 107_PS1
+V_V1         N00348 0  AC 0
++SIN 0 5 1k 0 0 0
+X_U1A         0 N00344 VCC VEE N00374 LM324
+V_V2         VCC 0 15Vdc
+V_V3         VEE 0 -15Vdc
+R_R1         N00348 N00344  10k TC=0,0 
+R_R2         N00344 N00374  20k TC=0,0 
+R_R3         0 N00374  1k TC=0,0 
